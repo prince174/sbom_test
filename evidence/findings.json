@@ -1,0 +1,94 @@
+[
+  {
+    "component": {
+      "uuid": "e24abe80-eee7-4f78-a639-85dd67d7100e",
+      "name": "core",
+      "group": "@babel",
+      "version": "7.23.0",
+      "purl": "pkg:npm/%40babel/core@7.23.0#packages/babel-core",
+      "project": "b7a4b5d3-e7fe-421c-89b9-408b31f0c454",
+      "latestVersion": "8.0.6"
+    },
+    "vulnerability": {
+      "uuid": "a6536824-688d-4005-8a3d-5e2bb7143454",
+      "source": "GITHUB",
+      "vulnId": "GHSA-4x5r-pxfx-6jf8",
+      "title": "@babel/core: Arbitrary File Read via sourceMappingURL Comment",
+      "description": "## Impact\n\nUsing `@babel/core` to compile maliciously crafted code can allow ab attacker to read any source map from the system that is running Babel, if these conditions are _all_ true:\n- the attacker controls the input source code\n- the attacker can read the output source code\n- the attacker knows the path of the source map file that they want to read\n\n**Users that only compile trusted code are not impacted.**\n\n## Patches\n\nThe vulnerability has been fixed in `@babel/core@7.29.6` and `@babel/core@8.0.0-rc.6`.\n\n## Workarounds\n\nCallers can mitigate the issue without upgrading by setting [`inputSourceMap: false`](https://babeljs.io/docs/options#inputsourcemap) in their Babel options.\n\nCallers can also manually extract the `#sourceMappingURL` comment from the input source code, validate whether the source map that it links to is allowed to be read, and if it is pass an object to `inputSourceMap` (passing `false` when it's not).\n\n## Credits\n\nThanks Teodor-Cristian Radoi for reporting the vulnerability.",
+      "severity": "LOW",
+      "severityRank": 3,
+      "cweId": 200,
+      "cweName": "Exposure of Sensitive Information to an Unauthorized Actor",
+      "cwes": [
+        {
+          "cweId": 200,
+          "name": "Exposure of Sensitive Information to an Unauthorized Actor"
+        },
+        {
+          "cweId": 22,
+          "name": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"
+        }
+      ],
+      "aliases": [
+        {
+          "cveId": "CVE-2026-49356",
+          "ghsaId": "GHSA-4x5r-pxfx-6jf8"
+        }
+      ]
+    },
+    "analysis": {
+      "isSuppressed": false
+    },
+    "attribution": {
+      "analyzerIdentity": "INTERNAL_ANALYZER",
+      "attributedOn": 1790709381298
+    },
+    "matrix": "b7a4b5d3-e7fe-421c-89b9-408b31f0c454:e24abe80-eee7-4f78-a639-85dd67d7100e:a6536824-688d-4005-8a3d-5e2bb7143454"
+  },
+  {
+    "component": {
+      "uuid": "cd626d46-8037-4d00-9fe1-fd047e6ff780",
+      "name": "traverse",
+      "group": "@babel",
+      "version": "7.23.0",
+      "purl": "pkg:npm/%40babel/traverse@7.23.0#packages/babel-traverse",
+      "project": "b7a4b5d3-e7fe-421c-89b9-408b31f0c454",
+      "latestVersion": "8.0.6"
+    },
+    "vulnerability": {
+      "uuid": "821cbe01-7f23-418d-b593-9dd700264bae",
+      "source": "GITHUB",
+      "vulnId": "GHSA-67hx-6x53-jw92",
+      "title": "Babel vulnerable to arbitrary code execution when compiling specifically crafted malicious code",
+      "description": "### Impact\n\nUsing Babel to compile code that was specifically crafted by an attacker can lead to arbitrary code execution during compilation, when using plugins that rely on the `path.evaluate()`or `path.evaluateTruthy()` internal Babel methods.\n\nKnown affected plugins are:\n- `@babel/plugin-transform-runtime`\n- `@babel/preset-env` when using its [`useBuiltIns`](https://babeljs.io/docs/babel-preset-env#usebuiltins) option\n- Any \"polyfill provider\" plugin that depends on `@babel/helper-define-polyfill-provider`, such as `babel-plugin-polyfill-corejs3`, `babel-plugin-polyfill-corejs2`, `babel-plugin-polyfill-es-shims`, `babel-plugin-polyfill-regenerator`\n\nNo other plugins under the `@babel/` namespace are impacted, but third-party plugins might be.\n\n**Users that only compile trusted code are not impacted.**\n\n### Patches\n\nThe vulnerability has been fixed in `@babel/traverse@7.23.2`.\n\nBabel 6 does not receive security fixes anymore (see [Babel's security policy](https://github.com/babel/babel/security/policy)), hence there is no patch planned for `babel-traverse@6`.\n\n### Workarounds\n\n- Upgrade `@babel/traverse` to v7.23.2 or higher. You can do this by deleting it from your package manager's lockfile and re-installing the dependencies. `@babel/core` >=7.23.2 will automatically pull in a non-vulnerable version.\n- If you cannot upgrade `@babel/traverse` and are using one of the affected packages mentioned above, upgrade them to their latest version to avoid triggering the vulnerable code path in affected `@babel/traverse` versions:\n  - `@babel/plugin-transform-runtime` v7.23.2\n  - `@babel/preset-env` v7.23.2\n  - `@babel/helper-define-polyfill-provider` v0.4.3\n  - `babel-plugin-polyfill-corejs2` v0.4.6\n  - `babel-plugin-polyfill-corejs3` v0.8.5\n  - `babel-plugin-polyfill-es-shims` v0.10.0\n  - `babel-plugin-polyfill-regenerator` v0.5.3",
+      "severity": "CRITICAL",
+      "severityRank": 0,
+      "cweId": 184,
+      "cweName": "Incomplete List of Disallowed Inputs",
+      "cwes": [
+        {
+          "cweId": 184,
+          "name": "Incomplete List of Disallowed Inputs"
+        },
+        {
+          "cweId": 697,
+          "name": "Incorrect Comparison"
+        }
+      ],
+      "aliases": [
+        {
+          "cveId": "CVE-2023-45133",
+          "ghsaId": "GHSA-67hx-6x53-jw92"
+        }
+      ]
+    },
+    "analysis": {
+      "isSuppressed": false
+    },
+    "attribution": {
+      "analyzerIdentity": "INTERNAL_ANALYZER",
+      "attributedOn": 1790709381307
+    },
+    "matrix": "b7a4b5d3-e7fe-421c-89b9-408b31f0c454:cd626d46-8037-4d00-9fe1-fd047e6ff780:821cbe01-7f23-418d-b593-9dd700264bae"
+  }
+]

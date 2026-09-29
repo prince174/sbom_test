@@ -1,0 +1,320 @@
+apiserver-1  | 2026-09-29 19:12:39,188 INFO [EmbeddedJettyServer] alpine-executable-war v3.2.0 (e93877d0-df20-4fb1-94d1-18aaaff5eb24) built on: 2025-04-02T10:25:57Z
+apiserver-1  | 2026-09-29 19:12:41,606 INFO [Config] --------------------------------------------------------------------------------
+apiserver-1  | 2026-09-29 19:12:41,608 INFO [Config] OS Name:      Linux
+apiserver-1  | 2026-09-29 19:12:41,609 INFO [Config] OS Version:   6.6.87.2-microsoft-standard-WSL2
+apiserver-1  | 2026-09-29 19:12:41,609 INFO [Config] OS Arch:      amd64
+apiserver-1  | 2026-09-29 19:12:41,609 INFO [Config] CPU Cores:    16
+apiserver-1  | 2026-09-29 19:12:41,614 INFO [Config] Max Memory:   4.0 GB (4,294,967,296.0 bytes)
+apiserver-1  | 2026-09-29 19:12:41,614 INFO [Config] Java Vendor:  Eclipse Adoptium
+apiserver-1  | 2026-09-29 19:12:41,615 INFO [Config] Java Version: 21.0.6+7-LTS
+apiserver-1  | 2026-09-29 19:12:41,616 INFO [Config] Java Home:    /opt/java/openjdk
+apiserver-1  | 2026-09-29 19:12:41,616 INFO [Config] Java Temp:    /tmp
+apiserver-1  | 2026-09-29 19:12:41,616 INFO [Config] User:         dtrack
+apiserver-1  | 2026-09-29 19:12:41,616 INFO [Config] User Home:    /data/
+apiserver-1  | 2026-09-29 19:12:41,617 INFO [Config] --------------------------------------------------------------------------------
+apiserver-1  | 2026-09-29 19:12:41,617 INFO [Config] Initializing Configuration
+apiserver-1  | 2026-09-29 19:12:41,618 INFO [Config] System property alpine.application.properties not specified
+apiserver-1  | 2026-09-29 19:12:41,618 INFO [Config] Loading application.properties from classpath
+apiserver-1  | 2026-09-29 19:12:41,625 INFO [Config] --------------------------------------------------------------------------------
+apiserver-1  | 2026-09-29 19:12:41,625 INFO [Config] Application:  Dependency-Track
+apiserver-1  | 2026-09-29 19:12:41,625 INFO [Config] Version:      4.13.0
+apiserver-1  | 2026-09-29 19:12:41,626 INFO [Config] Built-on:     2025-04-07T09:33:33Z
+apiserver-1  | 2026-09-29 19:12:41,626 INFO [Config] --------------------------------------------------------------------------------
+apiserver-1  | 2026-09-29 19:12:41,626 INFO [Config] Framework:    Alpine
+apiserver-1  | 2026-09-29 19:12:41,626 INFO [Config] Version :     3.2.0
+apiserver-1  | 2026-09-29 19:12:41,627 INFO [Config] Built-on:     2025-04-02T10:25:57Z
+apiserver-1  | 2026-09-29 19:12:41,627 INFO [Config] --------------------------------------------------------------------------------
+apiserver-1  | 2026-09-29 19:12:41,720 INFO [RequirementsVerifier] Initializing requirements verifier
+apiserver-1  | 2026-09-29 19:12:41,720 INFO [UpgradeInitializer] Initializing upgrade framework
+apiserver-1  | 2026-09-29 19:12:43,286 INFO [PersistenceManagerFactory] Initializing persistence framework
+apiserver-1  | 2026-09-29 19:12:43,288 INFO [PersistenceManagerFactory] Creating transactional connection pool
+apiserver-1  | 2026-09-29 19:12:43,361 INFO [PersistenceManagerFactory] Creating non-transactional connection pool
+apiserver-1  | 2026-09-29 19:12:43,584 INFO [HealthCheckInitializer] Registering health checks
+apiserver-1  | 2026-09-29 19:12:43,584 INFO [DefaultObjectGenerator] Initializing default object generator
+apiserver-1  | 2026-09-29 19:12:43,586 INFO [DefaultObjectGenerator] Synchronizing permissions to datastore
+apiserver-1  | 2026-09-29 19:12:43,742 INFO [DefaultObjectGenerator] Adding default users and teams to datastore
+apiserver-1  | 2026-09-29 19:12:44,770 INFO [DefaultObjectGenerator] Synchronizing SPDX license definitions to datastore
+apiserver-1  | 2026-09-29 19:12:46,590 INFO [DefaultObjectGenerator] Adding default license group definitions to datastore
+apiserver-1  | 2026-09-29 19:12:46,766 INFO [DefaultObjectGenerator] Synchronizing default repositories to datastore
+apiserver-1  | 2026-09-29 19:12:46,786 INFO [DefaultObjectGenerator] Synchronizing config properties to datastore
+apiserver-1  | 2026-09-29 19:12:46,841 INFO [DefaultObjectGenerator] Synchronizing notification publishers to datastore
+apiserver-1  | 2026-09-29 19:12:46,899 INFO [EventSubsystemInitializer] Initializing asynchronous event subsystem
+apiserver-1  | 2026-09-29 19:12:46,920 INFO [NotificationSubsystemInitializer] Initializing notification service
+apiserver-1  | 2026-09-29 19:12:46,921 INFO [IndexSubsystemInitializer] Building lucene indexes if required
+apiserver-1  | 2026-09-29 19:12:46,931 INFO [IndexManager] Checking the health of index PROJECT
+apiserver-1  | 2026-09-29 19:12:46,931 WARN [IndexManager] The index PROJECT does not exist
+apiserver-1  | 2026-09-29 19:12:46,931 INFO [IndexManager] (Re)Building index project
+apiserver-1  | 2026-09-29 19:12:46,938 INFO [IndexManager] Checking the health of index COMPONENT
+apiserver-1  | 2026-09-29 19:12:46,939 WARN [IndexManager] The index COMPONENT does not exist
+apiserver-1  | 2026-09-29 19:12:46,939 INFO [IndexManager] (Re)Building index component
+apiserver-1  | 2026-09-29 19:12:46,939 INFO [IndexManager] Checking the health of index SERVICECOMPONENT
+apiserver-1  | 2026-09-29 19:12:46,939 WARN [IndexManager] The index SERVICECOMPONENT does not exist
+apiserver-1  | 2026-09-29 19:12:46,939 INFO [IndexManager] (Re)Building index servicecomponent
+apiserver-1  | 2026-09-29 19:12:46,939 INFO [IndexManager] Checking the health of index VULNERABILITY
+apiserver-1  | 2026-09-29 19:12:46,939 WARN [IndexManager] The index VULNERABILITY does not exist
+apiserver-1  | 2026-09-29 19:12:46,939 INFO [IndexManager] (Re)Building index vulnerability
+apiserver-1  | 2026-09-29 19:12:46,940 INFO [IndexManager] Checking the health of index LICENSE
+apiserver-1  | 2026-09-29 19:12:46,940 WARN [IndexManager] The index LICENSE does not exist
+apiserver-1  | 2026-09-29 19:12:46,940 INFO [IndexManager] (Re)Building index license
+apiserver-1  | 2026-09-29 19:12:46,940 INFO [IndexManager] Checking the health of index VULNERABLESOFTWARE
+apiserver-1  | 2026-09-29 19:12:46,940 WARN [IndexManager] The index VULNERABLESOFTWARE does not exist
+apiserver-1  | 2026-09-29 19:12:46,940 INFO [IndexManager] (Re)Building index vulnerablesoftware
+apiserver-1  | 2026-09-29 19:12:46,944 INFO [ProjectIndexer] Starting reindex task. This may take some time.
+apiserver-1  | 2026-09-29 19:12:46,944 INFO [IndexManager] Deleting project index
+apiserver-1  | 2026-09-29 19:12:46,955 INFO [AlpineServlet] Starting Dependency-Track
+apiserver-1  | 2026-09-29 19:12:47,070 INFO [ProjectIndexer] Reindexing of 0 projects completed in PT0.004771628S
+apiserver-1  | 2026-09-29 19:12:47,072 INFO [ComponentIndexer] Starting reindex task. This may take some time.
+apiserver-1  | 2026-09-29 19:12:47,072 INFO [IndexManager] Deleting component index
+apiserver-1  | 2026-09-29 19:12:47,086 INFO [ComponentIndexer] Reindexing of 0 components completed in PT0.003205856S
+apiserver-1  | 2026-09-29 19:12:47,087 INFO [ServiceComponentIndexer] Starting reindex task. This may take some time.
+apiserver-1  | 2026-09-29 19:12:47,087 INFO [IndexManager] Deleting servicecomponent index
+apiserver-1  | 2026-09-29 19:12:47,097 INFO [ServiceComponentIndexer] Reindexing of 0 services completed in PT0.002094779S
+apiserver-1  | 2026-09-29 19:12:47,099 INFO [VulnerabilityIndexer] Starting reindex task. This may take some time.
+apiserver-1  | 2026-09-29 19:12:47,099 INFO [IndexManager] Deleting vulnerability index
+apiserver-1  | 2026-09-29 19:12:47,109 INFO [VulnerabilityIndexer] Reindexing of 0 vulnerabilities completed in PT0.002535435S
+apiserver-1  | 2026-09-29 19:12:47,110 INFO [LicenseIndexer] Starting reindex task. This may take some time.
+apiserver-1  | 2026-09-29 19:12:47,111 INFO [IndexManager] Deleting license index
+apiserver-1  | 2026-09-29 19:12:47,335 INFO [LicenseIndexer] Reindexing of 757 licenses completed in PT0.216330639S
+apiserver-1  | 2026-09-29 19:12:47,336 INFO [VulnerableSoftwareIndexer] Starting reindex task. This may take some time.
+apiserver-1  | 2026-09-29 19:12:47,336 INFO [IndexManager] Deleting vulnerablesoftware index
+apiserver-1  | 2026-09-29 19:12:47,348 INFO [VulnerableSoftwareIndexer] Reindexing of 0 VulnerableSoftwares completed in PT0.002121121S
+apiserver-1  | 2026-09-29 19:12:48,712 INFO [KeyManager] Generating new key pair
+apiserver-1  | 2026-09-29 19:12:49,558 INFO [KeyManager] Saving key pair
+apiserver-1  | 2026-09-29 19:12:49,573 INFO [AlpineServlet] Dependency-Track is ready
+apiserver-1  | 2026-09-29 19:12:49,575 INFO [NvdMirrorServlet] Initializing NVD mirror
+apiserver-1  | 2026-09-29 19:12:49,575 INFO [FileSystemResourceServlet] Initializing filesystem resource servlet
+apiserver-1  | 2026-09-29 19:12:56,916 INFO [VulnerabilityMetricsUpdateTask] Executing metrics update on vulnerability database
+apiserver-1  | 2026-09-29 19:12:56,916 INFO [PortfolioMetricsUpdateTask] Executing portfolio metrics update
+apiserver-1  | 2026-09-29 19:12:56,924 INFO [ClearComponentAnalysisCacheTask] Clearing ComponentAnalysisCache
+apiserver-1  | 2026-09-29 19:12:56,927 INFO [OsvDownloadTask] Google OSV mirroring is disabled. No ecosystem selected.
+apiserver-1  | 2026-09-29 19:12:56,928 INFO [ClearComponentAnalysisCacheTask] Complete
+apiserver-1  | 2026-09-29 19:12:56,931 INFO [PortfolioMetricsUpdateTask] Completed portfolio metrics update in 00:00:012
+apiserver-1  | 2026-09-29 19:12:56,934 INFO [VulnerabilityMetricsUpdateTask] Completed metrics update on vulnerability database in 00:00:018
+apiserver-1  | 2026-09-29 19:12:59,274 INFO [UserResource] Password successfully changed / username: admin / IP Address: 172.30.0.1 / User Agent: Python-urllib/3.11 [requestId=bddc687c-2e91-4755-9867-738af3ce810c, requestMethod=POST, requestUri=/v1/user/forceChangePassword]
+apiserver-1  | 2026-09-29 19:13:02,312 INFO [UserResource] Successful user login / username: admin / IP Address: 172.30.0.1 / User Agent: Python-urllib/3.11 [requestId=2013e9ee-0b1d-490f-8ea9-9bb4bfb061e8, requestMethod=POST, requestUri=/v1/user/login]
+apiserver-1  | 2026-09-29 19:13:04,611 INFO [ProjectResource] Project babel-transitive-demo : vulnerable created by admin [principal=admin, requestUri=/v1/project, requestId=d85dd9f9-2299-4da5-b1ea-096d304f92d1, requestMethod=PUT]
+apiserver-1  | 2026-09-29 19:13:06,781 WARN [UnknownKeywordFactory] Unknown keyword meta:enum - you should define your own Meta Schema. If the keyword is irrelevant for validation, just use a NonValidationKeyword or if it should generate annotations AnnotationKeyword [principal=admin, requestUri=/v1/bom, requestId=969957f9-b9f0-45d6-8c05-e36722e361d4, requestMethod=PUT]
+apiserver-1  | 2026-09-29 19:13:06,781 WARN [UnknownKeywordFactory] Unknown keyword deprecated - you should define your own Meta Schema. If the keyword is irrelevant for validation, just use a NonValidationKeyword or if it should generate annotations AnnotationKeyword [principal=admin, requestUri=/v1/bom, requestId=969957f9-b9f0-45d6-8c05-e36722e361d4, requestMethod=PUT]
+apiserver-1  | 2026-09-29 19:13:07,041 INFO [BomUploadProcessingTask] Consuming uploaded BOM [bomSerialNumber=69626446-c3cf-42da-a19e-fc7153dee9ba, bomFormat=CycloneDX, bomUploadToken=8d930d8c-af00-44be-ad2f-b6ffaaa34282, projectName=babel-transitive-demo, bomSpecVersion=1.6, projectUuid=b7a4b5d3-e7fe-421c-89b9-408b31f0c454, projectVersion=vulnerable, bomVersion=1]
+apiserver-1  | 2026-09-29 19:13:07,066 INFO [BomUploadProcessingTask] Consumed 43 components (43 before de-duplication), 0 services (0 before de-duplication), and 23 dependency graph entries [bomSerialNumber=69626446-c3cf-42da-a19e-fc7153dee9ba, bomFormat=CycloneDX, bomUploadToken=8d930d8c-af00-44be-ad2f-b6ffaaa34282, projectName=babel-transitive-demo, bomSpecVersion=1.6, projectUuid=b7a4b5d3-e7fe-421c-89b9-408b31f0c454, projectVersion=vulnerable, bomVersion=1]
+apiserver-1  | 2026-09-29 19:13:07,082 INFO [BomUploadProcessingTask] Processing 43 components [bomSerialNumber=69626446-c3cf-42da-a19e-fc7153dee9ba, bomFormat=CycloneDX, bomUploadToken=8d930d8c-af00-44be-ad2f-b6ffaaa34282, projectName=babel-transitive-demo, bomSpecVersion=1.6, projectUuid=b7a4b5d3-e7fe-421c-89b9-408b31f0c454, projectVersion=vulnerable, bomVersion=1]
+apiserver-1  | 2026-09-29 19:13:07,141 INFO [BomUploadProcessingTask] Processing 0 services [bomSerialNumber=69626446-c3cf-42da-a19e-fc7153dee9ba, bomFormat=CycloneDX, bomUploadToken=8d930d8c-af00-44be-ad2f-b6ffaaa34282, projectName=babel-transitive-demo, bomSpecVersion=1.6, projectUuid=b7a4b5d3-e7fe-421c-89b9-408b31f0c454, projectVersion=vulnerable, bomVersion=1]
+apiserver-1  | 2026-09-29 19:13:07,144 INFO [BomUploadProcessingTask] Processing 23 dependency graph entries [bomSerialNumber=69626446-c3cf-42da-a19e-fc7153dee9ba, bomFormat=CycloneDX, bomUploadToken=8d930d8c-af00-44be-ad2f-b6ffaaa34282, projectName=babel-transitive-demo, bomSpecVersion=1.6, projectUuid=b7a4b5d3-e7fe-421c-89b9-408b31f0c454, projectVersion=vulnerable, bomVersion=1]
+apiserver-1  | 2026-09-29 19:13:07,167 INFO [BomUploadProcessingTask] BOM processed successfully in 00:00:00.313 [bomSerialNumber=69626446-c3cf-42da-a19e-fc7153dee9ba, bomFormat=CycloneDX, bomUploadToken=8d930d8c-af00-44be-ad2f-b6ffaaa34282, projectName=babel-transitive-demo, bomSpecVersion=1.6, projectUuid=b7a4b5d3-e7fe-421c-89b9-408b31f0c454, projectVersion=vulnerable, bomVersion=1]
+apiserver-1  | 2026-09-29 19:13:07,180 INFO [RepositoryMetaAnalyzerTask] Performing component repository metadata analysis against 43 components
+apiserver-1  | 2026-09-29 19:13:07,325 INFO [InternalAnalysisTask] Starting internal analysis task [eventToken=8d930d8c-af00-44be-ad2f-b6ffaaa34282, projectName=babel-transitive-demo, vulnAnalysisLevel=BOM_UPLOAD_ANALYSIS, projectUuid=b7a4b5d3-e7fe-421c-89b9-408b31f0c454, projectVersion=vulnerable]
+apiserver-1  | 2026-09-29 19:13:07,326 INFO [InternalAnalysisTask] Analyzing 43 component(s) [eventToken=8d930d8c-af00-44be-ad2f-b6ffaaa34282, projectName=babel-transitive-demo, vulnAnalysisLevel=BOM_UPLOAD_ANALYSIS, projectUuid=b7a4b5d3-e7fe-421c-89b9-408b31f0c454, projectVersion=vulnerable]
+apiserver-1  | 2026-09-29 19:13:07,443 INFO [InternalAnalysisTask] Internal analysis complete [eventToken=8d930d8c-af00-44be-ad2f-b6ffaaa34282, projectName=babel-transitive-demo, vulnAnalysisLevel=BOM_UPLOAD_ANALYSIS, projectUuid=b7a4b5d3-e7fe-421c-89b9-408b31f0c454, projectVersion=vulnerable]
+apiserver-1  | 2026-09-29 19:13:07,445 WARN [OssIndexAnalysisTask] An API username or token has not been specified for use with OSS Index. Using anonymous access [eventToken=8d930d8c-af00-44be-ad2f-b6ffaaa34282, projectName=babel-transitive-demo, vulnAnalysisLevel=BOM_UPLOAD_ANALYSIS, projectUuid=b7a4b5d3-e7fe-421c-89b9-408b31f0c454, projectVersion=vulnerable]
+apiserver-1  | 2026-09-29 19:13:07,445 INFO [OssIndexAnalysisTask] Starting Sonatype OSS Index analysis task [eventToken=8d930d8c-af00-44be-ad2f-b6ffaaa34282, projectName=babel-transitive-demo, vulnAnalysisLevel=BOM_UPLOAD_ANALYSIS, projectUuid=b7a4b5d3-e7fe-421c-89b9-408b31f0c454, projectVersion=vulnerable]
+apiserver-1  | 2026-09-29 19:13:08,421 ERROR [OssIndexAnalysisTask] HTTP Status : 401 Unauthorized [eventToken=8d930d8c-af00-44be-ad2f-b6ffaaa34282, projectName=babel-transitive-demo, vulnAnalysisLevel=BOM_UPLOAD_ANALYSIS, projectUuid=b7a4b5d3-e7fe-421c-89b9-408b31f0c454, projectVersion=vulnerable]
+apiserver-1  | 2026-09-29 19:13:08,422 ERROR [OssIndexAnalysisTask]  - Analyzer URL : https://ossindex.sonatype.org [eventToken=8d930d8c-af00-44be-ad2f-b6ffaaa34282, projectName=babel-transitive-demo, vulnAnalysisLevel=BOM_UPLOAD_ANALYSIS, projectUuid=b7a4b5d3-e7fe-421c-89b9-408b31f0c454, projectVersion=vulnerable]
+apiserver-1  | 2026-09-29 19:13:08,423 INFO [OssIndexAnalysisTask] Analyzing 43 component(s) [eventToken=8d930d8c-af00-44be-ad2f-b6ffaaa34282, projectName=babel-transitive-demo, vulnAnalysisLevel=BOM_UPLOAD_ANALYSIS, projectUuid=b7a4b5d3-e7fe-421c-89b9-408b31f0c454, projectVersion=vulnerable]
+apiserver-1  | 2026-09-29 19:13:08,423 INFO [OssIndexAnalysisTask] Sonatype OSS Index analysis complete [eventToken=8d930d8c-af00-44be-ad2f-b6ffaaa34282, projectName=babel-transitive-demo, vulnAnalysisLevel=BOM_UPLOAD_ANALYSIS, projectUuid=b7a4b5d3-e7fe-421c-89b9-408b31f0c454, projectVersion=vulnerable]
+apiserver-1  | 2026-09-29 19:13:08,433 INFO [PolicyEngine] Evaluating 43 component(s) against applicable policies [eventToken=8d930d8c-af00-44be-ad2f-b6ffaaa34282, projectName=babel-transitive-demo, projectUuid=b7a4b5d3-e7fe-421c-89b9-408b31f0c454, projectVersion=vulnerable]
+apiserver-1  | 2026-09-29 19:13:08,636 INFO [PolicyEngine] Policy analysis complete [eventToken=8d930d8c-af00-44be-ad2f-b6ffaaa34282, projectName=babel-transitive-demo, projectUuid=b7a4b5d3-e7fe-421c-89b9-408b31f0c454, projectVersion=vulnerable]
+apiserver-1  | 2026-09-29 19:13:08,638 INFO [ProjectMetricsUpdateTask] Executing metrics update for project b7a4b5d3-e7fe-421c-89b9-408b31f0c454
+apiserver-1  | 2026-09-29 19:13:21,464 INFO [RepositoryMetaAnalyzerTask] Completed component repository metadata analysis against 43 components
+apiserver-1  | 2026-09-29 19:13:21,470 INFO [PolicyEngine] Evaluating 43 component(s) against applicable policies [eventToken=28a34f01-d287-42c3-b61a-13b6c565669b, projectName=babel-transitive-demo, projectUuid=b7a4b5d3-e7fe-421c-89b9-408b31f0c454, projectVersion=vulnerable]
+apiserver-1  | 2026-09-29 19:13:21,626 INFO [PolicyEngine] Policy analysis complete [eventToken=28a34f01-d287-42c3-b61a-13b6c565669b, projectName=babel-transitive-demo, projectUuid=b7a4b5d3-e7fe-421c-89b9-408b31f0c454, projectVersion=vulnerable]
+apiserver-1  | 2026-09-29 19:13:21,627 INFO [ProjectMetricsUpdateTask] Executing metrics update for project b7a4b5d3-e7fe-421c-89b9-408b31f0c454
+apiserver-1  | 2026-09-29 19:13:28,829 INFO [UserResource] Successful user login / username: admin / IP Address: 172.30.0.1 / User Agent: Python-urllib/3.11 [requestId=951679c3-9552-415e-950b-13348f7c3921, requestMethod=POST, requestUri=/v1/user/login]
+apiserver-1  | 2026-09-29 19:13:46,916 INFO [VulnDbSyncTask] Starting VulnDB mirror synchronization task
+apiserver-1  | 2026-09-29 19:13:46,916 INFO [VulnDbSyncTask] VulnDB mirror directory does not exist. Skipping.
+apiserver-1  | 2026-09-29 19:13:46,917 WARN [NistMirrorTask] The NVD is planning to retire the legacy data feeds used by Dependency-Track (https://nvd.nist.gov/General/News/change-timeline); Consider enabling mirroring via NVD REST API in the settings: https://docs.dependencytrack.org/datasources/nvd/#mirroring-via-nvd-rest-api
+apiserver-1  | 2026-09-29 19:13:46,917 INFO [NistMirrorTask] Starting NIST mirroring task
+apiserver-1  | 2026-09-29 19:13:46,917 INFO [NistMirrorTask] Mirrored data directory created successfully
+apiserver-1  | 2026-09-29 19:13:46,921 INFO [NistMirrorTask] Downloading files at Tue Sep 29 19:13:46 UTC 2026
+apiserver-1  | 2026-09-29 19:13:46,921 INFO [NistMirrorTask] Initiating download of https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2026.json.gz
+apiserver-1  | 2026-09-29 19:13:47,644 WARN [NistMirrorTask] Encountered retryable exception; Will execute retry #1 in PT1S
+apiserver-1  | 2026-09-29 19:13:49,174 WARN [NistMirrorTask] Encountered retryable exception; Will execute retry #2 in PT2S
+apiserver-1  | 2026-09-29 19:13:51,694 WARN [NistMirrorTask] Encountered retryable exception; Will execute retry #3 in PT4S
+apiserver-1  | 2026-09-29 19:13:56,207 WARN [NistMirrorTask] Encountered retryable exception; Will execute retry #4 in PT8S
+apiserver-1  | 2026-09-29 19:14:04,733 WARN [NistMirrorTask] Encountered retryable exception; Will execute retry #5 in PT16S
+apiserver-1  | 2026-09-29 19:14:10,244 INFO [UserResource] Successful user login / username: admin / IP Address: 172.30.0.1 / User Agent: Python-urllib/3.11 [requestId=223d7679-2d42-48c1-8724-2f9a31f15c32, requestMethod=POST, requestUri=/v1/user/login]
+apiserver-1  | Shutting down application
+apiserver-1  | 2026-09-29 19:14:14,558 INFO [AlpineServlet] Stopping Dependency-Track
+apiserver-1  | 2026-09-29 19:14:14,563 INFO [IndexSubsystemInitializer] Closing search indexes
+apiserver-1  | 2026-09-29 19:14:14,675 INFO [NotificationSubsystemInitializer] Shutting down notification service
+apiserver-1  | 2026-09-29 19:14:14,675 INFO [NotificationService] Shutting down NotificationService
+apiserver-1  | 2026-09-29 19:14:14,675 INFO [NotificationService] Executor terminated gracefully
+apiserver-1  | 2026-09-29 19:14:14,675 INFO [EventSubsystemInitializer] Shutting down asynchronous event subsystem
+apiserver-1  | 2026-09-29 19:14:14,676 INFO [EventService] Shutting down EventService
+apiserver-1  | 2026-09-29 19:14:14,680 INFO [EventService] Waiting for executors to terminate: executor=ExecutorStats[terminated=false, queueSize=0, activeThreads=1], dynamicExecutor=ExecutorStats[terminated=true, queueSize=0, activeThreads=0]
+apiserver-1  | 2026-09-29 19:14:18,678 INFO [EmbeddedJettyServer] alpine-executable-war v3.2.0 (e93877d0-df20-4fb1-94d1-18aaaff5eb24) built on: 2025-04-02T10:25:57Z
+apiserver-1  | 2026-09-29 19:14:20,978 INFO [Config] --------------------------------------------------------------------------------
+apiserver-1  | 2026-09-29 19:14:20,979 INFO [Config] OS Name:      Linux
+apiserver-1  | 2026-09-29 19:14:20,979 INFO [Config] OS Version:   6.6.87.2-microsoft-standard-WSL2
+apiserver-1  | 2026-09-29 19:14:20,980 INFO [Config] OS Arch:      amd64
+apiserver-1  | 2026-09-29 19:14:20,980 INFO [Config] CPU Cores:    16
+apiserver-1  | 2026-09-29 19:14:20,983 INFO [Config] Max Memory:   4.0 GB (4,294,967,296.0 bytes)
+apiserver-1  | 2026-09-29 19:14:20,984 INFO [Config] Java Vendor:  Eclipse Adoptium
+apiserver-1  | 2026-09-29 19:14:20,984 INFO [Config] Java Version: 21.0.6+7-LTS
+apiserver-1  | 2026-09-29 19:14:20,984 INFO [Config] Java Home:    /opt/java/openjdk
+apiserver-1  | 2026-09-29 19:14:20,985 INFO [Config] Java Temp:    /tmp
+apiserver-1  | 2026-09-29 19:14:20,985 INFO [Config] User:         dtrack
+apiserver-1  | 2026-09-29 19:14:20,985 INFO [Config] User Home:    /data/
+apiserver-1  | 2026-09-29 19:14:20,985 INFO [Config] --------------------------------------------------------------------------------
+apiserver-1  | 2026-09-29 19:14:20,986 INFO [Config] Initializing Configuration
+apiserver-1  | 2026-09-29 19:14:20,986 INFO [Config] System property alpine.application.properties not specified
+apiserver-1  | 2026-09-29 19:14:20,987 INFO [Config] Loading application.properties from classpath
+apiserver-1  | 2026-09-29 19:14:20,991 INFO [Config] --------------------------------------------------------------------------------
+apiserver-1  | 2026-09-29 19:14:20,991 INFO [Config] Application:  Dependency-Track
+apiserver-1  | 2026-09-29 19:14:20,991 INFO [Config] Version:      4.13.0
+apiserver-1  | 2026-09-29 19:14:20,992 INFO [Config] Built-on:     2025-04-07T09:33:33Z
+apiserver-1  | 2026-09-29 19:14:20,992 INFO [Config] --------------------------------------------------------------------------------
+apiserver-1  | 2026-09-29 19:14:20,992 INFO [Config] Framework:    Alpine
+apiserver-1  | 2026-09-29 19:14:20,992 INFO [Config] Version :     3.2.0
+apiserver-1  | 2026-09-29 19:14:20,992 INFO [Config] Built-on:     2025-04-02T10:25:57Z
+apiserver-1  | 2026-09-29 19:14:20,992 INFO [Config] --------------------------------------------------------------------------------
+apiserver-1  | 2026-09-29 19:14:21,055 INFO [RequirementsVerifier] Initializing requirements verifier
+apiserver-1  | 2026-09-29 19:14:21,056 INFO [UpgradeInitializer] Initializing upgrade framework
+apiserver-1  | 2026-09-29 19:14:22,679 INFO [PersistenceManagerFactory] Initializing persistence framework
+apiserver-1  | 2026-09-29 19:14:22,681 INFO [PersistenceManagerFactory] Creating transactional connection pool
+apiserver-1  | 2026-09-29 19:14:22,781 INFO [PersistenceManagerFactory] Creating non-transactional connection pool
+apiserver-1  | 2026-09-29 19:14:22,984 INFO [HealthCheckInitializer] Registering health checks
+apiserver-1  | 2026-09-29 19:14:22,985 INFO [DefaultObjectGenerator] Initializing default object generator
+apiserver-1  | 2026-09-29 19:14:22,986 INFO [DefaultObjectGenerator] Synchronizing permissions to datastore
+apiserver-1  | 2026-09-29 19:14:23,109 INFO [DefaultObjectGenerator] Synchronizing SPDX license definitions to datastore
+apiserver-1  | 2026-09-29 19:14:25,429 INFO [DefaultObjectGenerator] Synchronizing default repositories to datastore
+apiserver-1  | 2026-09-29 19:14:25,438 INFO [DefaultObjectGenerator] Synchronizing config properties to datastore
+apiserver-1  | 2026-09-29 19:14:25,479 INFO [DefaultObjectGenerator] Synchronizing notification publishers to datastore
+apiserver-1  | 2026-09-29 19:14:25,566 INFO [EventSubsystemInitializer] Initializing asynchronous event subsystem
+apiserver-1  | 2026-09-29 19:14:25,590 INFO [NotificationSubsystemInitializer] Initializing notification service
+apiserver-1  | 2026-09-29 19:14:25,591 INFO [IndexSubsystemInitializer] Building lucene indexes if required
+apiserver-1  | 2026-09-29 19:14:25,601 INFO [IndexManager] Checking the health of index PROJECT
+apiserver-1  | 2026-09-29 19:14:25,766 INFO [IndexManager] The index PROJECT is healthy
+apiserver-1  | 2026-09-29 19:14:25,766 INFO [IndexManager] Checking the health of index COMPONENT
+apiserver-1  | 2026-09-29 19:14:25,807 INFO [IndexManager] The index COMPONENT is healthy
+apiserver-1  | 2026-09-29 19:14:25,807 INFO [IndexManager] Checking the health of index SERVICECOMPONENT
+apiserver-1  | 2026-09-29 19:14:25,808 INFO [IndexManager] The index SERVICECOMPONENT is healthy
+apiserver-1  | 2026-09-29 19:14:25,809 INFO [IndexManager] Checking the health of index VULNERABILITY
+apiserver-1  | 2026-09-29 19:14:25,809 INFO [IndexManager] The index VULNERABILITY is healthy
+apiserver-1  | 2026-09-29 19:14:25,810 INFO [IndexManager] Checking the health of index LICENSE
+apiserver-1  | 2026-09-29 19:14:25,850 INFO [IndexManager] The index LICENSE is healthy
+apiserver-1  | 2026-09-29 19:14:25,850 INFO [IndexManager] Checking the health of index VULNERABLESOFTWARE
+apiserver-1  | 2026-09-29 19:14:25,852 INFO [IndexManager] The index VULNERABLESOFTWARE is healthy
+apiserver-1  | 2026-09-29 19:14:25,880 INFO [AlpineServlet] Starting Dependency-Track
+apiserver-1  | 2026-09-29 19:14:27,589 INFO [AlpineServlet] Dependency-Track is ready
+apiserver-1  | 2026-09-29 19:14:27,592 INFO [NvdMirrorServlet] Initializing NVD mirror
+apiserver-1  | 2026-09-29 19:14:27,593 INFO [FileSystemResourceServlet] Initializing filesystem resource servlet
+apiserver-1  | 2026-09-29 19:14:35,585 INFO [PortfolioMetricsUpdateTask] Executing portfolio metrics update
+apiserver-1  | 2026-09-29 19:14:35,585 INFO [VulnerabilityMetricsUpdateTask] Executing metrics update on vulnerability database
+apiserver-1  | 2026-09-29 19:14:35,596 INFO [ProjectMetricsUpdateTask] Executing metrics update for project b7a4b5d3-e7fe-421c-89b9-408b31f0c454
+apiserver-1  | 2026-09-29 19:14:35,602 INFO [ClearComponentAnalysisCacheTask] Clearing ComponentAnalysisCache
+apiserver-1  | 2026-09-29 19:14:35,604 INFO [OsvDownloadTask] Updating datasource with Google OSV advisories for ecosystem npm
+apiserver-1  | 2026-09-29 19:14:35,605 INFO [ClearComponentAnalysisCacheTask] Complete
+apiserver-1  | 2026-09-29 19:14:35,607 INFO [VulnerabilityMetricsUpdateTask] Completed metrics update on vulnerability database in 00:00:020
+apiserver-1  | 2026-09-29 19:14:35,731 INFO [PortfolioMetricsUpdateTask] Completed portfolio metrics update in 00:00:145
+apiserver-1  | 2026-09-29 19:14:49,365 INFO [UserResource] Successful user login / username: admin / IP Address: 172.30.0.1 / User Agent: Python-urllib/3.11 [requestId=50de43e5-9ac5-4c85-befe-2eea9b5b49a0, requestMethod=POST, requestUri=/v1/user/login]
+apiserver-1  | 2026-09-29 19:15:25,584 WARN [NistMirrorTask] The NVD is planning to retire the legacy data feeds used by Dependency-Track (https://nvd.nist.gov/General/News/change-timeline); Consider enabling mirroring via NVD REST API in the settings: https://docs.dependencytrack.org/datasources/nvd/#mirroring-via-nvd-rest-api
+apiserver-1  | 2026-09-29 19:15:25,584 INFO [NistMirrorTask] Starting NIST mirroring task
+apiserver-1  | 2026-09-29 19:15:25,585 INFO [VulnDbSyncTask] Starting VulnDB mirror synchronization task
+apiserver-1  | 2026-09-29 19:15:25,585 INFO [VulnDbSyncTask] VulnDB mirror directory does not exist. Skipping.
+apiserver-1  | 2026-09-29 19:15:25,588 INFO [NistMirrorTask] Downloading files at Tue Sep 29 19:15:25 UTC 2026
+apiserver-1  | 2026-09-29 19:15:25,589 INFO [NistMirrorTask] Initiating download of https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2026.json.gz
+apiserver-1  | 2026-09-29 19:15:26,174 WARN [NistMirrorTask] Encountered retryable exception; Will execute retry #1 in PT1S
+apiserver-1  | 2026-09-29 19:15:27,699 WARN [NistMirrorTask] Encountered retryable exception; Will execute retry #2 in PT2S
+apiserver-1  | 2026-09-29 19:15:30,218 WARN [NistMirrorTask] Encountered retryable exception; Will execute retry #3 in PT4S
+apiserver-1  | 2026-09-29 19:15:34,728 WARN [NistMirrorTask] Encountered retryable exception; Will execute retry #4 in PT8S
+apiserver-1  | 2026-09-29 19:15:43,241 WARN [NistMirrorTask] Encountered retryable exception; Will execute retry #5 in PT16S
+apiserver-1  | 2026-09-29 19:15:56,131 INFO [UserResource] Successful user login / username: admin / IP Address: 172.30.0.1 / User Agent: Python-urllib/3.11 [requestId=157d36e4-f011-41cd-8aa2-731da738df43, requestMethod=POST, requestUri=/v1/user/login]
+apiserver-1  | 2026-09-29 19:15:59,754 ERROR [NistMirrorTask] Failed after 6 retry attempts
+apiserver-1  | io.github.resilience4j.retry.MaxRetriesExceeded: max retries is reached out for the result predicate check
+apiserver-1  | 	at io.github.resilience4j.retry.internal.RetryImpl$ContextImpl.onComplete(RetryImpl.java:170)
+apiserver-1  | 	at io.github.resilience4j.retry.Retry.lambda$decorateCheckedSupplier$1(Retry.java:138)
+apiserver-1  | 	at io.github.resilience4j.retry.Retry.executeCheckedSupplier(Retry.java:350)
+apiserver-1  | 	at org.dependencytrack.tasks.NistMirrorTask.doDownload(NistMirrorTask.java:305)
+apiserver-1  | 	at org.dependencytrack.tasks.NistMirrorTask.getAllFiles(NistMirrorTask.java:217)
+apiserver-1  | 	at org.dependencytrack.tasks.NistMirrorTask.inform(NistMirrorTask.java:195)
+apiserver-1  | 	at alpine.event.framework.BaseEventService.lambda$publish$0(BaseEventService.java:110)
+apiserver-1  | 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+apiserver-1  | 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+apiserver-1  | 	at java.base/java.lang.Thread.run(Unknown Source)
+apiserver-1  | 2026-09-29 19:15:59,757 ERROR [NistMirrorTask] Download failed : Retry 'nvd-feeds' has exhausted all attempts (6)
+apiserver-1  | 2026-09-29 19:15:59,758 INFO [NistMirrorTask] Initiating download of https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2026.meta
+apiserver-1  | 2026-09-29 19:16:00,282 WARN [NistMirrorTask] Encountered retryable exception; Will execute retry #1 in PT1S
+apiserver-1  | 2026-09-29 19:16:01,799 WARN [NistMirrorTask] Encountered retryable exception; Will execute retry #2 in PT2S
+apiserver-1  | 2026-09-29 19:16:04,318 WARN [NistMirrorTask] Encountered retryable exception; Will execute retry #3 in PT4S
+apiserver-1  | 2026-09-29 19:16:08,828 WARN [NistMirrorTask] Encountered retryable exception; Will execute retry #4 in PT8S
+apiserver-1  | 2026-09-29 19:16:17,496 WARN [NistMirrorTask] Encountered retryable exception; Will execute retry #5 in PT16S
+apiserver-1  | 2026-09-29 19:16:21,111 INFO [UserResource] Successful user login / username: admin / IP Address: 172.30.0.1 / User Agent: Python-urllib/3.11 [requestId=1ab70fdc-7255-41cc-9129-9473620c5f1c, requestMethod=POST, requestUri=/v1/user/login]
+apiserver-1  | 2026-09-29 19:16:21,128 INFO [FindingResource] Analysis of project b7a4b5d3-e7fe-421c-89b9-408b31f0c454 requested by admin [principal=admin, requestUri=/v1/finding/project/{uuid}/analyze, requestId=05fcd93b-f9e9-4896-8eb6-923a70ed8524, requestMethod=POST]
+apiserver-1  | 2026-09-29 19:16:21,280 INFO [InternalAnalysisTask] Starting internal analysis task [eventToken=f95633e4-c6aa-4ec0-82dc-3ac756322cbd, projectName=babel-transitive-demo, vulnAnalysisLevel=ON_DEMAND, projectUuid=b7a4b5d3-e7fe-421c-89b9-408b31f0c454, projectVersion=vulnerable]
+apiserver-1  | 2026-09-29 19:16:21,282 INFO [InternalAnalysisTask] Analyzing 43 component(s) [eventToken=f95633e4-c6aa-4ec0-82dc-3ac756322cbd, projectName=babel-transitive-demo, vulnAnalysisLevel=ON_DEMAND, projectUuid=b7a4b5d3-e7fe-421c-89b9-408b31f0c454, projectVersion=vulnerable]
+apiserver-1  | 2026-09-29 19:16:21,326 INFO [InternalAnalysisTask] Internal analysis complete [eventToken=f95633e4-c6aa-4ec0-82dc-3ac756322cbd, projectName=babel-transitive-demo, vulnAnalysisLevel=ON_DEMAND, projectUuid=b7a4b5d3-e7fe-421c-89b9-408b31f0c454, projectVersion=vulnerable]
+apiserver-1  | 2026-09-29 19:16:21,326 WARN [OssIndexAnalysisTask] An API username or token has not been specified for use with OSS Index. Using anonymous access [eventToken=f95633e4-c6aa-4ec0-82dc-3ac756322cbd, projectName=babel-transitive-demo, vulnAnalysisLevel=ON_DEMAND, projectUuid=b7a4b5d3-e7fe-421c-89b9-408b31f0c454, projectVersion=vulnerable]
+apiserver-1  | 2026-09-29 19:16:21,327 INFO [OssIndexAnalysisTask] Starting Sonatype OSS Index analysis task [eventToken=f95633e4-c6aa-4ec0-82dc-3ac756322cbd, projectName=babel-transitive-demo, vulnAnalysisLevel=ON_DEMAND, projectUuid=b7a4b5d3-e7fe-421c-89b9-408b31f0c454, projectVersion=vulnerable]
+apiserver-1  | 2026-09-29 19:16:22,345 ERROR [OssIndexAnalysisTask] HTTP Status : 401 Unauthorized [eventToken=f95633e4-c6aa-4ec0-82dc-3ac756322cbd, projectName=babel-transitive-demo, vulnAnalysisLevel=ON_DEMAND, projectUuid=b7a4b5d3-e7fe-421c-89b9-408b31f0c454, projectVersion=vulnerable]
+apiserver-1  | 2026-09-29 19:16:22,345 ERROR [OssIndexAnalysisTask]  - Analyzer URL : https://ossindex.sonatype.org [eventToken=f95633e4-c6aa-4ec0-82dc-3ac756322cbd, projectName=babel-transitive-demo, vulnAnalysisLevel=ON_DEMAND, projectUuid=b7a4b5d3-e7fe-421c-89b9-408b31f0c454, projectVersion=vulnerable]
+apiserver-1  | 2026-09-29 19:16:22,351 INFO [OssIndexAnalysisTask] Analyzing 43 component(s) [eventToken=f95633e4-c6aa-4ec0-82dc-3ac756322cbd, projectName=babel-transitive-demo, vulnAnalysisLevel=ON_DEMAND, projectUuid=b7a4b5d3-e7fe-421c-89b9-408b31f0c454, projectVersion=vulnerable]
+apiserver-1  | 2026-09-29 19:16:22,352 INFO [OssIndexAnalysisTask] Sonatype OSS Index analysis complete [eventToken=f95633e4-c6aa-4ec0-82dc-3ac756322cbd, projectName=babel-transitive-demo, vulnAnalysisLevel=ON_DEMAND, projectUuid=b7a4b5d3-e7fe-421c-89b9-408b31f0c454, projectVersion=vulnerable]
+apiserver-1  | 2026-09-29 19:16:22,365 INFO [PolicyEngine] Evaluating 43 component(s) against applicable policies [eventToken=f95633e4-c6aa-4ec0-82dc-3ac756322cbd, projectName=babel-transitive-demo, projectUuid=b7a4b5d3-e7fe-421c-89b9-408b31f0c454, projectVersion=vulnerable]
+apiserver-1  | 2026-09-29 19:16:22,372 INFO [RepositoryMetaAnalyzerTask] Performing component repository metadata analysis against 43 components
+apiserver-1  | 2026-09-29 19:16:22,421 INFO [RepositoryMetaAnalyzerTask] Completed component repository metadata analysis against 43 components
+apiserver-1  | 2026-09-29 19:16:22,514 INFO [PolicyEngine] Policy analysis complete [eventToken=f95633e4-c6aa-4ec0-82dc-3ac756322cbd, projectName=babel-transitive-demo, projectUuid=b7a4b5d3-e7fe-421c-89b9-408b31f0c454, projectVersion=vulnerable]
+apiserver-1  | 2026-09-29 19:16:22,515 INFO [ProjectMetricsUpdateTask] Executing metrics update for project b7a4b5d3-e7fe-421c-89b9-408b31f0c454
+apiserver-1  | 2026-09-29 19:16:22,748 INFO [UserResource] Successful user login / username: admin / IP Address: 172.30.0.1 / User Agent: Python-urllib/3.11 [requestId=ee6ff3dd-397b-4eaa-98fa-aad32e45e3dd, requestMethod=POST, requestUri=/v1/user/login]
+apiserver-1  | 2026-09-29 19:16:34,042 ERROR [NistMirrorTask] Failed after 6 retry attempts
+apiserver-1  | io.github.resilience4j.retry.MaxRetriesExceeded: max retries is reached out for the result predicate check
+apiserver-1  | 	at io.github.resilience4j.retry.internal.RetryImpl$ContextImpl.onComplete(RetryImpl.java:170)
+apiserver-1  | 	at io.github.resilience4j.retry.Retry.lambda$decorateCheckedSupplier$1(Retry.java:138)
+apiserver-1  | 	at io.github.resilience4j.retry.Retry.executeCheckedSupplier(Retry.java:350)
+apiserver-1  | 	at org.dependencytrack.tasks.NistMirrorTask.doDownload(NistMirrorTask.java:305)
+apiserver-1  | 	at org.dependencytrack.tasks.NistMirrorTask.getAllFiles(NistMirrorTask.java:218)
+apiserver-1  | 	at org.dependencytrack.tasks.NistMirrorTask.inform(NistMirrorTask.java:195)
+apiserver-1  | 	at alpine.event.framework.BaseEventService.lambda$publish$0(BaseEventService.java:110)
+apiserver-1  | 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+apiserver-1  | 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+apiserver-1  | 	at java.base/java.lang.Thread.run(Unknown Source)
+apiserver-1  | 2026-09-29 19:16:34,043 ERROR [NistMirrorTask] Download failed : Retry 'nvd-feeds' has exhausted all attempts (6)
+apiserver-1  | 2026-09-29 19:16:34,043 INFO [NistMirrorTask] Initiating download of https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2025.json.gz
+apiserver-1  | 2026-09-29 19:16:34,567 WARN [NistMirrorTask] Encountered retryable exception; Will execute retry #1 in PT1S
+apiserver-1  | 2026-09-29 19:16:36,093 WARN [NistMirrorTask] Encountered retryable exception; Will execute retry #2 in PT2S
+apiserver-1  | 2026-09-29 19:16:38,614 WARN [NistMirrorTask] Encountered retryable exception; Will execute retry #3 in PT4S
+apiserver-1  | 2026-09-29 19:16:42,172 INFO [UserResource] Successful user login / username: admin / IP Address: 172.30.0.1 / User Agent: Python-urllib/3.11 [requestId=ddecf053-e600-4553-bbff-f78fbb434831, requestMethod=POST, requestUri=/v1/user/login]
+apiserver-1  | 2026-09-29 19:16:42,388 INFO [ProjectResource] Project babel-transitive-demo : fixed-target-cve created by admin [principal=admin, requestUri=/v1/project, requestId=84c7ddbd-8048-4dee-af03-f9a408c49844, requestMethod=PUT]
+apiserver-1  | 2026-09-29 19:16:42,671 WARN [UnknownKeywordFactory] Unknown keyword meta:enum - you should define your own Meta Schema. If the keyword is irrelevant for validation, just use a NonValidationKeyword or if it should generate annotations AnnotationKeyword [principal=admin, requestUri=/v1/bom, requestId=ab51a52d-9b79-430e-9d00-7e66a8dc1d36, requestMethod=PUT]
+apiserver-1  | 2026-09-29 19:16:42,672 WARN [UnknownKeywordFactory] Unknown keyword deprecated - you should define your own Meta Schema. If the keyword is irrelevant for validation, just use a NonValidationKeyword or if it should generate annotations AnnotationKeyword [principal=admin, requestUri=/v1/bom, requestId=ab51a52d-9b79-430e-9d00-7e66a8dc1d36, requestMethod=PUT]
+apiserver-1  | 2026-09-29 19:16:43,010 INFO [BomUploadProcessingTask] Consuming uploaded BOM [bomSerialNumber=bc17e3c1-40af-44cb-bfa8-69d34ec52b3a, bomFormat=CycloneDX, bomUploadToken=805699a8-4819-4e35-ac30-f866cadd1098, projectName=babel-transitive-demo, bomSpecVersion=1.6, projectUuid=93a4d121-d583-454d-8fb7-a5e1056e7082, projectVersion=fixed-target-cve, bomVersion=1]
+apiserver-1  | 2026-09-29 19:16:43,031 INFO [BomUploadProcessingTask] Consumed 39 components (39 before de-duplication), 0 services (0 before de-duplication), and 19 dependency graph entries [bomSerialNumber=bc17e3c1-40af-44cb-bfa8-69d34ec52b3a, bomFormat=CycloneDX, bomUploadToken=805699a8-4819-4e35-ac30-f866cadd1098, projectName=babel-transitive-demo, bomSpecVersion=1.6, projectUuid=93a4d121-d583-454d-8fb7-a5e1056e7082, projectVersion=fixed-target-cve, bomVersion=1]
+apiserver-1  | 2026-09-29 19:16:43,048 INFO [BomUploadProcessingTask] Processing 39 components [bomSerialNumber=bc17e3c1-40af-44cb-bfa8-69d34ec52b3a, bomFormat=CycloneDX, bomUploadToken=805699a8-4819-4e35-ac30-f866cadd1098, projectName=babel-transitive-demo, bomSpecVersion=1.6, projectUuid=93a4d121-d583-454d-8fb7-a5e1056e7082, projectVersion=fixed-target-cve, bomVersion=1]
+apiserver-1  | 2026-09-29 19:16:43,101 INFO [BomUploadProcessingTask] Processing 0 services [bomSerialNumber=bc17e3c1-40af-44cb-bfa8-69d34ec52b3a, bomFormat=CycloneDX, bomUploadToken=805699a8-4819-4e35-ac30-f866cadd1098, projectName=babel-transitive-demo, bomSpecVersion=1.6, projectUuid=93a4d121-d583-454d-8fb7-a5e1056e7082, projectVersion=fixed-target-cve, bomVersion=1]
+apiserver-1  | 2026-09-29 19:16:43,104 INFO [BomUploadProcessingTask] Processing 19 dependency graph entries [bomSerialNumber=bc17e3c1-40af-44cb-bfa8-69d34ec52b3a, bomFormat=CycloneDX, bomUploadToken=805699a8-4819-4e35-ac30-f866cadd1098, projectName=babel-transitive-demo, bomSpecVersion=1.6, projectUuid=93a4d121-d583-454d-8fb7-a5e1056e7082, projectVersion=fixed-target-cve, bomVersion=1]
+apiserver-1  | 2026-09-29 19:16:43,120 INFO [BomUploadProcessingTask] BOM processed successfully in 00:00:00.356 [bomSerialNumber=bc17e3c1-40af-44cb-bfa8-69d34ec52b3a, bomFormat=CycloneDX, bomUploadToken=805699a8-4819-4e35-ac30-f866cadd1098, projectName=babel-transitive-demo, bomSpecVersion=1.6, projectUuid=93a4d121-d583-454d-8fb7-a5e1056e7082, projectVersion=fixed-target-cve, bomVersion=1]
+apiserver-1  | 2026-09-29 19:16:43,124 INFO [RepositoryMetaAnalyzerTask] Performing component repository metadata analysis against 39 components
+apiserver-1  | 2026-09-29 19:16:43,145 WARN [NistMirrorTask] Encountered retryable exception; Will execute retry #4 in PT8S
+apiserver-1  | 2026-09-29 19:16:43,214 INFO [InternalAnalysisTask] Starting internal analysis task [eventToken=805699a8-4819-4e35-ac30-f866cadd1098, projectName=babel-transitive-demo, vulnAnalysisLevel=BOM_UPLOAD_ANALYSIS, projectUuid=93a4d121-d583-454d-8fb7-a5e1056e7082, projectVersion=fixed-target-cve]
+apiserver-1  | 2026-09-29 19:16:43,214 INFO [InternalAnalysisTask] Analyzing 39 component(s) [eventToken=805699a8-4819-4e35-ac30-f866cadd1098, projectName=babel-transitive-demo, vulnAnalysisLevel=BOM_UPLOAD_ANALYSIS, projectUuid=93a4d121-d583-454d-8fb7-a5e1056e7082, projectVersion=fixed-target-cve]
+apiserver-1  | 2026-09-29 19:16:43,270 INFO [InternalAnalysisTask] Internal analysis complete [eventToken=805699a8-4819-4e35-ac30-f866cadd1098, projectName=babel-transitive-demo, vulnAnalysisLevel=BOM_UPLOAD_ANALYSIS, projectUuid=93a4d121-d583-454d-8fb7-a5e1056e7082, projectVersion=fixed-target-cve]
+apiserver-1  | 2026-09-29 19:16:43,271 WARN [OssIndexAnalysisTask] An API username or token has not been specified for use with OSS Index. Using anonymous access [eventToken=805699a8-4819-4e35-ac30-f866cadd1098, projectName=babel-transitive-demo, vulnAnalysisLevel=BOM_UPLOAD_ANALYSIS, projectUuid=93a4d121-d583-454d-8fb7-a5e1056e7082, projectVersion=fixed-target-cve]
+apiserver-1  | 2026-09-29 19:16:43,272 INFO [OssIndexAnalysisTask] Starting Sonatype OSS Index analysis task [eventToken=805699a8-4819-4e35-ac30-f866cadd1098, projectName=babel-transitive-demo, vulnAnalysisLevel=BOM_UPLOAD_ANALYSIS, projectUuid=93a4d121-d583-454d-8fb7-a5e1056e7082, projectVersion=fixed-target-cve]
+apiserver-1  | 2026-09-29 19:16:43,504 ERROR [OssIndexAnalysisTask] HTTP Status : 401 Unauthorized [eventToken=805699a8-4819-4e35-ac30-f866cadd1098, projectName=babel-transitive-demo, vulnAnalysisLevel=BOM_UPLOAD_ANALYSIS, projectUuid=93a4d121-d583-454d-8fb7-a5e1056e7082, projectVersion=fixed-target-cve]
+apiserver-1  | 2026-09-29 19:16:43,505 ERROR [OssIndexAnalysisTask]  - Analyzer URL : https://ossindex.sonatype.org [eventToken=805699a8-4819-4e35-ac30-f866cadd1098, projectName=babel-transitive-demo, vulnAnalysisLevel=BOM_UPLOAD_ANALYSIS, projectUuid=93a4d121-d583-454d-8fb7-a5e1056e7082, projectVersion=fixed-target-cve]
+apiserver-1  | 2026-09-29 19:16:43,506 INFO [OssIndexAnalysisTask] Analyzing 39 component(s) [eventToken=805699a8-4819-4e35-ac30-f866cadd1098, projectName=babel-transitive-demo, vulnAnalysisLevel=BOM_UPLOAD_ANALYSIS, projectUuid=93a4d121-d583-454d-8fb7-a5e1056e7082, projectVersion=fixed-target-cve]
+apiserver-1  | 2026-09-29 19:16:43,506 INFO [OssIndexAnalysisTask] Sonatype OSS Index analysis complete [eventToken=805699a8-4819-4e35-ac30-f866cadd1098, projectName=babel-transitive-demo, vulnAnalysisLevel=BOM_UPLOAD_ANALYSIS, projectUuid=93a4d121-d583-454d-8fb7-a5e1056e7082, projectVersion=fixed-target-cve]
+apiserver-1  | 2026-09-29 19:16:43,508 INFO [PolicyEngine] Evaluating 39 component(s) against applicable policies [eventToken=805699a8-4819-4e35-ac30-f866cadd1098, projectName=babel-transitive-demo, projectUuid=93a4d121-d583-454d-8fb7-a5e1056e7082, projectVersion=fixed-target-cve]
+apiserver-1  | 2026-09-29 19:16:43,618 INFO [PolicyEngine] Policy analysis complete [eventToken=805699a8-4819-4e35-ac30-f866cadd1098, projectName=babel-transitive-demo, projectUuid=93a4d121-d583-454d-8fb7-a5e1056e7082, projectVersion=fixed-target-cve]
+apiserver-1  | 2026-09-29 19:16:43,620 INFO [ProjectMetricsUpdateTask] Executing metrics update for project 93a4d121-d583-454d-8fb7-a5e1056e7082
+apiserver-1  | 2026-09-29 19:16:44,255 INFO [RepositoryMetaAnalyzerTask] Completed component repository metadata analysis against 39 components
+apiserver-1  | 2026-09-29 19:16:44,261 INFO [PolicyEngine] Evaluating 39 component(s) against applicable policies [eventToken=34fbfe54-5f29-4e7b-a81a-cc546d24bdb2, projectName=babel-transitive-demo, projectUuid=93a4d121-d583-454d-8fb7-a5e1056e7082, projectVersion=fixed-target-cve]
+apiserver-1  | 2026-09-29 19:16:44,326 INFO [PolicyEngine] Policy analysis complete [eventToken=34fbfe54-5f29-4e7b-a81a-cc546d24bdb2, projectName=babel-transitive-demo, projectUuid=93a4d121-d583-454d-8fb7-a5e1056e7082, projectVersion=fixed-target-cve]
+apiserver-1  | 2026-09-29 19:16:44,327 INFO [ProjectMetricsUpdateTask] Executing metrics update for project 93a4d121-d583-454d-8fb7-a5e1056e7082
+apiserver-1  | 2026-09-29 19:16:51,660 WARN [NistMirrorTask] Encountered retryable exception; Will execute retry #5 in PT16S
+apiserver-1  | 2026-09-29 19:17:02,240 INFO [UserResource] Successful user login / username: admin / IP Address: 172.30.0.1 / User Agent: Python-urllib/3.11 [requestId=33ec9a46-4bec-4ff2-814c-6ef9f6a0e8c6, requestMethod=POST, requestUri=/v1/user/login]
+apiserver-1  | 2026-09-29 19:17:08,179 ERROR [NistMirrorTask] Failed after 6 retry attempts
+apiserver-1  | io.github.resilience4j.retry.MaxRetriesExceeded: max retries is reached out for the result predicate check
+apiserver-1  | 	at io.github.resilience4j.retry.internal.RetryImpl$ContextImpl.onComplete(RetryImpl.java:170)
+apiserver-1  | 	at io.github.resilience4j.retry.Retry.lambda$decorateCheckedSupplier$1(Retry.java:138)
+apiserver-1  | 	at io.github.resilience4j.retry.Retry.executeCheckedSupplier(Retry.java:350)
+apiserver-1  | 	at org.dependencytrack.tasks.NistMirrorTask.doDownload(NistMirrorTask.java:305)
+apiserver-1  | 	at org.dependencytrack.tasks.NistMirrorTask.getAllFiles(NistMirrorTask.java:217)
+apiserver-1  | 	at org.dependencytrack.tasks.NistMirrorTask.inform(NistMirrorTask.java:195)
+apiserver-1  | 	at alpine.event.framework.BaseEventService.lambda$publish$0(BaseEventService.java:110)
+apiserver-1  | 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+apiserver-1  | 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+apiserver-1  | 	at java.base/java.lang.Thread.run(Unknown Source)
+apiserver-1  | 2026-09-29 19:17:08,179 ERROR [NistMirrorTask] Download failed : Retry 'nvd-feeds' has exhausted all attempts (6)
+apiserver-1  | 2026-09-29 19:17:08,180 INFO [NistMirrorTask] Initiating download of https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2025.meta
+apiserver-1  | 2026-09-29 19:17:08,697 WARN [NistMirrorTask] Encountered retryable exception; Will execute retry #1 in PT1S
+apiserver-1  | 2026-09-29 19:17:10,204 WARN [NistMirrorTask] Encountered retryable exception; Will execute retry #2 in PT2S

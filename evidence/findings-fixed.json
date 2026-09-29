@@ -1,0 +1,48 @@
+[
+  {
+    "component": {
+      "uuid": "93ee69e8-21eb-4d0c-90e9-4bb05ebf55b6",
+      "name": "core",
+      "group": "@babel",
+      "version": "7.23.2",
+      "purl": "pkg:npm/%40babel/core@7.23.2#packages/babel-core",
+      "project": "93a4d121-d583-454d-8fb7-a5e1056e7082",
+      "latestVersion": "8.0.6"
+    },
+    "vulnerability": {
+      "uuid": "a6536824-688d-4005-8a3d-5e2bb7143454",
+      "source": "GITHUB",
+      "vulnId": "GHSA-4x5r-pxfx-6jf8",
+      "title": "@babel/core: Arbitrary File Read via sourceMappingURL Comment",
+      "description": "## Impact\n\nUsing `@babel/core` to compile maliciously crafted code can allow ab attacker to read any source map from the system that is running Babel, if these conditions are _all_ true:\n- the attacker controls the input source code\n- the attacker can read the output source code\n- the attacker knows the path of the source map file that they want to read\n\n**Users that only compile trusted code are not impacted.**\n\n## Patches\n\nThe vulnerability has been fixed in `@babel/core@7.29.6` and `@babel/core@8.0.0-rc.6`.\n\n## Workarounds\n\nCallers can mitigate the issue without upgrading by setting [`inputSourceMap: false`](https://babeljs.io/docs/options#inputsourcemap) in their Babel options.\n\nCallers can also manually extract the `#sourceMappingURL` comment from the input source code, validate whether the source map that it links to is allowed to be read, and if it is pass an object to `inputSourceMap` (passing `false` when it's not).\n\n## Credits\n\nThanks Teodor-Cristian Radoi for reporting the vulnerability.",
+      "severity": "LOW",
+      "severityRank": 3,
+      "cweId": 200,
+      "cweName": "Exposure of Sensitive Information to an Unauthorized Actor",
+      "cwes": [
+        {
+          "cweId": 200,
+          "name": "Exposure of Sensitive Information to an Unauthorized Actor"
+        },
+        {
+          "cweId": 22,
+          "name": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"
+        }
+      ],
+      "aliases": [
+        {
+          "cveId": "CVE-2026-49356",
+          "ghsaId": "GHSA-4x5r-pxfx-6jf8"
+        }
+      ]
+    },
+    "analysis": {
+      "isSuppressed": false
+    },
+    "attribution": {
+      "analyzerIdentity": "INTERNAL_ANALYZER",
+      "attributedOn": 1790709403224
+    },
+    "matrix": "93a4d121-d583-454d-8fb7-a5e1056e7082:93ee69e8-21eb-4d0c-90e9-4bb05ebf55b6:a6536824-688d-4005-8a3d-5e2bb7143454"
+  }
+]

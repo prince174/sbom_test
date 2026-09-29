@@ -1,0 +1,19 @@
+name: sbom-test
+services:
+  apiserver:
+    image: dependencytrack/apiserver:4.13.0
+    environment:
+      ALPINE_DATABASE_MODE: embedded
+      JAVA_OPTIONS: '-Xms512m -Xmx4g'
+    ports:
+      - '127.0.0.1:19090:8080'
+    volumes:
+      - dt-data:/data
+  frontend:
+    image: dependencytrack/frontend:4.13.0
+    environment:
+      API_BASE_URL: http://localhost:19090
+    ports:
+      - '127.0.0.1:19091:8080'
+volumes:
+  dt-data:

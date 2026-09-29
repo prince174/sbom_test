@@ -1,0 +1,471 @@
+{
+  "root": "b7a4b5d3-e7fe-421c-89b9-408b31f0c454",
+  "nodes": {
+    "e24abe80-eee7-4f78-a639-85dd67d7100e": {
+      "uuid": "e24abe80-eee7-4f78-a639-85dd67d7100e",
+      "name": "core",
+      "version": "7.23.0",
+      "purl": "pkg:npm/%40babel/core@7.23.0#packages/babel-core",
+      "directDependencies": "[{\"name\":\"gensync\",\"purl\":\"pkg:npm/gensync@1.0.0-beta.2\",\"uuid\":\"e57cb2dc-76d3-443b-b85b-83f1ac80e040\",\"version\":\"1.0.0-beta.2\",\"purlCoordinates\":\"pkg:npm/gensync@1.0.0-beta.2\",\"objectType\":\"COMPONENT\"},{\"name\":\"convert-source-map\",\"purl\":\"pkg:npm/convert-source-map@2.0.0\",\"uuid\":\"4adb5312-c918-4f49-85e7-f665d681f5dc\",\"version\":\"2.0.0\",\"purlCoordinates\":\"pkg:npm/convert-source-map@2.0.0\",\"objectType\":\"COMPONENT\"},{\"name\":\"generator\",\"purl\":\"pkg:npm/%40babel/generator@7.29.8#packages/babel-generator\",\"uuid\":\"d897ffaa-1e8f-43c5-b5ab-dcd871a86005\",\"version\":\"7.29.8\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/generator@7.29.8\",\"objectType\":\"COMPONENT\"},{\"name\":\"types\",\"purl\":\"pkg:npm/%40babel/types@7.29.8#packages/babel-types\",\"uuid\":\"ac31bb3f-c993-44ca-be82-c360471b5300\",\"version\":\"7.29.8\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/types@7.29.8\",\"objectType\":\"COMPONENT\"},{\"name\":\"helpers\",\"purl\":\"pkg:npm/%40babel/helpers@7.29.7#packages/babel-helpers\",\"uuid\":\"aa6d2566-6698-4004-b648-aa50686961da\",\"version\":\"7.29.7\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/helpers@7.29.7\",\"objectType\":\"COMPONENT\"},{\"name\":\"semver\",\"purl\":\"pkg:npm/semver@6.3.1\",\"uuid\":\"44480092-2e00-4e59-af95-92692d8de43d\",\"version\":\"6.3.1\",\"purlCoordinates\":\"pkg:npm/semver@6.3.1\",\"objectType\":\"COMPONENT\"},{\"name\":\"debug\",\"purl\":\"pkg:npm/debug@4.4.3\",\"uuid\":\"9300b1b5-f5f3-4130-a78e-64440007ab1e\",\"version\":\"4.4.3\",\"purlCoordinates\":\"pkg:npm/debug@4.4.3\",\"objectType\":\"COMPONENT\"},{\"name\":\"parser\",\"purl\":\"pkg:npm/%40babel/parser@7.29.9#packages/babel-parser\",\"uuid\":\"2cbcbd84-0a58-4aed-a3b0-3de490967f8f\",\"version\":\"7.29.9\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/parser@7.29.9\",\"objectType\":\"COMPONENT\"},{\"name\":\"helper-compilation-targets\",\"purl\":\"pkg:npm/%40babel/helper-compilation-targets@7.29.7#packages/babel-helper-compilation-targets\",\"uuid\":\"9f38c1f4-a271-4357-a9a4-8afe5b3ef457\",\"version\":\"7.29.7\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/helper-compilation-targets@7.29.7\",\"objectType\":\"COMPONENT\"},{\"name\":\"json5\",\"purl\":\"pkg:npm/json5@2.2.3\",\"uuid\":\"fa27997b-1ebc-4be6-953d-db70ddd5ade2\",\"version\":\"2.2.3\",\"purlCoordinates\":\"pkg:npm/json5@2.2.3\",\"objectType\":\"COMPONENT\"},{\"name\":\"traverse\",\"purl\":\"pkg:npm/%40babel/traverse@7.23.0#packages/babel-traverse\",\"uuid\":\"cd626d46-8037-4d00-9fe1-fd047e6ff780\",\"version\":\"7.23.0\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/traverse@7.23.0\",\"objectType\":\"COMPONENT\"},{\"name\":\"remapping\",\"purl\":\"pkg:npm/%40ampproject/remapping@2.3.0\",\"uuid\":\"d3583c10-ac20-428b-8dc7-efc961f60240\",\"version\":\"2.3.0\",\"group\":\"@ampproject\",\"purlCoordinates\":\"pkg:npm/%40ampproject/remapping@2.3.0\",\"objectType\":\"COMPONENT\"},{\"name\":\"template\",\"purl\":\"pkg:npm/%40babel/template@7.29.7#packages/babel-template\",\"uuid\":\"60c21636-8304-4dae-8e8d-ea9cb48a68d5\",\"version\":\"7.29.7\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/template@7.29.7\",\"objectType\":\"COMPONENT\"},{\"name\":\"helper-module-transforms\",\"purl\":\"pkg:npm/%40babel/helper-module-transforms@7.29.7#packages/babel-helper-module-transforms\",\"uuid\":\"576eaaec-727c-4c77-97d8-0662a0a38b76\",\"version\":\"7.29.7\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/helper-module-transforms@7.29.7\",\"objectType\":\"COMPONENT\"},{\"name\":\"code-frame\",\"purl\":\"pkg:npm/%40babel/code-frame@7.29.7#packages/babel-code-frame\",\"uuid\":\"32c6cd88-28d9-447f-b3b7-ae860f63ef57\",\"version\":\"7.29.7\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/code-frame@7.29.7\",\"objectType\":\"COMPONENT\"}]",
+      "latestVersion": "8.0.6"
+    },
+    "9f38c1f4-a271-4357-a9a4-8afe5b3ef457": {
+      "uuid": "9f38c1f4-a271-4357-a9a4-8afe5b3ef457",
+      "name": "helper-compilation-targets",
+      "version": "7.29.7",
+      "purl": "pkg:npm/%40babel/helper-compilation-targets@7.29.7#packages/babel-helper-compilation-targets",
+      "directDependencies": "[{\"name\":\"compat-data\",\"purl\":\"pkg:npm/%40babel/compat-data@7.29.7#packages/babel-compat-data\",\"uuid\":\"944d1531-404c-46ba-835c-13530a741c75\",\"version\":\"7.29.7\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/compat-data@7.29.7\",\"objectType\":\"COMPONENT\"},{\"name\":\"semver\",\"purl\":\"pkg:npm/semver@6.3.1\",\"uuid\":\"44480092-2e00-4e59-af95-92692d8de43d\",\"version\":\"6.3.1\",\"purlCoordinates\":\"pkg:npm/semver@6.3.1\",\"objectType\":\"COMPONENT\"},{\"name\":\"helper-validator-option\",\"purl\":\"pkg:npm/%40babel/helper-validator-option@7.29.7#packages/babel-helper-validator-option\",\"uuid\":\"cebe7941-53de-4d55-9267-1e9502ab9ce7\",\"version\":\"7.29.7\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/helper-validator-option@7.29.7\",\"objectType\":\"COMPONENT\"},{\"name\":\"browserslist\",\"purl\":\"pkg:npm/browserslist@4.29.3\",\"uuid\":\"bc1e2619-9f2e-4064-a546-229913e7e517\",\"version\":\"4.29.3\",\"purlCoordinates\":\"pkg:npm/browserslist@4.29.3\",\"objectType\":\"COMPONENT\"},{\"name\":\"lru-cache\",\"purl\":\"pkg:npm/lru-cache@5.1.1\",\"uuid\":\"64bde166-11b4-4f16-b7a6-064dac8049b1\",\"version\":\"5.1.1\",\"purlCoordinates\":\"pkg:npm/lru-cache@5.1.1\",\"objectType\":\"COMPONENT\"}]",
+      "latestVersion": "8.0.6"
+    },
+    "9300b1b5-f5f3-4130-a78e-64440007ab1e": {
+      "uuid": "9300b1b5-f5f3-4130-a78e-64440007ab1e",
+      "name": "debug",
+      "version": "4.4.3",
+      "purl": "pkg:npm/debug@4.4.3",
+      "directDependencies": "[{\"name\":\"ms\",\"purl\":\"pkg:npm/ms@2.1.3\",\"uuid\":\"15cd3e3f-ced5-4a9c-97ca-6319ad766b49\",\"version\":\"2.1.3\",\"purlCoordinates\":\"pkg:npm/ms@2.1.3\",\"objectType\":\"COMPONENT\"}]",
+      "latestVersion": "4.4.3"
+    },
+    "60c21636-8304-4dae-8e8d-ea9cb48a68d5": {
+      "uuid": "60c21636-8304-4dae-8e8d-ea9cb48a68d5",
+      "name": "template",
+      "version": "7.29.7",
+      "purl": "pkg:npm/%40babel/template@7.29.7#packages/babel-template",
+      "directDependencies": "[{\"name\":\"types\",\"purl\":\"pkg:npm/%40babel/types@7.29.8#packages/babel-types\",\"uuid\":\"ac31bb3f-c993-44ca-be82-c360471b5300\",\"version\":\"7.29.8\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/types@7.29.8\",\"objectType\":\"COMPONENT\"},{\"name\":\"code-frame\",\"purl\":\"pkg:npm/%40babel/code-frame@7.29.7#packages/babel-code-frame\",\"uuid\":\"32c6cd88-28d9-447f-b3b7-ae860f63ef57\",\"version\":\"7.29.7\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/code-frame@7.29.7\",\"objectType\":\"COMPONENT\"},{\"name\":\"parser\",\"purl\":\"pkg:npm/%40babel/parser@7.29.9#packages/babel-parser\",\"uuid\":\"2cbcbd84-0a58-4aed-a3b0-3de490967f8f\",\"version\":\"7.29.9\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/parser@7.29.9\",\"objectType\":\"COMPONENT\"}]",
+      "latestVersion": "8.0.0"
+    },
+    "44480092-2e00-4e59-af95-92692d8de43d": {
+      "uuid": "44480092-2e00-4e59-af95-92692d8de43d",
+      "name": "semver",
+      "version": "6.3.1",
+      "purl": "pkg:npm/semver@6.3.1",
+      "latestVersion": "7.8.5"
+    },
+    "4adb5312-c918-4f49-85e7-f665d681f5dc": {
+      "uuid": "4adb5312-c918-4f49-85e7-f665d681f5dc",
+      "name": "convert-source-map",
+      "version": "2.0.0",
+      "purl": "pkg:npm/convert-source-map@2.0.0",
+      "latestVersion": "2.0.0"
+    },
+    "d897ffaa-1e8f-43c5-b5ab-dcd871a86005": {
+      "uuid": "d897ffaa-1e8f-43c5-b5ab-dcd871a86005",
+      "name": "generator",
+      "version": "7.29.8",
+      "purl": "pkg:npm/%40babel/generator@7.29.8#packages/babel-generator",
+      "directDependencies": "[{\"name\":\"types\",\"purl\":\"pkg:npm/%40babel/types@7.29.8#packages/babel-types\",\"uuid\":\"ac31bb3f-c993-44ca-be82-c360471b5300\",\"version\":\"7.29.8\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/types@7.29.8\",\"objectType\":\"COMPONENT\"},{\"name\":\"trace-mapping\",\"purl\":\"pkg:npm/%40jridgewell/trace-mapping@0.3.31#packages/trace-mapping\",\"uuid\":\"98b0cf28-78b2-4b7a-8b69-c621ae25d022\",\"version\":\"0.3.31\",\"group\":\"@jridgewell\",\"purlCoordinates\":\"pkg:npm/%40jridgewell/trace-mapping@0.3.31\",\"objectType\":\"COMPONENT\"},{\"name\":\"parser\",\"purl\":\"pkg:npm/%40babel/parser@7.29.9#packages/babel-parser\",\"uuid\":\"2cbcbd84-0a58-4aed-a3b0-3de490967f8f\",\"version\":\"7.29.9\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/parser@7.29.9\",\"objectType\":\"COMPONENT\"},{\"name\":\"gen-mapping\",\"purl\":\"pkg:npm/%40jridgewell/gen-mapping@0.3.13#packages/gen-mapping\",\"uuid\":\"92953ba1-0477-4022-93ab-305f19eafbe6\",\"version\":\"0.3.13\",\"group\":\"@jridgewell\",\"purlCoordinates\":\"pkg:npm/%40jridgewell/gen-mapping@0.3.13\",\"objectType\":\"COMPONENT\"},{\"name\":\"jsesc\",\"purl\":\"pkg:npm/jsesc@3.1.0\",\"uuid\":\"f4a646ee-6762-47c1-91ff-e07b56894f22\",\"version\":\"3.1.0\",\"purlCoordinates\":\"pkg:npm/jsesc@3.1.0\",\"objectType\":\"COMPONENT\"}]",
+      "latestVersion": "8.0.6"
+    },
+    "cd626d46-8037-4d00-9fe1-fd047e6ff780": {
+      "uuid": "cd626d46-8037-4d00-9fe1-fd047e6ff780",
+      "name": "traverse",
+      "version": "7.23.0",
+      "purl": "pkg:npm/%40babel/traverse@7.23.0#packages/babel-traverse",
+      "directDependencies": "[{\"name\":\"globals\",\"purl\":\"pkg:npm/globals@11.12.0\",\"uuid\":\"dd6febc3-42e6-47c8-9d85-9e29fcfcb454\",\"version\":\"11.12.0\",\"purlCoordinates\":\"pkg:npm/globals@11.12.0\",\"objectType\":\"COMPONENT\"},{\"name\":\"helper-hoist-variables\",\"purl\":\"pkg:npm/%40babel/helper-hoist-variables@7.24.7#packages/babel-helper-hoist-variables\",\"uuid\":\"3b4cbc75-4cea-46b0-b47a-448791b1fd91\",\"version\":\"7.24.7\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/helper-hoist-variables@7.24.7\",\"objectType\":\"COMPONENT\"},{\"name\":\"generator\",\"purl\":\"pkg:npm/%40babel/generator@7.29.8#packages/babel-generator\",\"uuid\":\"d897ffaa-1e8f-43c5-b5ab-dcd871a86005\",\"version\":\"7.29.8\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/generator@7.29.8\",\"objectType\":\"COMPONENT\"},{\"name\":\"helper-environment-visitor\",\"purl\":\"pkg:npm/%40babel/helper-environment-visitor@7.24.7#packages/babel-helper-environment-visitor\",\"uuid\":\"07f5a3f3-18fc-4743-936b-067d56209e32\",\"version\":\"7.24.7\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/helper-environment-visitor@7.24.7\",\"objectType\":\"COMPONENT\"},{\"name\":\"types\",\"purl\":\"pkg:npm/%40babel/types@7.29.8#packages/babel-types\",\"uuid\":\"ac31bb3f-c993-44ca-be82-c360471b5300\",\"version\":\"7.29.8\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/types@7.29.8\",\"objectType\":\"COMPONENT\"},{\"name\":\"helper-function-name\",\"purl\":\"pkg:npm/%40babel/helper-function-name@7.24.7#packages/babel-helper-function-name\",\"uuid\":\"a3803757-801a-473e-8c08-43871959bb99\",\"version\":\"7.24.7\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/helper-function-name@7.24.7\",\"objectType\":\"COMPONENT\"},{\"name\":\"debug\",\"purl\":\"pkg:npm/debug@4.4.3\",\"uuid\":\"9300b1b5-f5f3-4130-a78e-64440007ab1e\",\"version\":\"4.4.3\",\"purlCoordinates\":\"pkg:npm/debug@4.4.3\",\"objectType\":\"COMPONENT\"},{\"name\":\"code-frame\",\"purl\":\"pkg:npm/%40babel/code-frame@7.29.7#packages/babel-code-frame\",\"uuid\":\"32c6cd88-28d9-447f-b3b7-ae860f63ef57\",\"version\":\"7.29.7\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/code-frame@7.29.7\",\"objectType\":\"COMPONENT\"},{\"name\":\"helper-split-export-declaration\",\"purl\":\"pkg:npm/%40babel/helper-split-export-declaration@7.24.7#packages/babel-helper-split-export-declaration\",\"uuid\":\"2cf031c0-2c19-4ff2-96e9-7d5a09ea1f47\",\"version\":\"7.24.7\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/helper-split-export-declaration@7.24.7\",\"objectType\":\"COMPONENT\"},{\"name\":\"parser\",\"purl\":\"pkg:npm/%40babel/parser@7.29.9#packages/babel-parser\",\"uuid\":\"2cbcbd84-0a58-4aed-a3b0-3de490967f8f\",\"version\":\"7.29.9\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/parser@7.29.9\",\"objectType\":\"COMPONENT\"}]",
+      "latestVersion": "8.0.6"
+    },
+    "2cbcbd84-0a58-4aed-a3b0-3de490967f8f": {
+      "uuid": "2cbcbd84-0a58-4aed-a3b0-3de490967f8f",
+      "name": "parser",
+      "version": "7.29.9",
+      "purl": "pkg:npm/%40babel/parser@7.29.9#packages/babel-parser",
+      "directDependencies": "[{\"name\":\"types\",\"purl\":\"pkg:npm/%40babel/types@7.29.8#packages/babel-types\",\"uuid\":\"ac31bb3f-c993-44ca-be82-c360471b5300\",\"version\":\"7.29.8\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/types@7.29.8\",\"objectType\":\"COMPONENT\"}]",
+      "latestVersion": "7.29.9"
+    },
+    "576eaaec-727c-4c77-97d8-0662a0a38b76": {
+      "uuid": "576eaaec-727c-4c77-97d8-0662a0a38b76",
+      "name": "helper-module-transforms",
+      "version": "7.29.7",
+      "purl": "pkg:npm/%40babel/helper-module-transforms@7.29.7#packages/babel-helper-module-transforms",
+      "directDependencies": "[{\"name\":\"core\",\"purl\":\"pkg:npm/%40babel/core@7.23.0#packages/babel-core\",\"uuid\":\"e24abe80-eee7-4f78-a639-85dd67d7100e\",\"version\":\"7.23.0\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/core@7.23.0\",\"objectType\":\"COMPONENT\"},{\"name\":\"helper-module-imports\",\"purl\":\"pkg:npm/%40babel/helper-module-imports@7.29.7#packages/babel-helper-module-imports\",\"uuid\":\"6cf41f46-b19f-41ec-98e1-b89630afe886\",\"version\":\"7.29.7\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/helper-module-imports@7.29.7\",\"objectType\":\"COMPONENT\"},{\"name\":\"helper-validator-identifier\",\"purl\":\"pkg:npm/%40babel/helper-validator-identifier@7.29.7#packages/babel-helper-validator-identifier\",\"uuid\":\"9c181a1e-7b29-4c76-8a2a-04b0e68d4410\",\"version\":\"7.29.7\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/helper-validator-identifier@7.29.7\",\"objectType\":\"COMPONENT\"},{\"name\":\"traverse\",\"purl\":\"pkg:npm/%40babel/traverse@7.23.0#packages/babel-traverse\",\"uuid\":\"cd626d46-8037-4d00-9fe1-fd047e6ff780\",\"version\":\"7.23.0\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/traverse@7.23.0\",\"objectType\":\"COMPONENT\"}]",
+      "latestVersion": "8.0.6"
+    },
+    "fa27997b-1ebc-4be6-953d-db70ddd5ade2": {
+      "uuid": "fa27997b-1ebc-4be6-953d-db70ddd5ade2",
+      "name": "json5",
+      "version": "2.2.3",
+      "purl": "pkg:npm/json5@2.2.3",
+      "latestVersion": "2.2.3"
+    },
+    "ac31bb3f-c993-44ca-be82-c360471b5300": {
+      "uuid": "ac31bb3f-c993-44ca-be82-c360471b5300",
+      "name": "types",
+      "version": "7.29.8",
+      "purl": "pkg:npm/%40babel/types@7.29.8#packages/babel-types",
+      "directDependencies": "[{\"name\":\"helper-validator-identifier\",\"purl\":\"pkg:npm/%40babel/helper-validator-identifier@7.29.7#packages/babel-helper-validator-identifier\",\"uuid\":\"9c181a1e-7b29-4c76-8a2a-04b0e68d4410\",\"version\":\"7.29.7\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/helper-validator-identifier@7.29.7\",\"objectType\":\"COMPONENT\"},{\"name\":\"helper-string-parser\",\"purl\":\"pkg:npm/%40babel/helper-string-parser@7.29.7#packages/babel-helper-string-parser\",\"uuid\":\"b9d6002d-69ba-46fb-9a76-9af703613516\",\"version\":\"7.29.7\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/helper-string-parser@7.29.7\",\"objectType\":\"COMPONENT\"}]",
+      "latestVersion": "8.0.6"
+    },
+    "d3583c10-ac20-428b-8dc7-efc961f60240": {
+      "uuid": "d3583c10-ac20-428b-8dc7-efc961f60240",
+      "name": "remapping",
+      "version": "2.3.0",
+      "purl": "pkg:npm/%40ampproject/remapping@2.3.0",
+      "directDependencies": "[{\"name\":\"trace-mapping\",\"purl\":\"pkg:npm/%40jridgewell/trace-mapping@0.3.31#packages/trace-mapping\",\"uuid\":\"98b0cf28-78b2-4b7a-8b69-c621ae25d022\",\"version\":\"0.3.31\",\"group\":\"@jridgewell\",\"purlCoordinates\":\"pkg:npm/%40jridgewell/trace-mapping@0.3.31\",\"objectType\":\"COMPONENT\"},{\"name\":\"gen-mapping\",\"purl\":\"pkg:npm/%40jridgewell/gen-mapping@0.3.13#packages/gen-mapping\",\"uuid\":\"92953ba1-0477-4022-93ab-305f19eafbe6\",\"version\":\"0.3.13\",\"group\":\"@jridgewell\",\"purlCoordinates\":\"pkg:npm/%40jridgewell/gen-mapping@0.3.13\",\"objectType\":\"COMPONENT\"}]",
+      "latestVersion": "2.3.0"
+    },
+    "32c6cd88-28d9-447f-b3b7-ae860f63ef57": {
+      "uuid": "32c6cd88-28d9-447f-b3b7-ae860f63ef57",
+      "name": "code-frame",
+      "version": "7.29.7",
+      "purl": "pkg:npm/%40babel/code-frame@7.29.7#packages/babel-code-frame",
+      "directDependencies": "[{\"name\":\"picocolors\",\"purl\":\"pkg:npm/picocolors@1.1.1\",\"uuid\":\"4ce500e0-257f-48cf-b271-c4e05e94de3f\",\"version\":\"1.1.1\",\"purlCoordinates\":\"pkg:npm/picocolors@1.1.1\",\"objectType\":\"COMPONENT\"},{\"name\":\"helper-validator-identifier\",\"purl\":\"pkg:npm/%40babel/helper-validator-identifier@7.29.7#packages/babel-helper-validator-identifier\",\"uuid\":\"9c181a1e-7b29-4c76-8a2a-04b0e68d4410\",\"version\":\"7.29.7\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/helper-validator-identifier@7.29.7\",\"objectType\":\"COMPONENT\"},{\"name\":\"js-tokens\",\"purl\":\"pkg:npm/js-tokens@4.0.0\",\"uuid\":\"d5a83e47-2a1e-4d1f-a87e-a6dc9513d56f\",\"version\":\"4.0.0\",\"purlCoordinates\":\"pkg:npm/js-tokens@4.0.0\",\"objectType\":\"COMPONENT\"}]",
+      "latestVersion": "8.0.6"
+    },
+    "aa6d2566-6698-4004-b648-aa50686961da": {
+      "uuid": "aa6d2566-6698-4004-b648-aa50686961da",
+      "name": "helpers",
+      "version": "7.29.7",
+      "purl": "pkg:npm/%40babel/helpers@7.29.7#packages/babel-helpers",
+      "directDependencies": "[{\"name\":\"types\",\"purl\":\"pkg:npm/%40babel/types@7.29.8#packages/babel-types\",\"uuid\":\"ac31bb3f-c993-44ca-be82-c360471b5300\",\"version\":\"7.29.8\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/types@7.29.8\",\"objectType\":\"COMPONENT\"},{\"name\":\"template\",\"purl\":\"pkg:npm/%40babel/template@7.29.7#packages/babel-template\",\"uuid\":\"60c21636-8304-4dae-8e8d-ea9cb48a68d5\",\"version\":\"7.29.7\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/template@7.29.7\",\"objectType\":\"COMPONENT\"}]",
+      "latestVersion": "8.0.5"
+    },
+    "e57cb2dc-76d3-443b-b85b-83f1ac80e040": {
+      "uuid": "e57cb2dc-76d3-443b-b85b-83f1ac80e040",
+      "name": "gensync",
+      "version": "1.0.0-beta.2",
+      "purl": "pkg:npm/gensync@1.0.0-beta.2",
+      "latestVersion": "1.0.0-beta.2"
+    },
+    "944d1531-404c-46ba-835c-13530a741c75": {
+      "uuid": "944d1531-404c-46ba-835c-13530a741c75",
+      "name": "compat-data",
+      "version": "7.29.7",
+      "purl": "pkg:npm/%40babel/compat-data@7.29.7#packages/babel-compat-data",
+      "latestVersion": "8.0.5"
+    },
+    "64bde166-11b4-4f16-b7a6-064dac8049b1": {
+      "uuid": "64bde166-11b4-4f16-b7a6-064dac8049b1",
+      "name": "lru-cache",
+      "version": "5.1.1",
+      "purl": "pkg:npm/lru-cache@5.1.1",
+      "directDependencies": "[{\"name\":\"yallist\",\"purl\":\"pkg:npm/yallist@3.1.1\",\"uuid\":\"b3890800-29fe-42be-9e0f-eebf9e8c975d\",\"version\":\"3.1.1\",\"purlCoordinates\":\"pkg:npm/yallist@3.1.1\",\"objectType\":\"COMPONENT\"}]",
+      "latestVersion": "11.5.3"
+    },
+    "bc1e2619-9f2e-4064-a546-229913e7e517": {
+      "uuid": "bc1e2619-9f2e-4064-a546-229913e7e517",
+      "name": "browserslist",
+      "version": "4.29.3",
+      "purl": "pkg:npm/browserslist@4.29.3",
+      "directDependencies": "[{\"name\":\"caniuse-lite\",\"purl\":\"pkg:npm/caniuse-lite@1.0.30001813\",\"uuid\":\"404be924-f2f4-4ef8-8040-3f224d26a8ba\",\"version\":\"1.0.30001813\",\"purlCoordinates\":\"pkg:npm/caniuse-lite@1.0.30001813\",\"objectType\":\"COMPONENT\"},{\"name\":\"node-releases\",\"purl\":\"pkg:npm/node-releases@2.0.57\",\"uuid\":\"988ea011-57aa-408a-8a0b-9a688e70d8f6\",\"version\":\"2.0.57\",\"purlCoordinates\":\"pkg:npm/node-releases@2.0.57\",\"objectType\":\"COMPONENT\"},{\"name\":\"update-browserslist-db\",\"purl\":\"pkg:npm/update-browserslist-db@1.3.3\",\"uuid\":\"303e1de2-014e-40c4-a8b4-f2a80eb19081\",\"version\":\"1.3.3\",\"purlCoordinates\":\"pkg:npm/update-browserslist-db@1.3.3\",\"objectType\":\"COMPONENT\"},{\"name\":\"electron-to-chromium\",\"purl\":\"pkg:npm/electron-to-chromium@1.5.440\",\"uuid\":\"01c8eb79-3590-4e95-a729-d8ceb49647e2\",\"version\":\"1.5.440\",\"purlCoordinates\":\"pkg:npm/electron-to-chromium@1.5.440\",\"objectType\":\"COMPONENT\"},{\"name\":\"baseline-browser-mapping\",\"purl\":\"pkg:npm/baseline-browser-mapping@2.11.26\",\"uuid\":\"c2f7d006-5fd5-4375-a7c3-af585828a872\",\"version\":\"2.11.26\",\"purlCoordinates\":\"pkg:npm/baseline-browser-mapping@2.11.26\",\"objectType\":\"COMPONENT\"}]",
+      "latestVersion": "4.29.3"
+    },
+    "cebe7941-53de-4d55-9267-1e9502ab9ce7": {
+      "uuid": "cebe7941-53de-4d55-9267-1e9502ab9ce7",
+      "name": "helper-validator-option",
+      "version": "7.29.7",
+      "purl": "pkg:npm/%40babel/helper-validator-option@7.29.7#packages/babel-helper-validator-option",
+      "latestVersion": "8.0.0"
+    },
+    "15cd3e3f-ced5-4a9c-97ca-6319ad766b49": {
+      "uuid": "15cd3e3f-ced5-4a9c-97ca-6319ad766b49",
+      "name": "ms",
+      "version": "2.1.3",
+      "purl": "pkg:npm/ms@2.1.3",
+      "latestVersion": "2.1.3"
+    },
+    "98b0cf28-78b2-4b7a-8b69-c621ae25d022": {
+      "uuid": "98b0cf28-78b2-4b7a-8b69-c621ae25d022",
+      "name": "trace-mapping",
+      "version": "0.3.31",
+      "purl": "pkg:npm/%40jridgewell/trace-mapping@0.3.31#packages/trace-mapping",
+      "directDependencies": "[{\"name\":\"sourcemap-codec\",\"purl\":\"pkg:npm/%40jridgewell/sourcemap-codec@1.6.0#packages/sourcemap-codec\",\"uuid\":\"b03131a3-cf3b-43ca-a0e8-7f2e2109d27b\",\"version\":\"1.6.0\",\"group\":\"@jridgewell\",\"purlCoordinates\":\"pkg:npm/%40jridgewell/sourcemap-codec@1.6.0\",\"objectType\":\"COMPONENT\"},{\"name\":\"resolve-uri\",\"purl\":\"pkg:npm/%40jridgewell/resolve-uri@3.1.2\",\"uuid\":\"0a38ccbb-3bfe-4f55-8f41-46e545969c2b\",\"version\":\"3.1.2\",\"group\":\"@jridgewell\",\"purlCoordinates\":\"pkg:npm/%40jridgewell/resolve-uri@3.1.2\",\"objectType\":\"COMPONENT\"}]",
+      "latestVersion": "0.3.31"
+    },
+    "f4a646ee-6762-47c1-91ff-e07b56894f22": {
+      "uuid": "f4a646ee-6762-47c1-91ff-e07b56894f22",
+      "name": "jsesc",
+      "version": "3.1.0",
+      "purl": "pkg:npm/jsesc@3.1.0",
+      "latestVersion": "3.1.0"
+    },
+    "92953ba1-0477-4022-93ab-305f19eafbe6": {
+      "uuid": "92953ba1-0477-4022-93ab-305f19eafbe6",
+      "name": "gen-mapping",
+      "version": "0.3.13",
+      "purl": "pkg:npm/%40jridgewell/gen-mapping@0.3.13#packages/gen-mapping",
+      "directDependencies": "[{\"name\":\"sourcemap-codec\",\"purl\":\"pkg:npm/%40jridgewell/sourcemap-codec@1.6.0#packages/sourcemap-codec\",\"uuid\":\"b03131a3-cf3b-43ca-a0e8-7f2e2109d27b\",\"version\":\"1.6.0\",\"group\":\"@jridgewell\",\"purlCoordinates\":\"pkg:npm/%40jridgewell/sourcemap-codec@1.6.0\",\"objectType\":\"COMPONENT\"},{\"name\":\"trace-mapping\",\"purl\":\"pkg:npm/%40jridgewell/trace-mapping@0.3.31#packages/trace-mapping\",\"uuid\":\"98b0cf28-78b2-4b7a-8b69-c621ae25d022\",\"version\":\"0.3.31\",\"group\":\"@jridgewell\",\"purlCoordinates\":\"pkg:npm/%40jridgewell/trace-mapping@0.3.31\",\"objectType\":\"COMPONENT\"}]",
+      "latestVersion": "0.3.13"
+    },
+    "2cf031c0-2c19-4ff2-96e9-7d5a09ea1f47": {
+      "uuid": "2cf031c0-2c19-4ff2-96e9-7d5a09ea1f47",
+      "name": "helper-split-export-declaration",
+      "version": "7.24.7",
+      "purl": "pkg:npm/%40babel/helper-split-export-declaration@7.24.7#packages/babel-helper-split-export-declaration",
+      "directDependencies": "[{\"name\":\"types\",\"purl\":\"pkg:npm/%40babel/types@7.29.8#packages/babel-types\",\"uuid\":\"ac31bb3f-c993-44ca-be82-c360471b5300\",\"version\":\"7.29.8\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/types@7.29.8\",\"objectType\":\"COMPONENT\"}]",
+      "latestVersion": "7.24.7"
+    },
+    "a3803757-801a-473e-8c08-43871959bb99": {
+      "uuid": "a3803757-801a-473e-8c08-43871959bb99",
+      "name": "helper-function-name",
+      "version": "7.24.7",
+      "purl": "pkg:npm/%40babel/helper-function-name@7.24.7#packages/babel-helper-function-name",
+      "directDependencies": "[{\"name\":\"types\",\"purl\":\"pkg:npm/%40babel/types@7.29.8#packages/babel-types\",\"uuid\":\"ac31bb3f-c993-44ca-be82-c360471b5300\",\"version\":\"7.29.8\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/types@7.29.8\",\"objectType\":\"COMPONENT\"},{\"name\":\"template\",\"purl\":\"pkg:npm/%40babel/template@7.29.7#packages/babel-template\",\"uuid\":\"60c21636-8304-4dae-8e8d-ea9cb48a68d5\",\"version\":\"7.29.7\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/template@7.29.7\",\"objectType\":\"COMPONENT\"}]",
+      "latestVersion": "7.24.7"
+    },
+    "dd6febc3-42e6-47c8-9d85-9e29fcfcb454": {
+      "uuid": "dd6febc3-42e6-47c8-9d85-9e29fcfcb454",
+      "name": "globals",
+      "version": "11.12.0",
+      "purl": "pkg:npm/globals@11.12.0",
+      "latestVersion": "17.12.0"
+    },
+    "07f5a3f3-18fc-4743-936b-067d56209e32": {
+      "uuid": "07f5a3f3-18fc-4743-936b-067d56209e32",
+      "name": "helper-environment-visitor",
+      "version": "7.24.7",
+      "purl": "pkg:npm/%40babel/helper-environment-visitor@7.24.7#packages/babel-helper-environment-visitor",
+      "directDependencies": "[{\"name\":\"types\",\"purl\":\"pkg:npm/%40babel/types@7.29.8#packages/babel-types\",\"uuid\":\"ac31bb3f-c993-44ca-be82-c360471b5300\",\"version\":\"7.29.8\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/types@7.29.8\",\"objectType\":\"COMPONENT\"}]",
+      "latestVersion": "7.24.7"
+    },
+    "3b4cbc75-4cea-46b0-b47a-448791b1fd91": {
+      "uuid": "3b4cbc75-4cea-46b0-b47a-448791b1fd91",
+      "name": "helper-hoist-variables",
+      "version": "7.24.7",
+      "purl": "pkg:npm/%40babel/helper-hoist-variables@7.24.7#packages/babel-helper-hoist-variables",
+      "directDependencies": "[{\"name\":\"types\",\"purl\":\"pkg:npm/%40babel/types@7.29.8#packages/babel-types\",\"uuid\":\"ac31bb3f-c993-44ca-be82-c360471b5300\",\"version\":\"7.29.8\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/types@7.29.8\",\"objectType\":\"COMPONENT\"}]",
+      "latestVersion": "7.24.7"
+    },
+    "6cf41f46-b19f-41ec-98e1-b89630afe886": {
+      "uuid": "6cf41f46-b19f-41ec-98e1-b89630afe886",
+      "name": "helper-module-imports",
+      "version": "7.29.7",
+      "purl": "pkg:npm/%40babel/helper-module-imports@7.29.7#packages/babel-helper-module-imports",
+      "directDependencies": "[{\"name\":\"types\",\"purl\":\"pkg:npm/%40babel/types@7.29.8#packages/babel-types\",\"uuid\":\"ac31bb3f-c993-44ca-be82-c360471b5300\",\"version\":\"7.29.8\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/types@7.29.8\",\"objectType\":\"COMPONENT\"},{\"name\":\"traverse\",\"purl\":\"pkg:npm/%40babel/traverse@7.23.0#packages/babel-traverse\",\"uuid\":\"cd626d46-8037-4d00-9fe1-fd047e6ff780\",\"version\":\"7.23.0\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/traverse@7.23.0\",\"objectType\":\"COMPONENT\"}]",
+      "latestVersion": "8.0.0"
+    },
+    "9c181a1e-7b29-4c76-8a2a-04b0e68d4410": {
+      "uuid": "9c181a1e-7b29-4c76-8a2a-04b0e68d4410",
+      "name": "helper-validator-identifier",
+      "version": "7.29.7",
+      "purl": "pkg:npm/%40babel/helper-validator-identifier@7.29.7#packages/babel-helper-validator-identifier",
+      "latestVersion": "8.0.6"
+    },
+    "b9d6002d-69ba-46fb-9a76-9af703613516": {
+      "uuid": "b9d6002d-69ba-46fb-9a76-9af703613516",
+      "name": "helper-string-parser",
+      "version": "7.29.7",
+      "purl": "pkg:npm/%40babel/helper-string-parser@7.29.7#packages/babel-helper-string-parser",
+      "latestVersion": "8.0.6"
+    },
+    "4ce500e0-257f-48cf-b271-c4e05e94de3f": {
+      "uuid": "4ce500e0-257f-48cf-b271-c4e05e94de3f",
+      "name": "picocolors",
+      "version": "1.1.1",
+      "purl": "pkg:npm/picocolors@1.1.1",
+      "latestVersion": "1.1.1"
+    },
+    "d5a83e47-2a1e-4d1f-a87e-a6dc9513d56f": {
+      "uuid": "d5a83e47-2a1e-4d1f-a87e-a6dc9513d56f",
+      "name": "js-tokens",
+      "version": "4.0.0",
+      "purl": "pkg:npm/js-tokens@4.0.0",
+      "latestVersion": "10.0.0"
+    },
+    "b3890800-29fe-42be-9e0f-eebf9e8c975d": {
+      "uuid": "b3890800-29fe-42be-9e0f-eebf9e8c975d",
+      "name": "yallist",
+      "version": "3.1.1",
+      "purl": "pkg:npm/yallist@3.1.1",
+      "latestVersion": "5.0.0"
+    },
+    "404be924-f2f4-4ef8-8040-3f224d26a8ba": {
+      "uuid": "404be924-f2f4-4ef8-8040-3f224d26a8ba",
+      "name": "caniuse-lite",
+      "version": "1.0.30001813",
+      "purl": "pkg:npm/caniuse-lite@1.0.30001813",
+      "latestVersion": "1.0.30001813"
+    },
+    "c2f7d006-5fd5-4375-a7c3-af585828a872": {
+      "uuid": "c2f7d006-5fd5-4375-a7c3-af585828a872",
+      "name": "baseline-browser-mapping",
+      "version": "2.11.26",
+      "purl": "pkg:npm/baseline-browser-mapping@2.11.26",
+      "latestVersion": "2.11.26"
+    },
+    "01c8eb79-3590-4e95-a729-d8ceb49647e2": {
+      "uuid": "01c8eb79-3590-4e95-a729-d8ceb49647e2",
+      "name": "electron-to-chromium",
+      "version": "1.5.440",
+      "purl": "pkg:npm/electron-to-chromium@1.5.440",
+      "latestVersion": "1.5.440"
+    },
+    "303e1de2-014e-40c4-a8b4-f2a80eb19081": {
+      "uuid": "303e1de2-014e-40c4-a8b4-f2a80eb19081",
+      "name": "update-browserslist-db",
+      "version": "1.3.3",
+      "purl": "pkg:npm/update-browserslist-db@1.3.3",
+      "directDependencies": "[{\"name\":\"picocolors\",\"purl\":\"pkg:npm/picocolors@1.1.1\",\"uuid\":\"4ce500e0-257f-48cf-b271-c4e05e94de3f\",\"version\":\"1.1.1\",\"purlCoordinates\":\"pkg:npm/picocolors@1.1.1\",\"objectType\":\"COMPONENT\"},{\"name\":\"escalade\",\"purl\":\"pkg:npm/escalade@3.2.0\",\"uuid\":\"5f8ac40d-5eb9-4bf8-92e0-27ab7f5555cf\",\"version\":\"3.2.0\",\"purlCoordinates\":\"pkg:npm/escalade@3.2.0\",\"objectType\":\"COMPONENT\"},{\"name\":\"browserslist\",\"purl\":\"pkg:npm/browserslist@4.29.3\",\"uuid\":\"bc1e2619-9f2e-4064-a546-229913e7e517\",\"version\":\"4.29.3\",\"purlCoordinates\":\"pkg:npm/browserslist@4.29.3\",\"objectType\":\"COMPONENT\"}]",
+      "latestVersion": "1.3.3"
+    },
+    "988ea011-57aa-408a-8a0b-9a688e70d8f6": {
+      "uuid": "988ea011-57aa-408a-8a0b-9a688e70d8f6",
+      "name": "node-releases",
+      "version": "2.0.57",
+      "purl": "pkg:npm/node-releases@2.0.57",
+      "latestVersion": "2.0.57"
+    },
+    "0a38ccbb-3bfe-4f55-8f41-46e545969c2b": {
+      "uuid": "0a38ccbb-3bfe-4f55-8f41-46e545969c2b",
+      "name": "resolve-uri",
+      "version": "3.1.2",
+      "purl": "pkg:npm/%40jridgewell/resolve-uri@3.1.2",
+      "latestVersion": "3.1.2"
+    },
+    "b03131a3-cf3b-43ca-a0e8-7f2e2109d27b": {
+      "uuid": "b03131a3-cf3b-43ca-a0e8-7f2e2109d27b",
+      "name": "sourcemap-codec",
+      "version": "1.6.0",
+      "purl": "pkg:npm/%40jridgewell/sourcemap-codec@1.6.0#packages/sourcemap-codec",
+      "latestVersion": "1.6.0"
+    },
+    "5f8ac40d-5eb9-4bf8-92e0-27ab7f5555cf": {
+      "uuid": "5f8ac40d-5eb9-4bf8-92e0-27ab7f5555cf",
+      "name": "escalade",
+      "version": "3.2.0",
+      "purl": "pkg:npm/escalade@3.2.0",
+      "latestVersion": "3.2.0"
+    }
+  },
+  "edges": {
+    "b7a4b5d3-e7fe-421c-89b9-408b31f0c454": [
+      "e24abe80-eee7-4f78-a639-85dd67d7100e"
+    ],
+    "e24abe80-eee7-4f78-a639-85dd67d7100e": [
+      "9f38c1f4-a271-4357-a9a4-8afe5b3ef457",
+      "9300b1b5-f5f3-4130-a78e-64440007ab1e",
+      "60c21636-8304-4dae-8e8d-ea9cb48a68d5",
+      "44480092-2e00-4e59-af95-92692d8de43d",
+      "4adb5312-c918-4f49-85e7-f665d681f5dc",
+      "d897ffaa-1e8f-43c5-b5ab-dcd871a86005",
+      "cd626d46-8037-4d00-9fe1-fd047e6ff780",
+      "2cbcbd84-0a58-4aed-a3b0-3de490967f8f",
+      "576eaaec-727c-4c77-97d8-0662a0a38b76",
+      "fa27997b-1ebc-4be6-953d-db70ddd5ade2",
+      "ac31bb3f-c993-44ca-be82-c360471b5300",
+      "d3583c10-ac20-428b-8dc7-efc961f60240",
+      "32c6cd88-28d9-447f-b3b7-ae860f63ef57",
+      "aa6d2566-6698-4004-b648-aa50686961da",
+      "e57cb2dc-76d3-443b-b85b-83f1ac80e040"
+    ],
+    "9f38c1f4-a271-4357-a9a4-8afe5b3ef457": [
+      "944d1531-404c-46ba-835c-13530a741c75",
+      "64bde166-11b4-4f16-b7a6-064dac8049b1",
+      "bc1e2619-9f2e-4064-a546-229913e7e517",
+      "44480092-2e00-4e59-af95-92692d8de43d",
+      "cebe7941-53de-4d55-9267-1e9502ab9ce7"
+    ],
+    "9300b1b5-f5f3-4130-a78e-64440007ab1e": [
+      "15cd3e3f-ced5-4a9c-97ca-6319ad766b49"
+    ],
+    "60c21636-8304-4dae-8e8d-ea9cb48a68d5": [
+      "2cbcbd84-0a58-4aed-a3b0-3de490967f8f",
+      "ac31bb3f-c993-44ca-be82-c360471b5300",
+      "32c6cd88-28d9-447f-b3b7-ae860f63ef57"
+    ],
+    "44480092-2e00-4e59-af95-92692d8de43d": [],
+    "4adb5312-c918-4f49-85e7-f665d681f5dc": [],
+    "d897ffaa-1e8f-43c5-b5ab-dcd871a86005": [
+      "98b0cf28-78b2-4b7a-8b69-c621ae25d022",
+      "f4a646ee-6762-47c1-91ff-e07b56894f22",
+      "2cbcbd84-0a58-4aed-a3b0-3de490967f8f",
+      "92953ba1-0477-4022-93ab-305f19eafbe6",
+      "ac31bb3f-c993-44ca-be82-c360471b5300"
+    ],
+    "cd626d46-8037-4d00-9fe1-fd047e6ff780": [
+      "2cf031c0-2c19-4ff2-96e9-7d5a09ea1f47",
+      "2cbcbd84-0a58-4aed-a3b0-3de490967f8f",
+      "9300b1b5-f5f3-4130-a78e-64440007ab1e",
+      "a3803757-801a-473e-8c08-43871959bb99",
+      "ac31bb3f-c993-44ca-be82-c360471b5300",
+      "dd6febc3-42e6-47c8-9d85-9e29fcfcb454",
+      "07f5a3f3-18fc-4743-936b-067d56209e32",
+      "3b4cbc75-4cea-46b0-b47a-448791b1fd91",
+      "d897ffaa-1e8f-43c5-b5ab-dcd871a86005",
+      "32c6cd88-28d9-447f-b3b7-ae860f63ef57"
+    ],
+    "2cbcbd84-0a58-4aed-a3b0-3de490967f8f": [
+      "ac31bb3f-c993-44ca-be82-c360471b5300"
+    ],
+    "576eaaec-727c-4c77-97d8-0662a0a38b76": [
+      "6cf41f46-b19f-41ec-98e1-b89630afe886",
+      "cd626d46-8037-4d00-9fe1-fd047e6ff780",
+      "e24abe80-eee7-4f78-a639-85dd67d7100e",
+      "9c181a1e-7b29-4c76-8a2a-04b0e68d4410"
+    ],
+    "fa27997b-1ebc-4be6-953d-db70ddd5ade2": [],
+    "ac31bb3f-c993-44ca-be82-c360471b5300": [
+      "b9d6002d-69ba-46fb-9a76-9af703613516",
+      "9c181a1e-7b29-4c76-8a2a-04b0e68d4410"
+    ],
+    "d3583c10-ac20-428b-8dc7-efc961f60240": [
+      "98b0cf28-78b2-4b7a-8b69-c621ae25d022",
+      "92953ba1-0477-4022-93ab-305f19eafbe6"
+    ],
+    "32c6cd88-28d9-447f-b3b7-ae860f63ef57": [
+      "4ce500e0-257f-48cf-b271-c4e05e94de3f",
+      "d5a83e47-2a1e-4d1f-a87e-a6dc9513d56f",
+      "9c181a1e-7b29-4c76-8a2a-04b0e68d4410"
+    ],
+    "aa6d2566-6698-4004-b648-aa50686961da": [
+      "60c21636-8304-4dae-8e8d-ea9cb48a68d5",
+      "ac31bb3f-c993-44ca-be82-c360471b5300"
+    ],
+    "e57cb2dc-76d3-443b-b85b-83f1ac80e040": [],
+    "944d1531-404c-46ba-835c-13530a741c75": [],
+    "64bde166-11b4-4f16-b7a6-064dac8049b1": [
+      "b3890800-29fe-42be-9e0f-eebf9e8c975d"
+    ],
+    "bc1e2619-9f2e-4064-a546-229913e7e517": [
+      "404be924-f2f4-4ef8-8040-3f224d26a8ba",
+      "c2f7d006-5fd5-4375-a7c3-af585828a872",
+      "01c8eb79-3590-4e95-a729-d8ceb49647e2",
+      "303e1de2-014e-40c4-a8b4-f2a80eb19081",
+      "988ea011-57aa-408a-8a0b-9a688e70d8f6"
+    ],
+    "cebe7941-53de-4d55-9267-1e9502ab9ce7": [],
+    "15cd3e3f-ced5-4a9c-97ca-6319ad766b49": [],
+    "98b0cf28-78b2-4b7a-8b69-c621ae25d022": [
+      "0a38ccbb-3bfe-4f55-8f41-46e545969c2b",
+      "b03131a3-cf3b-43ca-a0e8-7f2e2109d27b"
+    ],
+    "f4a646ee-6762-47c1-91ff-e07b56894f22": [],
+    "92953ba1-0477-4022-93ab-305f19eafbe6": [
+      "b03131a3-cf3b-43ca-a0e8-7f2e2109d27b",
+      "98b0cf28-78b2-4b7a-8b69-c621ae25d022"
+    ],
+    "2cf031c0-2c19-4ff2-96e9-7d5a09ea1f47": [
+      "ac31bb3f-c993-44ca-be82-c360471b5300"
+    ],
+    "a3803757-801a-473e-8c08-43871959bb99": [
+      "60c21636-8304-4dae-8e8d-ea9cb48a68d5",
+      "ac31bb3f-c993-44ca-be82-c360471b5300"
+    ],
+    "dd6febc3-42e6-47c8-9d85-9e29fcfcb454": [],
+    "07f5a3f3-18fc-4743-936b-067d56209e32": [
+      "ac31bb3f-c993-44ca-be82-c360471b5300"
+    ],
+    "3b4cbc75-4cea-46b0-b47a-448791b1fd91": [
+      "ac31bb3f-c993-44ca-be82-c360471b5300"
+    ],
+    "6cf41f46-b19f-41ec-98e1-b89630afe886": [
+      "cd626d46-8037-4d00-9fe1-fd047e6ff780",
+      "ac31bb3f-c993-44ca-be82-c360471b5300"
+    ],
+    "9c181a1e-7b29-4c76-8a2a-04b0e68d4410": [],
+    "b9d6002d-69ba-46fb-9a76-9af703613516": [],
+    "4ce500e0-257f-48cf-b271-c4e05e94de3f": [],
+    "d5a83e47-2a1e-4d1f-a87e-a6dc9513d56f": [],
+    "b3890800-29fe-42be-9e0f-eebf9e8c975d": [],
+    "404be924-f2f4-4ef8-8040-3f224d26a8ba": [],
+    "c2f7d006-5fd5-4375-a7c3-af585828a872": [],
+    "01c8eb79-3590-4e95-a729-d8ceb49647e2": [],
+    "303e1de2-014e-40c4-a8b4-f2a80eb19081": [
+      "4ce500e0-257f-48cf-b271-c4e05e94de3f",
+      "5f8ac40d-5eb9-4bf8-92e0-27ab7f5555cf",
+      "bc1e2619-9f2e-4064-a546-229913e7e517"
+    ],
+    "988ea011-57aa-408a-8a0b-9a688e70d8f6": [],
+    "0a38ccbb-3bfe-4f55-8f41-46e545969c2b": [],
+    "b03131a3-cf3b-43ca-a0e8-7f2e2109d27b": [],
+    "5f8ac40d-5eb9-4bf8-92e0-27ab7f5555cf": []
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "vulnId": "GHSA-67hx-6x53-jw92",
+  "source": "GITHUB",
+  "title": "Babel vulnerable to arbitrary code execution when compiling specifically crafted malicious code",
+  "description": "### Impact\n\nUsing Babel to compile code that was specifically crafted by an attacker can lead to arbitrary code execution during compilation, when using plugins that rely on the `path.evaluate()`or `path.evaluateTruthy()` internal Babel methods.\n\nKnown affected plugins are:\n- `@babel/plugin-transform-runtime`\n- `@babel/preset-env` when using its [`useBuiltIns`](https://babeljs.io/docs/babel-preset-env#usebuiltins) option\n- Any \"polyfill provider\" plugin that depends on `@babel/helper-define-polyfill-provider`, such as `babel-plugin-polyfill-corejs3`, `babel-plugin-polyfill-corejs2`, `babel-plugin-polyfill-es-shims`, `babel-plugin-polyfill-regenerator`\n\nNo other plugins under the `@babel/` namespace are impacted, but third-party plugins might be.\n\n**Users that only compile trusted code are not impacted.**\n\n### Patches\n\nThe vulnerability has been fixed in `@babel/traverse@7.23.2`.\n\nBabel 6 does not receive security fixes anymore (see [Babel's security policy](https://github.com/babel/babel/security/policy)), hence there is no patch planned for `babel-traverse@6`.\n\n### Workarounds\n\n- Upgrade `@babel/traverse` to v7.23.2 or higher. You can do this by deleting it from your package manager's lockfile and re-installing the dependencies. `@babel/core` >=7.23.2 will automatically pull in a non-vulnerable version.\n- If you cannot upgrade `@babel/traverse` and are using one of the affected packages mentioned above, upgrade them to their latest version to avoid triggering the vulnerable code path in affected `@babel/traverse` versions:\n  - `@babel/plugin-transform-runtime` v7.23.2\n  - `@babel/preset-env` v7.23.2\n  - `@babel/helper-define-polyfill-provider` v0.4.3\n  - `babel-plugin-polyfill-corejs2` v0.4.6\n  - `babel-plugin-polyfill-corejs3` v0.8.5\n  - `babel-plugin-polyfill-es-shims` v0.10.0\n  - `babel-plugin-polyfill-regenerator` v0.5.3",
+  "references": "* [https://github.com/babel/babel/security/advisories/GHSA-67hx-6x53-jw92](https://github.com/babel/babel/security/advisories/GHSA-67hx-6x53-jw92)\n* [https://nvd.nist.gov/vuln/detail/CVE-2023-45133](https://nvd.nist.gov/vuln/detail/CVE-2023-45133)\n* [https://github.com/babel/babel/pull/16033](https://github.com/babel/babel/pull/16033)\n* [https://github.com/babel/babel/commit/b13376b346946e3f62fc0848c1d2a23223314c82](https://github.com/babel/babel/commit/b13376b346946e3f62fc0848c1d2a23223314c82)\n* [https://babeljs.io/blog/2023/10/16/cve-2023-45133](https://babeljs.io/blog/2023/10/16/cve-2023-45133)\n* [https://github.com/babel/babel](https://github.com/babel/babel)\n* [https://github.com/babel/babel/releases/tag/v7.23.2](https://github.com/babel/babel/releases/tag/v7.23.2)\n* [https://github.com/babel/babel/releases/tag/v8.0.0-alpha.4](https://github.com/babel/babel/releases/tag/v8.0.0-alpha.4)\n* [https://lists.debian.org/debian-lts-announce/2023/10/msg00026.html](https://lists.debian.org/debian-lts-announce/2023/10/msg00026.html)\n* [https://www.debian.org/security/2023/dsa-5528](https://www.debian.org/security/2023/dsa-5528)\n",
+  "published": "2023-10-16T13:55:36Z",
+  "updated": "2026-09-10T03:50:03Z",
+  "cwes": [
+    {
+      "cweId": 184,
+      "name": "Incomplete List of Disallowed Inputs"
+    },
+    {
+      "cweId": 697,
+      "name": "Incorrect Comparison"
+    }
+  ],
+  "cvssV3Vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+  "severity": "CRITICAL",
+  "components": [],
+  "uuid": "821cbe01-7f23-418d-b593-9dd700264bae",
+  "aliases": [
+    {
+      "cveId": "CVE-2023-45133",
+      "ghsaId": "GHSA-67hx-6x53-jw92",
+      "uuid": "7d1a2c7a-c189-4de0-b829-e4e3a78ddcb5"
+    }
+  ],
+  "affectedProjectCount": 0,
+  "affectedActiveProjectCount": 0,
+  "affectedInactiveProjectCount": 0,
+  "affectedComponents": [
+    {
+      "identityType": "PURL",
+      "identity": "pkg:npm/%40babel/traverse",
+      "versionType": "RANGE",
+      "versionEndExcluding": "7.23.2",
+      "uuid": "58f0b59e-12bd-4a48-9b64-a4635cb9a169",
+      "affectedVersionAttributions": [
+        {
+          "firstSeen": 1790709287761,
+          "lastSeen": 1790709287761,
+          "source": "OSV",
+          "uuid": "c8e30ed5-e39f-4fdc-b854-820fecf4b0f3"
+        }
+      ]
+    },
+    {
+      "identityType": "PURL",
+      "identity": "pkg:npm/%40babel/traverse",
+      "versionType": "RANGE",
+      "versionEndExcluding": "8.0.0-alpha.4",
+      "versionStartIncluding": "8.0.0-alpha.0",
+      "uuid": "e095d679-7bf7-43cc-bcae-5729829f1bb8",
+      "affectedVersionAttributions": [
+        {
+          "firstSeen": 1790709287762,
+          "lastSeen": 1790709287762,
+          "source": "OSV",
+          "uuid": "3a0c2c07-3b7e-46a8-8c38-5a93ac1c81d6"
+        }
+      ]
+    },
+    {
+      "identityType": "PURL",
+      "identity": "pkg:npm/babel-traverse",
+      "versionType": "RANGE",
+      "versionEndExcluding": "7.23.2",
+      "uuid": "1cb7b566-c026-4ce0-b415-2f631e87e381",
+      "affectedVersionAttributions": [
+        {
+          "firstSeen": 1790709287762,
+          "lastSeen": 1790709287762,
+          "source": "OSV",
+          "uuid": "bf67bbdc-8666-4df2-b04e-c0c89fbdf240"
+        }
+      ]
+    }
+  ],
+  "cwe": {
+    "cweId": 184,
+    "name": "Incomplete List of Disallowed Inputs"
+  }
+}

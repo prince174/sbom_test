@@ -1,0 +1,12 @@
+{
+  "name": "babel-transitive-demo",
+  "version": "fixed-target-cve",
+  "classifier": "APPLICATION",
+  "collectionLogic": "NONE",
+  "uuid": "93a4d121-d583-454d-8fb7-a5e1056e7082",
+  "children": [],
+  "properties": [],
+  "tags": [],
+  "active": true,
+  "isLatest": false
+}

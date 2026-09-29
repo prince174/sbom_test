@@ -1,0 +1,30 @@
+{
+  "summary": "Устранить CVE-2023-45133 в транзитивной зависимости Babel",
+  "description": "# Устранить CVE-2023-45133 в транзитивной зависимости Babel\n\nПроект: babel-transitive-demo / vulnerable.\nКомпонент: @babel/traverse@7.23.0.\nНаходка: GHSA-67hx-6x53-jw92; CVE-2023-45133 (алиас из API).\nИсточник обнаружения: Dependency-Track 4.13.0, INTERNAL_ANALYZER, публичные данные OSV.\n\n## Подтверждённые пути из API\n- babel-transitive-demo → @babel/core@7.23.0 → @babel/traverse@7.23.0\n- babel-transitive-demo → @babel/core@7.23.0 → @babel/helper-module-transforms@7.29.7 → @babel/helper-module-imports@7.29.7 → @babel/traverse@7.23.0\n- babel-transitive-demo → @babel/core@7.23.0 → @babel/helper-module-transforms@7.29.7 → @babel/traverse@7.23.0\n\n## Действия\n1. Удалить тестовое закрепление overrides[\"@babel/traverse\"] = \"7.23.0\" в fixture/package.json. Этот факт получен из проекта, не из Dependency-Track.\n2. Обновить прямую зависимость @babel/core до совместимой версии не ниже 7.23.2; обновить package-lock.json.\n3. Проверить все копии @babel/traverse, выполнить сборку/тесты проекта и повторно сформировать SBOM.\n\nОснование версии: vulnerability.description из findings.json, advisory https://github.com/babel/babel/security/advisories/GHSA-67hx-6x53-jw92.\nЭто извлечение из текста конкретного advisory, не универсальное структурированное поле API. latestVersion не используется как fixVersion.\n\n## Критерии приёмки\n- В новом SBOM отсутствуют версии traverse, затронутые CVE-2023-45133.\n- После завершения анализа отсутствует GHSA-67hx-6x53-jw92 для проекта.\n- Сборка и тесты реального приложения проходят.\n\n## Проверка на стенде\nУдалён override, core обновлён с 7.23.0 до 7.23.2; npm разрешил traverse 7.29.8.\nНовый SBOM загружен как fixed-target-cve. Целевая находка отсутствует.\nОтдельная GHSA-4x5r-pxfx-6jf8 у core осталась: это исправление только целевой CVE, не всех уязвимостей.\nТестовый проект не содержит прикладного кода; совместимость реального приложения не проверялась.\nНаличие пакета подтверждено; эксплуатация зависит от конфигурации Babel и входного кода и здесь не проверялась.\n",
+  "evidence": {
+    "componentUuid": "cd626d46-8037-4d00-9fe1-fd047e6ff780",
+    "vulnerabilityUuid": "821cbe01-7f23-418d-b593-9dd700264bae",
+    "paths": [
+      [
+        "b7a4b5d3-e7fe-421c-89b9-408b31f0c454",
+        "e24abe80-eee7-4f78-a639-85dd67d7100e",
+        "cd626d46-8037-4d00-9fe1-fd047e6ff780"
+      ],
+      [
+        "b7a4b5d3-e7fe-421c-89b9-408b31f0c454",
+        "e24abe80-eee7-4f78-a639-85dd67d7100e",
+        "576eaaec-727c-4c77-97d8-0662a0a38b76",
+        "6cf41f46-b19f-41ec-98e1-b89630afe886",
+        "cd626d46-8037-4d00-9fe1-fd047e6ff780"
+      ],
+      [
+        "b7a4b5d3-e7fe-421c-89b9-408b31f0c454",
+        "e24abe80-eee7-4f78-a639-85dd67d7100e",
+        "576eaaec-727c-4c77-97d8-0662a0a38b76",
+        "cd626d46-8037-4d00-9fe1-fd047e6ff780"
+      ]
+    ],
+    "recommendationSource": "vulnerability.description",
+    "parentMinimumVersion": "7.23.2"
+  }
+}

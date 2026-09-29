@@ -1,0 +1,4069 @@
+[
+  {
+    "authors": [],
+    "name": "baseline-browser-mapping",
+    "version": "2.11.26",
+    "classifier": "LIBRARY",
+    "purl": "pkg:npm/baseline-browser-mapping@2.11.26",
+    "purlCoordinates": "pkg:npm/baseline-browser-mapping@2.11.26",
+    "description": "A library for obtaining browser versions with their maximum supported Baseline feature set and Widely Available status.",
+    "resolvedLicense": {
+      "uuid": "2280dcaf-e9c6-45e5-9ee4-857008307810",
+      "name": "Apache License 2.0",
+      "licenseId": "Apache-2.0",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isDeprecatedLicenseId": false,
+      "isCustomLicense": false
+    },
+    "externalReferences": [
+      {
+        "type": "vcs",
+        "url": "git+https://github.com/web-platform-dx/baseline-browser-mapping.git",
+        "comment": "as detected from PackageJson property \"repository.url\""
+      },
+      {
+        "type": "website",
+        "url": "https://github.com/web-platform-dx/baseline-browser-mapping#readme",
+        "comment": "as detected from PackageJson property \"homepage\""
+      },
+      {
+        "type": "issue-tracker",
+        "url": "https://github.com/web-platform-dx/baseline-browser-mapping/issues",
+        "comment": "as detected from PackageJson property \"bugs.url\""
+      },
+      {
+        "type": "distribution",
+        "url": "https://registry.npmjs.org/baseline-browser-mapping/-/baseline-browser-mapping-2.11.26.tgz",
+        "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+      }
+    ],
+    "project": {
+      "authors": [],
+      "name": "babel-transitive-demo",
+      "version": "fixed-target-cve",
+      "classifier": "APPLICATION",
+      "collectionLogic": "NONE",
+      "purl": "pkg:npm/babel-transitive-demo@1.0.1",
+      "directDependencies": "[{\"name\":\"core\",\"purl\":\"pkg:npm/%40babel/core@7.23.2#packages/babel-core\",\"uuid\":\"93ee69e8-21eb-4d0c-90e9-4bb05ebf55b6\",\"version\":\"7.23.2\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/core@7.23.2\",\"objectType\":\"COMPONENT\"}]",
+      "uuid": "93a4d121-d583-454d-8fb7-a5e1056e7082",
+      "properties": [],
+      "tags": [],
+      "lastBomImport": 1790709403116,
+      "lastBomImportFormat": "CycloneDX 1.6",
+      "lastInheritedRiskScore": 1.0,
+      "lastVulnerabilityAnalysis": 1790709403507,
+      "active": true,
+      "isLatest": false
+    },
+    "lastInheritedRiskScore": 0.0,
+    "uuid": "5b3652c2-18ab-434a-adb3-648cd00e6aa2",
+    "metrics": {
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 0,
+      "unassigned": 0,
+      "vulnerabilities": 0,
+      "suppressed": 0,
+      "findingsTotal": 0,
+      "findingsAudited": 0,
+      "findingsUnaudited": 0,
+      "inheritedRiskScore": 0.0,
+      "policyViolationsFail": 0,
+      "policyViolationsWarn": 0,
+      "policyViolationsInfo": 0,
+      "policyViolationsTotal": 0,
+      "policyViolationsAudited": 0,
+      "policyViolationsUnaudited": 0,
+      "policyViolationsSecurityTotal": 0,
+      "policyViolationsSecurityAudited": 0,
+      "policyViolationsSecurityUnaudited": 0,
+      "policyViolationsLicenseTotal": 0,
+      "policyViolationsLicenseAudited": 0,
+      "policyViolationsLicenseUnaudited": 0,
+      "policyViolationsOperationalTotal": 0,
+      "policyViolationsOperationalAudited": 0,
+      "policyViolationsOperationalUnaudited": 0,
+      "firstOccurrence": 1790709403650,
+      "lastOccurrence": 1790709404336
+    },
+    "repositoryMeta": {
+      "repositoryType": "NPM",
+      "name": "baseline-browser-mapping",
+      "latestVersion": "2.11.26",
+      "lastCheck": 1790709191537
+    },
+    "expandDependencyGraph": false,
+    "isInternal": false
+  },
+  {
+    "authors": [
+      {
+        "name": "Andrey Sitnik"
+      }
+    ],
+    "name": "browserslist",
+    "version": "4.29.3",
+    "classifier": "LIBRARY",
+    "purl": "pkg:npm/browserslist@4.29.3",
+    "purlCoordinates": "pkg:npm/browserslist@4.29.3",
+    "description": "Share target browsers between different front-end tools, like Autoprefixer, Stylelint and babel-env-preset",
+    "resolvedLicense": {
+      "uuid": "80fb3e17-511b-4d4a-bab2-87f8ef1aa7b9",
+      "name": "MIT License",
+      "licenseId": "MIT",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isDeprecatedLicenseId": false,
+      "isCustomLicense": false
+    },
+    "directDependencies": "[{\"name\":\"caniuse-lite\",\"purl\":\"pkg:npm/caniuse-lite@1.0.30001813\",\"uuid\":\"6d786d61-13be-4d28-929e-d3b4422f0a94\",\"version\":\"1.0.30001813\",\"purlCoordinates\":\"pkg:npm/caniuse-lite@1.0.30001813\",\"objectType\":\"COMPONENT\"},{\"name\":\"electron-to-chromium\",\"purl\":\"pkg:npm/electron-to-chromium@1.5.440\",\"uuid\":\"28705deb-826f-4eba-b37e-40af5f235ae2\",\"version\":\"1.5.440\",\"purlCoordinates\":\"pkg:npm/electron-to-chromium@1.5.440\",\"objectType\":\"COMPONENT\"},{\"name\":\"baseline-browser-mapping\",\"purl\":\"pkg:npm/baseline-browser-mapping@2.11.26\",\"uuid\":\"5b3652c2-18ab-434a-adb3-648cd00e6aa2\",\"version\":\"2.11.26\",\"purlCoordinates\":\"pkg:npm/baseline-browser-mapping@2.11.26\",\"objectType\":\"COMPONENT\"},{\"name\":\"node-releases\",\"purl\":\"pkg:npm/node-releases@2.0.57\",\"uuid\":\"57428ae6-c253-4f17-9838-ba84e9b4898c\",\"version\":\"2.0.57\",\"purlCoordinates\":\"pkg:npm/node-releases@2.0.57\",\"objectType\":\"COMPONENT\"},{\"name\":\"update-browserslist-db\",\"purl\":\"pkg:npm/update-browserslist-db@1.3.3\",\"uuid\":\"8927e001-0873-4960-8720-703cd5cf12e1\",\"version\":\"1.3.3\",\"purlCoordinates\":\"pkg:npm/update-browserslist-db@1.3.3\",\"objectType\":\"COMPONENT\"}]",
+    "externalReferences": [
+      {
+        "type": "vcs",
+        "url": "git+https://github.com/browserslist/browserslist.git",
+        "comment": "as detected from PackageJson property \"repository.url\""
+      },
+      {
+        "type": "website",
+        "url": "https://github.com/browserslist/browserslist#readme",
+        "comment": "as detected from PackageJson property \"homepage\""
+      },
+      {
+        "type": "issue-tracker",
+        "url": "https://github.com/browserslist/browserslist/issues",
+        "comment": "as detected from PackageJson property \"bugs.url\""
+      },
+      {
+        "type": "distribution",
+        "url": "https://registry.npmjs.org/browserslist/-/browserslist-4.29.3.tgz",
+        "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+      }
+    ],
+    "project": {
+      "authors": [],
+      "name": "babel-transitive-demo",
+      "version": "fixed-target-cve",
+      "classifier": "APPLICATION",
+      "collectionLogic": "NONE",
+      "purl": "pkg:npm/babel-transitive-demo@1.0.1",
+      "directDependencies": "[{\"name\":\"core\",\"purl\":\"pkg:npm/%40babel/core@7.23.2#packages/babel-core\",\"uuid\":\"93ee69e8-21eb-4d0c-90e9-4bb05ebf55b6\",\"version\":\"7.23.2\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/core@7.23.2\",\"objectType\":\"COMPONENT\"}]",
+      "uuid": "93a4d121-d583-454d-8fb7-a5e1056e7082",
+      "properties": [],
+      "tags": [],
+      "lastBomImport": 1790709403116,
+      "lastBomImportFormat": "CycloneDX 1.6",
+      "lastInheritedRiskScore": 1.0,
+      "lastVulnerabilityAnalysis": 1790709403507,
+      "active": true,
+      "isLatest": false
+    },
+    "lastInheritedRiskScore": 0.0,
+    "uuid": "06978293-6b8c-415a-9203-05e1013e8fdd",
+    "author": "Andrey Sitnik",
+    "metrics": {
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 0,
+      "unassigned": 0,
+      "vulnerabilities": 0,
+      "suppressed": 0,
+      "findingsTotal": 0,
+      "findingsAudited": 0,
+      "findingsUnaudited": 0,
+      "inheritedRiskScore": 0.0,
+      "policyViolationsFail": 0,
+      "policyViolationsWarn": 0,
+      "policyViolationsInfo": 0,
+      "policyViolationsTotal": 0,
+      "policyViolationsAudited": 0,
+      "policyViolationsUnaudited": 0,
+      "policyViolationsSecurityTotal": 0,
+      "policyViolationsSecurityAudited": 0,
+      "policyViolationsSecurityUnaudited": 0,
+      "policyViolationsLicenseTotal": 0,
+      "policyViolationsLicenseAudited": 0,
+      "policyViolationsLicenseUnaudited": 0,
+      "policyViolationsOperationalTotal": 0,
+      "policyViolationsOperationalAudited": 0,
+      "policyViolationsOperationalUnaudited": 0,
+      "firstOccurrence": 1790709403684,
+      "lastOccurrence": 1790709404343
+    },
+    "repositoryMeta": {
+      "repositoryType": "NPM",
+      "name": "browserslist",
+      "latestVersion": "4.29.3",
+      "lastCheck": 1790709199004
+    },
+    "expandDependencyGraph": false,
+    "isInternal": false
+  },
+  {
+    "authors": [
+      {
+        "name": "Ben Briggs"
+      }
+    ],
+    "name": "caniuse-lite",
+    "version": "1.0.30001813",
+    "classifier": "LIBRARY",
+    "purl": "pkg:npm/caniuse-lite@1.0.30001813",
+    "purlCoordinates": "pkg:npm/caniuse-lite@1.0.30001813",
+    "description": "A smaller version of caniuse-db, with only the essentials!",
+    "resolvedLicense": {
+      "uuid": "f3820c56-a344-467d-8d8a-e71afced4842",
+      "name": "Creative Commons Attribution 4.0 International",
+      "licenseId": "CC-BY-4.0",
+      "isOsiApproved": false,
+      "isFsfLibre": true,
+      "isDeprecatedLicenseId": false,
+      "isCustomLicense": false
+    },
+    "externalReferences": [
+      {
+        "type": "vcs",
+        "url": "git+https://github.com/browserslist/caniuse-lite.git",
+        "comment": "as detected from PackageJson property \"repository.url\""
+      },
+      {
+        "type": "website",
+        "url": "https://github.com/browserslist/caniuse-lite#readme",
+        "comment": "as detected from PackageJson property \"homepage\""
+      },
+      {
+        "type": "issue-tracker",
+        "url": "https://github.com/browserslist/caniuse-lite/issues",
+        "comment": "as detected from PackageJson property \"bugs.url\""
+      },
+      {
+        "type": "distribution",
+        "url": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001813.tgz",
+        "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+      }
+    ],
+    "project": {
+      "authors": [],
+      "name": "babel-transitive-demo",
+      "version": "fixed-target-cve",
+      "classifier": "APPLICATION",
+      "collectionLogic": "NONE",
+      "purl": "pkg:npm/babel-transitive-demo@1.0.1",
+      "directDependencies": "[{\"name\":\"core\",\"purl\":\"pkg:npm/%40babel/core@7.23.2#packages/babel-core\",\"uuid\":\"93ee69e8-21eb-4d0c-90e9-4bb05ebf55b6\",\"version\":\"7.23.2\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/core@7.23.2\",\"objectType\":\"COMPONENT\"}]",
+      "uuid": "93a4d121-d583-454d-8fb7-a5e1056e7082",
+      "properties": [],
+      "tags": [],
+      "lastBomImport": 1790709403116,
+      "lastBomImportFormat": "CycloneDX 1.6",
+      "lastInheritedRiskScore": 1.0,
+      "lastVulnerabilityAnalysis": 1790709403507,
+      "active": true,
+      "isLatest": false
+    },
+    "lastInheritedRiskScore": 0.0,
+    "uuid": "6d786d61-13be-4d28-929e-d3b4422f0a94",
+    "author": "Ben Briggs",
+    "metrics": {
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 0,
+      "unassigned": 0,
+      "vulnerabilities": 0,
+      "suppressed": 0,
+      "findingsTotal": 0,
+      "findingsAudited": 0,
+      "findingsUnaudited": 0,
+      "inheritedRiskScore": 0.0,
+      "policyViolationsFail": 0,
+      "policyViolationsWarn": 0,
+      "policyViolationsInfo": 0,
+      "policyViolationsTotal": 0,
+      "policyViolationsAudited": 0,
+      "policyViolationsUnaudited": 0,
+      "policyViolationsSecurityTotal": 0,
+      "policyViolationsSecurityAudited": 0,
+      "policyViolationsSecurityUnaudited": 0,
+      "policyViolationsLicenseTotal": 0,
+      "policyViolationsLicenseAudited": 0,
+      "policyViolationsLicenseUnaudited": 0,
+      "policyViolationsOperationalTotal": 0,
+      "policyViolationsOperationalAudited": 0,
+      "policyViolationsOperationalUnaudited": 0,
+      "firstOccurrence": 1790709403646,
+      "lastOccurrence": 1790709404335
+    },
+    "repositoryMeta": {
+      "repositoryType": "NPM",
+      "name": "caniuse-lite",
+      "latestVersion": "1.0.30001813",
+      "lastCheck": 1790709190307
+    },
+    "expandDependencyGraph": false,
+    "isInternal": false
+  },
+  {
+    "authors": [
+      {
+        "name": "The Babel Team"
+      }
+    ],
+    "group": "@babel",
+    "name": "code-frame",
+    "version": "7.29.7",
+    "classifier": "LIBRARY",
+    "purl": "pkg:npm/%40babel/code-frame@7.29.7#packages/babel-code-frame",
+    "purlCoordinates": "pkg:npm/%40babel/code-frame@7.29.7",
+    "description": "Generate errors that contain a code frame that point to source locations.",
+    "resolvedLicense": {
+      "uuid": "80fb3e17-511b-4d4a-bab2-87f8ef1aa7b9",
+      "name": "MIT License",
+      "licenseId": "MIT",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isDeprecatedLicenseId": false,
+      "isCustomLicense": false
+    },
+    "directDependencies": "[{\"name\":\"helper-validator-identifier\",\"purl\":\"pkg:npm/%40babel/helper-validator-identifier@7.29.7#packages/babel-helper-validator-identifier\",\"uuid\":\"4090f887-c992-40c3-afbd-b5b1ab9c1a3e\",\"version\":\"7.29.7\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/helper-validator-identifier@7.29.7\",\"objectType\":\"COMPONENT\"},{\"name\":\"js-tokens\",\"purl\":\"pkg:npm/js-tokens@4.0.0\",\"uuid\":\"af141d1d-1181-43d0-bf49-f2a6b6f81a1e\",\"version\":\"4.0.0\",\"purlCoordinates\":\"pkg:npm/js-tokens@4.0.0\",\"objectType\":\"COMPONENT\"},{\"name\":\"picocolors\",\"purl\":\"pkg:npm/picocolors@1.1.1\",\"uuid\":\"61f8ae74-b92e-43c7-b1a6-545fc14b0e64\",\"version\":\"1.1.1\",\"purlCoordinates\":\"pkg:npm/picocolors@1.1.1\",\"objectType\":\"COMPONENT\"}]",
+    "externalReferences": [
+      {
+        "type": "vcs",
+        "url": "git+https://github.com/babel/babel.git#packages/babel-code-frame",
+        "comment": "as detected from PackageJson property \"repository.url\" and \"repository.directory\""
+      },
+      {
+        "type": "website",
+        "url": "https://babel.dev/docs/en/next/babel-code-frame",
+        "comment": "as detected from PackageJson property \"homepage\""
+      },
+      {
+        "type": "issue-tracker",
+        "url": "https://github.com/babel/babel/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen",
+        "comment": "as detected from PackageJson property \"bugs.url\""
+      },
+      {
+        "type": "distribution",
+        "url": "https://registry.npmjs.org/@babel/code-frame/-/code-frame-7.29.7.tgz",
+        "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+      }
+    ],
+    "project": {
+      "authors": [],
+      "name": "babel-transitive-demo",
+      "version": "fixed-target-cve",
+      "classifier": "APPLICATION",
+      "collectionLogic": "NONE",
+      "purl": "pkg:npm/babel-transitive-demo@1.0.1",
+      "directDependencies": "[{\"name\":\"core\",\"purl\":\"pkg:npm/%40babel/core@7.23.2#packages/babel-core\",\"uuid\":\"93ee69e8-21eb-4d0c-90e9-4bb05ebf55b6\",\"version\":\"7.23.2\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/core@7.23.2\",\"objectType\":\"COMPONENT\"}]",
+      "uuid": "93a4d121-d583-454d-8fb7-a5e1056e7082",
+      "properties": [],
+      "tags": [],
+      "lastBomImport": 1790709403116,
+      "lastBomImportFormat": "CycloneDX 1.6",
+      "lastInheritedRiskScore": 1.0,
+      "lastVulnerabilityAnalysis": 1790709403507,
+      "active": true,
+      "isLatest": false
+    },
+    "lastInheritedRiskScore": 0.0,
+    "uuid": "6e255482-31c9-4a1e-863c-dccab023885c",
+    "author": "The Babel Team",
+    "metrics": {
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 0,
+      "unassigned": 0,
+      "vulnerabilities": 0,
+      "suppressed": 0,
+      "findingsTotal": 0,
+      "findingsAudited": 0,
+      "findingsUnaudited": 0,
+      "inheritedRiskScore": 0.0,
+      "policyViolationsFail": 0,
+      "policyViolationsWarn": 0,
+      "policyViolationsInfo": 0,
+      "policyViolationsTotal": 0,
+      "policyViolationsAudited": 0,
+      "policyViolationsUnaudited": 0,
+      "policyViolationsSecurityTotal": 0,
+      "policyViolationsSecurityAudited": 0,
+      "policyViolationsSecurityUnaudited": 0,
+      "policyViolationsLicenseTotal": 0,
+      "policyViolationsLicenseAudited": 0,
+      "policyViolationsLicenseUnaudited": 0,
+      "policyViolationsOperationalTotal": 0,
+      "policyViolationsOperationalAudited": 0,
+      "policyViolationsOperationalUnaudited": 0,
+      "firstOccurrence": 1790709403776,
+      "lastOccurrence": 1790709404369
+    },
+    "repositoryMeta": {
+      "repositoryType": "NPM",
+      "namespace": "@babel",
+      "name": "code-frame",
+      "latestVersion": "8.0.6",
+      "lastCheck": 1790709190005
+    },
+    "expandDependencyGraph": false,
+    "isInternal": false
+  },
+  {
+    "authors": [
+      {
+        "name": "The Babel Team"
+      }
+    ],
+    "group": "@babel",
+    "name": "compat-data",
+    "version": "7.29.7",
+    "classifier": "LIBRARY",
+    "purl": "pkg:npm/%40babel/compat-data@7.29.7#packages/babel-compat-data",
+    "purlCoordinates": "pkg:npm/%40babel/compat-data@7.29.7",
+    "description": "The compat-data to determine required Babel plugins",
+    "resolvedLicense": {
+      "uuid": "80fb3e17-511b-4d4a-bab2-87f8ef1aa7b9",
+      "name": "MIT License",
+      "licenseId": "MIT",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isDeprecatedLicenseId": false,
+      "isCustomLicense": false
+    },
+    "externalReferences": [
+      {
+        "type": "vcs",
+        "url": "git+https://github.com/babel/babel.git#packages/babel-compat-data",
+        "comment": "as detected from PackageJson property \"repository.url\" and \"repository.directory\""
+      },
+      {
+        "type": "website",
+        "url": "https://github.com/babel/babel#readme",
+        "comment": "as detected from PackageJson property \"homepage\""
+      },
+      {
+        "type": "issue-tracker",
+        "url": "https://github.com/babel/babel/issues",
+        "comment": "as detected from PackageJson property \"bugs.url\""
+      },
+      {
+        "type": "distribution",
+        "url": "https://registry.npmjs.org/@babel/compat-data/-/compat-data-7.29.7.tgz",
+        "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+      }
+    ],
+    "project": {
+      "authors": [],
+      "name": "babel-transitive-demo",
+      "version": "fixed-target-cve",
+      "classifier": "APPLICATION",
+      "collectionLogic": "NONE",
+      "purl": "pkg:npm/babel-transitive-demo@1.0.1",
+      "directDependencies": "[{\"name\":\"core\",\"purl\":\"pkg:npm/%40babel/core@7.23.2#packages/babel-core\",\"uuid\":\"93ee69e8-21eb-4d0c-90e9-4bb05ebf55b6\",\"version\":\"7.23.2\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/core@7.23.2\",\"objectType\":\"COMPONENT\"}]",
+      "uuid": "93a4d121-d583-454d-8fb7-a5e1056e7082",
+      "properties": [],
+      "tags": [],
+      "lastBomImport": 1790709403116,
+      "lastBomImportFormat": "CycloneDX 1.6",
+      "lastInheritedRiskScore": 1.0,
+      "lastVulnerabilityAnalysis": 1790709403507,
+      "active": true,
+      "isLatest": false
+    },
+    "lastInheritedRiskScore": 0.0,
+    "uuid": "5a8823ba-1b3f-4adb-a1e9-147e5ee6b288",
+    "author": "The Babel Team",
+    "metrics": {
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 0,
+      "unassigned": 0,
+      "vulnerabilities": 0,
+      "suppressed": 0,
+      "findingsTotal": 0,
+      "findingsAudited": 0,
+      "findingsUnaudited": 0,
+      "inheritedRiskScore": 0.0,
+      "policyViolationsFail": 0,
+      "policyViolationsWarn": 0,
+      "policyViolationsInfo": 0,
+      "policyViolationsTotal": 0,
+      "policyViolationsAudited": 0,
+      "policyViolationsUnaudited": 0,
+      "policyViolationsSecurityTotal": 0,
+      "policyViolationsSecurityAudited": 0,
+      "policyViolationsSecurityUnaudited": 0,
+      "policyViolationsLicenseTotal": 0,
+      "policyViolationsLicenseAudited": 0,
+      "policyViolationsLicenseUnaudited": 0,
+      "policyViolationsOperationalTotal": 0,
+      "policyViolationsOperationalAudited": 0,
+      "policyViolationsOperationalUnaudited": 0,
+      "firstOccurrence": 1790709403694,
+      "lastOccurrence": 1790709404344
+    },
+    "repositoryMeta": {
+      "repositoryType": "NPM",
+      "namespace": "@babel",
+      "name": "compat-data",
+      "latestVersion": "8.0.5",
+      "lastCheck": 1790709195495
+    },
+    "expandDependencyGraph": false,
+    "isInternal": false
+  },
+  {
+    "authors": [
+      {
+        "name": "Thorsten Lorenz"
+      }
+    ],
+    "name": "convert-source-map",
+    "version": "2.0.0",
+    "classifier": "LIBRARY",
+    "purl": "pkg:npm/convert-source-map@2.0.0",
+    "purlCoordinates": "pkg:npm/convert-source-map@2.0.0",
+    "description": "Converts a source-map from/to  different formats and allows adding/changing properties.",
+    "resolvedLicense": {
+      "uuid": "80fb3e17-511b-4d4a-bab2-87f8ef1aa7b9",
+      "name": "MIT License",
+      "licenseId": "MIT",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isDeprecatedLicenseId": false,
+      "isCustomLicense": false
+    },
+    "externalReferences": [
+      {
+        "type": "vcs",
+        "url": "git://github.com/thlorenz/convert-source-map.git",
+        "comment": "as detected from PackageJson property \"repository.url\""
+      },
+      {
+        "type": "website",
+        "url": "https://github.com/thlorenz/convert-source-map",
+        "comment": "as detected from PackageJson property \"homepage\""
+      },
+      {
+        "type": "issue-tracker",
+        "url": "https://github.com/thlorenz/convert-source-map/issues",
+        "comment": "as detected from PackageJson property \"bugs.url\""
+      },
+      {
+        "type": "distribution",
+        "url": "https://registry.npmjs.org/convert-source-map/-/convert-source-map-2.0.0.tgz",
+        "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+      }
+    ],
+    "project": {
+      "authors": [],
+      "name": "babel-transitive-demo",
+      "version": "fixed-target-cve",
+      "classifier": "APPLICATION",
+      "collectionLogic": "NONE",
+      "purl": "pkg:npm/babel-transitive-demo@1.0.1",
+      "directDependencies": "[{\"name\":\"core\",\"purl\":\"pkg:npm/%40babel/core@7.23.2#packages/babel-core\",\"uuid\":\"93ee69e8-21eb-4d0c-90e9-4bb05ebf55b6\",\"version\":\"7.23.2\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/core@7.23.2\",\"objectType\":\"COMPONENT\"}]",
+      "uuid": "93a4d121-d583-454d-8fb7-a5e1056e7082",
+      "properties": [],
+      "tags": [],
+      "lastBomImport": 1790709403116,
+      "lastBomImportFormat": "CycloneDX 1.6",
+      "lastInheritedRiskScore": 1.0,
+      "lastVulnerabilityAnalysis": 1790709403507,
+      "active": true,
+      "isLatest": false
+    },
+    "lastInheritedRiskScore": 0.0,
+    "uuid": "5ff5370e-20eb-47d4-b555-d5961153cedf",
+    "author": "Thorsten Lorenz",
+    "metrics": {
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 0,
+      "unassigned": 0,
+      "vulnerabilities": 0,
+      "suppressed": 0,
+      "findingsTotal": 0,
+      "findingsAudited": 0,
+      "findingsUnaudited": 0,
+      "inheritedRiskScore": 0.0,
+      "policyViolationsFail": 0,
+      "policyViolationsWarn": 0,
+      "policyViolationsInfo": 0,
+      "policyViolationsTotal": 0,
+      "policyViolationsAudited": 0,
+      "policyViolationsUnaudited": 0,
+      "policyViolationsSecurityTotal": 0,
+      "policyViolationsSecurityAudited": 0,
+      "policyViolationsSecurityUnaudited": 0,
+      "policyViolationsLicenseTotal": 0,
+      "policyViolationsLicenseAudited": 0,
+      "policyViolationsLicenseUnaudited": 0,
+      "policyViolationsOperationalTotal": 0,
+      "policyViolationsOperationalAudited": 0,
+      "policyViolationsOperationalUnaudited": 0,
+      "firstOccurrence": 1790709403736,
+      "lastOccurrence": 1790709404352
+    },
+    "repositoryMeta": {
+      "repositoryType": "NPM",
+      "name": "convert-source-map",
+      "latestVersion": "2.0.0",
+      "lastCheck": 1790709190916
+    },
+    "expandDependencyGraph": false,
+    "isInternal": false
+  },
+  {
+    "authors": [
+      {
+        "name": "The Babel Team"
+      }
+    ],
+    "group": "@babel",
+    "name": "core",
+    "version": "7.23.2",
+    "classifier": "LIBRARY",
+    "purl": "pkg:npm/%40babel/core@7.23.2#packages/babel-core",
+    "purlCoordinates": "pkg:npm/%40babel/core@7.23.2",
+    "description": "Babel compiler core.",
+    "resolvedLicense": {
+      "uuid": "80fb3e17-511b-4d4a-bab2-87f8ef1aa7b9",
+      "name": "MIT License",
+      "licenseId": "MIT",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isDeprecatedLicenseId": false,
+      "isCustomLicense": false
+    },
+    "directDependencies": "[{\"name\":\"remapping\",\"purl\":\"pkg:npm/%40ampproject/remapping@2.3.0\",\"uuid\":\"97e2a57e-5d1e-4787-8a62-daa8f14a913e\",\"version\":\"2.3.0\",\"group\":\"@ampproject\",\"purlCoordinates\":\"pkg:npm/%40ampproject/remapping@2.3.0\",\"objectType\":\"COMPONENT\"},{\"name\":\"types\",\"purl\":\"pkg:npm/%40babel/types@7.29.8#packages/babel-types\",\"uuid\":\"e2350ef7-ac72-4e88-8a23-276d67acce10\",\"version\":\"7.29.8\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/types@7.29.8\",\"objectType\":\"COMPONENT\"},{\"name\":\"semver\",\"purl\":\"pkg:npm/semver@6.3.1\",\"uuid\":\"6a04c3b5-b29d-4995-9b6a-c8065b5a1980\",\"version\":\"6.3.1\",\"purlCoordinates\":\"pkg:npm/semver@6.3.1\",\"objectType\":\"COMPONENT\"},{\"name\":\"helper-compilation-targets\",\"purl\":\"pkg:npm/%40babel/helper-compilation-targets@7.29.7#packages/babel-helper-compilation-targets\",\"uuid\":\"950997d2-f1e7-40a1-bdf1-5c1c5820a1fd\",\"version\":\"7.29.7\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/helper-compilation-targets@7.29.7\",\"objectType\":\"COMPONENT\"},{\"name\":\"convert-source-map\",\"purl\":\"pkg:npm/convert-source-map@2.0.0\",\"uuid\":\"5ff5370e-20eb-47d4-b555-d5961153cedf\",\"version\":\"2.0.0\",\"purlCoordinates\":\"pkg:npm/convert-source-map@2.0.0\",\"objectType\":\"COMPONENT\"},{\"name\":\"code-frame\",\"purl\":\"pkg:npm/%40babel/code-frame@7.29.7#packages/babel-code-frame\",\"uuid\":\"6e255482-31c9-4a1e-863c-dccab023885c\",\"version\":\"7.29.7\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/code-frame@7.29.7\",\"objectType\":\"COMPONENT\"},{\"name\":\"generator\",\"purl\":\"pkg:npm/%40babel/generator@7.29.8#packages/babel-generator\",\"uuid\":\"bfa84230-65a8-44f1-aa04-580ebb4b5091\",\"version\":\"7.29.8\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/generator@7.29.8\",\"objectType\":\"COMPONENT\"},{\"name\":\"parser\",\"purl\":\"pkg:npm/%40babel/parser@7.29.9#packages/babel-parser\",\"uuid\":\"66f41d83-a368-473a-8be1-11855953cdae\",\"version\":\"7.29.9\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/parser@7.29.9\",\"objectType\":\"COMPONENT\"},{\"name\":\"helper-module-transforms\",\"purl\":\"pkg:npm/%40babel/helper-module-transforms@7.29.7#packages/babel-helper-module-transforms\",\"uuid\":\"b6fb3fa5-19c0-4b92-9296-0e708e1c0dcc\",\"version\":\"7.29.7\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/helper-module-transforms@7.29.7\",\"objectType\":\"COMPONENT\"},{\"name\":\"template\",\"purl\":\"pkg:npm/%40babel/template@7.29.7#packages/babel-template\",\"uuid\":\"b3b7df54-7d88-43b8-b3b0-83f946d48c3a\",\"version\":\"7.29.7\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/template@7.29.7\",\"objectType\":\"COMPONENT\"},{\"name\":\"debug\",\"purl\":\"pkg:npm/debug@4.4.3\",\"uuid\":\"afcf3b39-75f7-4bfb-a323-1cb1eca5733f\",\"version\":\"4.4.3\",\"purlCoordinates\":\"pkg:npm/debug@4.4.3\",\"objectType\":\"COMPONENT\"},{\"name\":\"json5\",\"purl\":\"pkg:npm/json5@2.2.3\",\"uuid\":\"ba91255e-6d0a-4273-9791-08988eb4aa2d\",\"version\":\"2.2.3\",\"purlCoordinates\":\"pkg:npm/json5@2.2.3\",\"objectType\":\"COMPONENT\"},{\"name\":\"gensync\",\"purl\":\"pkg:npm/gensync@1.0.0-beta.2\",\"uuid\":\"97294a81-6bf2-4ba0-b751-2e5aab131b99\",\"version\":\"1.0.0-beta.2\",\"purlCoordinates\":\"pkg:npm/gensync@1.0.0-beta.2\",\"objectType\":\"COMPONENT\"},{\"name\":\"traverse\",\"purl\":\"pkg:npm/%40babel/traverse@7.29.8#packages/babel-traverse\",\"uuid\":\"b1233339-cb4e-492d-a765-32a66013069e\",\"version\":\"7.29.8\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/traverse@7.29.8\",\"objectType\":\"COMPONENT\"},{\"name\":\"helpers\",\"purl\":\"pkg:npm/%40babel/helpers@7.29.7#packages/babel-helpers\",\"uuid\":\"e3ed21b2-50d0-4fcd-9de3-1c342b50e31f\",\"version\":\"7.29.7\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/helpers@7.29.7\",\"objectType\":\"COMPONENT\"}]",
+    "externalReferences": [
+      {
+        "type": "vcs",
+        "url": "git+https://github.com/babel/babel.git#packages/babel-core",
+        "comment": "as detected from PackageJson property \"repository.url\" and \"repository.directory\""
+      },
+      {
+        "type": "website",
+        "url": "https://babel.dev/docs/en/next/babel-core",
+        "comment": "as detected from PackageJson property \"homepage\""
+      },
+      {
+        "type": "issue-tracker",
+        "url": "https://github.com/babel/babel/issues?utf8=%E2%9C%93&q=is%3Aissue+label%3A%22pkg%3A%20core%22+is%3Aopen",
+        "comment": "as detected from PackageJson property \"bugs.url\""
+      },
+      {
+        "type": "distribution",
+        "url": "https://registry.npmjs.org/@babel/core/-/core-7.23.2.tgz",
+        "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+      }
+    ],
+    "project": {
+      "authors": [],
+      "name": "babel-transitive-demo",
+      "version": "fixed-target-cve",
+      "classifier": "APPLICATION",
+      "collectionLogic": "NONE",
+      "purl": "pkg:npm/babel-transitive-demo@1.0.1",
+      "directDependencies": "[{\"name\":\"core\",\"purl\":\"pkg:npm/%40babel/core@7.23.2#packages/babel-core\",\"uuid\":\"93ee69e8-21eb-4d0c-90e9-4bb05ebf55b6\",\"version\":\"7.23.2\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/core@7.23.2\",\"objectType\":\"COMPONENT\"}]",
+      "uuid": "93a4d121-d583-454d-8fb7-a5e1056e7082",
+      "properties": [],
+      "tags": [],
+      "lastBomImport": 1790709403116,
+      "lastBomImportFormat": "CycloneDX 1.6",
+      "lastInheritedRiskScore": 1.0,
+      "lastVulnerabilityAnalysis": 1790709403507,
+      "active": true,
+      "isLatest": false
+    },
+    "lastInheritedRiskScore": 1.0,
+    "uuid": "93ee69e8-21eb-4d0c-90e9-4bb05ebf55b6",
+    "author": "The Babel Team",
+    "metrics": {
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 1,
+      "unassigned": 0,
+      "vulnerabilities": 1,
+      "suppressed": 0,
+      "findingsTotal": 1,
+      "findingsAudited": 0,
+      "findingsUnaudited": 1,
+      "inheritedRiskScore": 1.0,
+      "policyViolationsFail": 0,
+      "policyViolationsWarn": 0,
+      "policyViolationsInfo": 0,
+      "policyViolationsTotal": 0,
+      "policyViolationsAudited": 0,
+      "policyViolationsUnaudited": 0,
+      "policyViolationsSecurityTotal": 0,
+      "policyViolationsSecurityAudited": 0,
+      "policyViolationsSecurityUnaudited": 0,
+      "policyViolationsLicenseTotal": 0,
+      "policyViolationsLicenseAudited": 0,
+      "policyViolationsLicenseUnaudited": 0,
+      "policyViolationsOperationalTotal": 0,
+      "policyViolationsOperationalAudited": 0,
+      "policyViolationsOperationalUnaudited": 0,
+      "firstOccurrence": 1790709403781,
+      "lastOccurrence": 1790709404370
+    },
+    "repositoryMeta": {
+      "repositoryType": "NPM",
+      "namespace": "@babel",
+      "name": "core",
+      "latestVersion": "8.0.6",
+      "lastCheck": 1790709190605
+    },
+    "expandDependencyGraph": false,
+    "isInternal": false
+  },
+  {
+    "authors": [
+      {
+        "name": "Josh Junon"
+      }
+    ],
+    "name": "debug",
+    "version": "4.4.3",
+    "classifier": "LIBRARY",
+    "purl": "pkg:npm/debug@4.4.3",
+    "purlCoordinates": "pkg:npm/debug@4.4.3",
+    "description": "Lightweight debugging utility for Node.js and the browser",
+    "resolvedLicense": {
+      "uuid": "80fb3e17-511b-4d4a-bab2-87f8ef1aa7b9",
+      "name": "MIT License",
+      "licenseId": "MIT",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isDeprecatedLicenseId": false,
+      "isCustomLicense": false
+    },
+    "directDependencies": "[{\"name\":\"ms\",\"purl\":\"pkg:npm/ms@2.1.3\",\"uuid\":\"470dc048-f4b2-4d76-8bbb-f54de408eb8b\",\"version\":\"2.1.3\",\"purlCoordinates\":\"pkg:npm/ms@2.1.3\",\"objectType\":\"COMPONENT\"}]",
+    "externalReferences": [
+      {
+        "type": "vcs",
+        "url": "git://github.com/debug-js/debug.git",
+        "comment": "as detected from PackageJson property \"repository.url\""
+      },
+      {
+        "type": "website",
+        "url": "https://github.com/debug-js/debug#readme",
+        "comment": "as detected from PackageJson property \"homepage\""
+      },
+      {
+        "type": "issue-tracker",
+        "url": "https://github.com/debug-js/debug/issues",
+        "comment": "as detected from PackageJson property \"bugs.url\""
+      },
+      {
+        "type": "distribution",
+        "url": "https://registry.npmjs.org/debug/-/debug-4.4.3.tgz",
+        "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+      }
+    ],
+    "project": {
+      "authors": [],
+      "name": "babel-transitive-demo",
+      "version": "fixed-target-cve",
+      "classifier": "APPLICATION",
+      "collectionLogic": "NONE",
+      "purl": "pkg:npm/babel-transitive-demo@1.0.1",
+      "directDependencies": "[{\"name\":\"core\",\"purl\":\"pkg:npm/%40babel/core@7.23.2#packages/babel-core\",\"uuid\":\"93ee69e8-21eb-4d0c-90e9-4bb05ebf55b6\",\"version\":\"7.23.2\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/core@7.23.2\",\"objectType\":\"COMPONENT\"}]",
+      "uuid": "93a4d121-d583-454d-8fb7-a5e1056e7082",
+      "properties": [],
+      "tags": [],
+      "lastBomImport": 1790709403116,
+      "lastBomImportFormat": "CycloneDX 1.6",
+      "lastInheritedRiskScore": 1.0,
+      "lastVulnerabilityAnalysis": 1790709403507,
+      "active": true,
+      "isLatest": false
+    },
+    "lastInheritedRiskScore": 0.0,
+    "uuid": "afcf3b39-75f7-4bfb-a323-1cb1eca5733f",
+    "author": "Josh Junon",
+    "metrics": {
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 0,
+      "unassigned": 0,
+      "vulnerabilities": 0,
+      "suppressed": 0,
+      "findingsTotal": 0,
+      "findingsAudited": 0,
+      "findingsUnaudited": 0,
+      "inheritedRiskScore": 0.0,
+      "policyViolationsFail": 0,
+      "policyViolationsWarn": 0,
+      "policyViolationsInfo": 0,
+      "policyViolationsTotal": 0,
+      "policyViolationsAudited": 0,
+      "policyViolationsUnaudited": 0,
+      "policyViolationsSecurityTotal": 0,
+      "policyViolationsSecurityAudited": 0,
+      "policyViolationsSecurityUnaudited": 0,
+      "policyViolationsLicenseTotal": 0,
+      "policyViolationsLicenseAudited": 0,
+      "policyViolationsLicenseUnaudited": 0,
+      "policyViolationsOperationalTotal": 0,
+      "policyViolationsOperationalAudited": 0,
+      "policyViolationsOperationalUnaudited": 0,
+      "firstOccurrence": 1790709403733,
+      "lastOccurrence": 1790709404351
+    },
+    "repositoryMeta": {
+      "repositoryType": "NPM",
+      "name": "debug",
+      "latestVersion": "4.4.3",
+      "lastCheck": 1790709196112
+    },
+    "expandDependencyGraph": false,
+    "isInternal": false
+  },
+  {
+    "authors": [
+      {
+        "name": "Kilian Valkhof"
+      }
+    ],
+    "name": "electron-to-chromium",
+    "version": "1.5.440",
+    "classifier": "LIBRARY",
+    "purl": "pkg:npm/electron-to-chromium@1.5.440",
+    "purlCoordinates": "pkg:npm/electron-to-chromium@1.5.440",
+    "description": "Provides a list of electron-to-chromium version mappings",
+    "resolvedLicense": {
+      "uuid": "45bb401a-25fa-4797-8f4f-c96d3ed92efe",
+      "name": "ISC License",
+      "licenseId": "ISC",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isDeprecatedLicenseId": false,
+      "isCustomLicense": false
+    },
+    "externalReferences": [
+      {
+        "type": "vcs",
+        "url": "git+https://github.com/Kilian/electron-to-chromium.git",
+        "comment": "as detected from PackageJson property \"repository.url\""
+      },
+      {
+        "type": "website",
+        "url": "https://github.com/Kilian/electron-to-chromium#readme",
+        "comment": "as detected from PackageJson property \"homepage\""
+      },
+      {
+        "type": "issue-tracker",
+        "url": "https://github.com/Kilian/electron-to-chromium/issues",
+        "comment": "as detected from PackageJson property \"bugs.url\""
+      },
+      {
+        "type": "distribution",
+        "url": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.440.tgz",
+        "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+      }
+    ],
+    "project": {
+      "authors": [],
+      "name": "babel-transitive-demo",
+      "version": "fixed-target-cve",
+      "classifier": "APPLICATION",
+      "collectionLogic": "NONE",
+      "purl": "pkg:npm/babel-transitive-demo@1.0.1",
+      "directDependencies": "[{\"name\":\"core\",\"purl\":\"pkg:npm/%40babel/core@7.23.2#packages/babel-core\",\"uuid\":\"93ee69e8-21eb-4d0c-90e9-4bb05ebf55b6\",\"version\":\"7.23.2\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/core@7.23.2\",\"objectType\":\"COMPONENT\"}]",
+      "uuid": "93a4d121-d583-454d-8fb7-a5e1056e7082",
+      "properties": [],
+      "tags": [],
+      "lastBomImport": 1790709403116,
+      "lastBomImportFormat": "CycloneDX 1.6",
+      "lastInheritedRiskScore": 1.0,
+      "lastVulnerabilityAnalysis": 1790709403507,
+      "active": true,
+      "isLatest": false
+    },
+    "lastInheritedRiskScore": 0.0,
+    "uuid": "28705deb-826f-4eba-b37e-40af5f235ae2",
+    "author": "Kilian Valkhof",
+    "metrics": {
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 0,
+      "unassigned": 0,
+      "vulnerabilities": 0,
+      "suppressed": 0,
+      "findingsTotal": 0,
+      "findingsAudited": 0,
+      "findingsUnaudited": 0,
+      "inheritedRiskScore": 0.0,
+      "policyViolationsFail": 0,
+      "policyViolationsWarn": 0,
+      "policyViolationsInfo": 0,
+      "policyViolationsTotal": 0,
+      "policyViolationsAudited": 0,
+      "policyViolationsUnaudited": 0,
+      "policyViolationsSecurityTotal": 0,
+      "policyViolationsSecurityAudited": 0,
+      "policyViolationsSecurityUnaudited": 0,
+      "policyViolationsLicenseTotal": 0,
+      "policyViolationsLicenseAudited": 0,
+      "policyViolationsLicenseUnaudited": 0,
+      "policyViolationsOperationalTotal": 0,
+      "policyViolationsOperationalAudited": 0,
+      "policyViolationsOperationalUnaudited": 0,
+      "firstOccurrence": 1790709403641,
+      "lastOccurrence": 1790709404335
+    },
+    "repositoryMeta": {
+      "repositoryType": "NPM",
+      "name": "electron-to-chromium",
+      "latestVersion": "1.5.440",
+      "lastCheck": 1790709193941
+    },
+    "expandDependencyGraph": false,
+    "isInternal": false
+  },
+  {
+    "authors": [
+      {
+        "name": "Luke Edwards"
+      }
+    ],
+    "name": "escalade",
+    "version": "3.2.0",
+    "classifier": "LIBRARY",
+    "purl": "pkg:npm/escalade@3.2.0",
+    "purlCoordinates": "pkg:npm/escalade@3.2.0",
+    "description": "A tiny (183B to 210B) and fast utility to ascend parent directories",
+    "resolvedLicense": {
+      "uuid": "80fb3e17-511b-4d4a-bab2-87f8ef1aa7b9",
+      "name": "MIT License",
+      "licenseId": "MIT",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isDeprecatedLicenseId": false,
+      "isCustomLicense": false
+    },
+    "externalReferences": [
+      {
+        "type": "vcs",
+        "url": "git+https://github.com/lukeed/escalade.git",
+        "comment": "as detected from PackageJson property \"repository.url\""
+      },
+      {
+        "type": "website",
+        "url": "https://github.com/lukeed/escalade#readme",
+        "comment": "as detected from PackageJson property \"homepage\""
+      },
+      {
+        "type": "issue-tracker",
+        "url": "https://github.com/lukeed/escalade/issues",
+        "comment": "as detected from PackageJson property \"bugs.url\""
+      },
+      {
+        "type": "distribution",
+        "url": "https://registry.npmjs.org/escalade/-/escalade-3.2.0.tgz",
+        "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+      }
+    ],
+    "project": {
+      "authors": [],
+      "name": "babel-transitive-demo",
+      "version": "fixed-target-cve",
+      "classifier": "APPLICATION",
+      "collectionLogic": "NONE",
+      "purl": "pkg:npm/babel-transitive-demo@1.0.1",
+      "directDependencies": "[{\"name\":\"core\",\"purl\":\"pkg:npm/%40babel/core@7.23.2#packages/babel-core\",\"uuid\":\"93ee69e8-21eb-4d0c-90e9-4bb05ebf55b6\",\"version\":\"7.23.2\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/core@7.23.2\",\"objectType\":\"COMPONENT\"}]",
+      "uuid": "93a4d121-d583-454d-8fb7-a5e1056e7082",
+      "properties": [],
+      "tags": [],
+      "lastBomImport": 1790709403116,
+      "lastBomImportFormat": "CycloneDX 1.6",
+      "lastInheritedRiskScore": 1.0,
+      "lastVulnerabilityAnalysis": 1790709403507,
+      "active": true,
+      "isLatest": false
+    },
+    "lastInheritedRiskScore": 0.0,
+    "uuid": "4634cf37-03c7-4d0b-ba63-79688c59f288",
+    "author": "Luke Edwards",
+    "metrics": {
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 0,
+      "unassigned": 0,
+      "vulnerabilities": 0,
+      "suppressed": 0,
+      "findingsTotal": 0,
+      "findingsAudited": 0,
+      "findingsUnaudited": 0,
+      "inheritedRiskScore": 0.0,
+      "policyViolationsFail": 0,
+      "policyViolationsWarn": 0,
+      "policyViolationsInfo": 0,
+      "policyViolationsTotal": 0,
+      "policyViolationsAudited": 0,
+      "policyViolationsUnaudited": 0,
+      "policyViolationsSecurityTotal": 0,
+      "policyViolationsSecurityAudited": 0,
+      "policyViolationsSecurityUnaudited": 0,
+      "policyViolationsLicenseTotal": 0,
+      "policyViolationsLicenseAudited": 0,
+      "policyViolationsLicenseUnaudited": 0,
+      "policyViolationsOperationalTotal": 0,
+      "policyViolationsOperationalAudited": 0,
+      "policyViolationsOperationalUnaudited": 0,
+      "firstOccurrence": 1790709403622,
+      "lastOccurrence": 1790709404327
+    },
+    "repositoryMeta": {
+      "repositoryType": "NPM",
+      "name": "escalade",
+      "latestVersion": "3.2.0",
+      "lastCheck": 1790709200237
+    },
+    "expandDependencyGraph": false,
+    "isInternal": false
+  },
+  {
+    "authors": [
+      {
+        "name": "Justin Ridgewell"
+      }
+    ],
+    "group": "@jridgewell",
+    "name": "gen-mapping",
+    "version": "0.3.13",
+    "classifier": "LIBRARY",
+    "purl": "pkg:npm/%40jridgewell/gen-mapping@0.3.13#packages/gen-mapping",
+    "purlCoordinates": "pkg:npm/%40jridgewell/gen-mapping@0.3.13",
+    "description": "Generate source maps",
+    "resolvedLicense": {
+      "uuid": "80fb3e17-511b-4d4a-bab2-87f8ef1aa7b9",
+      "name": "MIT License",
+      "licenseId": "MIT",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isDeprecatedLicenseId": false,
+      "isCustomLicense": false
+    },
+    "directDependencies": "[{\"name\":\"sourcemap-codec\",\"purl\":\"pkg:npm/%40jridgewell/sourcemap-codec@1.6.0#packages/sourcemap-codec\",\"uuid\":\"230a3187-3f28-439d-8fbf-501a0c90c2b5\",\"version\":\"1.6.0\",\"group\":\"@jridgewell\",\"purlCoordinates\":\"pkg:npm/%40jridgewell/sourcemap-codec@1.6.0\",\"objectType\":\"COMPONENT\"},{\"name\":\"trace-mapping\",\"purl\":\"pkg:npm/%40jridgewell/trace-mapping@0.3.31#packages/trace-mapping\",\"uuid\":\"b71eabbf-da5c-4da5-a985-45f2294ffeef\",\"version\":\"0.3.31\",\"group\":\"@jridgewell\",\"purlCoordinates\":\"pkg:npm/%40jridgewell/trace-mapping@0.3.31\",\"objectType\":\"COMPONENT\"}]",
+    "externalReferences": [
+      {
+        "type": "vcs",
+        "url": "git+https://github.com/jridgewell/sourcemaps.git#packages/gen-mapping",
+        "comment": "as detected from PackageJson property \"repository.url\" and \"repository.directory\""
+      },
+      {
+        "type": "website",
+        "url": "https://github.com/jridgewell/sourcemaps/tree/main/packages/gen-mapping",
+        "comment": "as detected from PackageJson property \"homepage\""
+      },
+      {
+        "type": "issue-tracker",
+        "url": "https://github.com/jridgewell/sourcemaps/issues",
+        "comment": "as detected from PackageJson property \"bugs.url\""
+      },
+      {
+        "type": "distribution",
+        "url": "https://registry.npmjs.org/@jridgewell/gen-mapping/-/gen-mapping-0.3.13.tgz",
+        "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+      }
+    ],
+    "project": {
+      "authors": [],
+      "name": "babel-transitive-demo",
+      "version": "fixed-target-cve",
+      "classifier": "APPLICATION",
+      "collectionLogic": "NONE",
+      "purl": "pkg:npm/babel-transitive-demo@1.0.1",
+      "directDependencies": "[{\"name\":\"core\",\"purl\":\"pkg:npm/%40babel/core@7.23.2#packages/babel-core\",\"uuid\":\"93ee69e8-21eb-4d0c-90e9-4bb05ebf55b6\",\"version\":\"7.23.2\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/core@7.23.2\",\"objectType\":\"COMPONENT\"}]",
+      "uuid": "93a4d121-d583-454d-8fb7-a5e1056e7082",
+      "properties": [],
+      "tags": [],
+      "lastBomImport": 1790709403116,
+      "lastBomImportFormat": "CycloneDX 1.6",
+      "lastInheritedRiskScore": 1.0,
+      "lastVulnerabilityAnalysis": 1790709403507,
+      "active": true,
+      "isLatest": false
+    },
+    "lastInheritedRiskScore": 0.0,
+    "uuid": "df1ad5ef-c44b-4f8e-8c09-6268897f8f38",
+    "author": "Justin Ridgewell",
+    "metrics": {
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 0,
+      "unassigned": 0,
+      "vulnerabilities": 0,
+      "suppressed": 0,
+      "findingsTotal": 0,
+      "findingsAudited": 0,
+      "findingsUnaudited": 0,
+      "inheritedRiskScore": 0.0,
+      "policyViolationsFail": 0,
+      "policyViolationsWarn": 0,
+      "policyViolationsInfo": 0,
+      "policyViolationsTotal": 0,
+      "policyViolationsAudited": 0,
+      "policyViolationsUnaudited": 0,
+      "policyViolationsSecurityTotal": 0,
+      "policyViolationsSecurityAudited": 0,
+      "policyViolationsSecurityUnaudited": 0,
+      "policyViolationsLicenseTotal": 0,
+      "policyViolationsLicenseAudited": 0,
+      "policyViolationsLicenseUnaudited": 0,
+      "policyViolationsOperationalTotal": 0,
+      "policyViolationsOperationalAudited": 0,
+      "policyViolationsOperationalUnaudited": 0,
+      "firstOccurrence": 1790709403717,
+      "lastOccurrence": 1790709404348
+    },
+    "repositoryMeta": {
+      "repositoryType": "NPM",
+      "namespace": "@jridgewell",
+      "name": "gen-mapping",
+      "latestVersion": "0.3.13",
+      "lastCheck": 1790709193646
+    },
+    "expandDependencyGraph": false,
+    "isInternal": false
+  },
+  {
+    "authors": [
+      {
+        "name": "The Babel Team"
+      }
+    ],
+    "group": "@babel",
+    "name": "generator",
+    "version": "7.29.8",
+    "classifier": "LIBRARY",
+    "purl": "pkg:npm/%40babel/generator@7.29.8#packages/babel-generator",
+    "purlCoordinates": "pkg:npm/%40babel/generator@7.29.8",
+    "description": "Turns an AST into code.",
+    "resolvedLicense": {
+      "uuid": "80fb3e17-511b-4d4a-bab2-87f8ef1aa7b9",
+      "name": "MIT License",
+      "licenseId": "MIT",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isDeprecatedLicenseId": false,
+      "isCustomLicense": false
+    },
+    "directDependencies": "[{\"name\":\"types\",\"purl\":\"pkg:npm/%40babel/types@7.29.8#packages/babel-types\",\"uuid\":\"e2350ef7-ac72-4e88-8a23-276d67acce10\",\"version\":\"7.29.8\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/types@7.29.8\",\"objectType\":\"COMPONENT\"},{\"name\":\"parser\",\"purl\":\"pkg:npm/%40babel/parser@7.29.9#packages/babel-parser\",\"uuid\":\"66f41d83-a368-473a-8be1-11855953cdae\",\"version\":\"7.29.9\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/parser@7.29.9\",\"objectType\":\"COMPONENT\"},{\"name\":\"jsesc\",\"purl\":\"pkg:npm/jsesc@3.1.0\",\"uuid\":\"6c072082-7540-4649-a953-8af2727696ac\",\"version\":\"3.1.0\",\"purlCoordinates\":\"pkg:npm/jsesc@3.1.0\",\"objectType\":\"COMPONENT\"},{\"name\":\"trace-mapping\",\"purl\":\"pkg:npm/%40jridgewell/trace-mapping@0.3.31#packages/trace-mapping\",\"uuid\":\"b71eabbf-da5c-4da5-a985-45f2294ffeef\",\"version\":\"0.3.31\",\"group\":\"@jridgewell\",\"purlCoordinates\":\"pkg:npm/%40jridgewell/trace-mapping@0.3.31\",\"objectType\":\"COMPONENT\"},{\"name\":\"gen-mapping\",\"purl\":\"pkg:npm/%40jridgewell/gen-mapping@0.3.13#packages/gen-mapping\",\"uuid\":\"df1ad5ef-c44b-4f8e-8c09-6268897f8f38\",\"version\":\"0.3.13\",\"group\":\"@jridgewell\",\"purlCoordinates\":\"pkg:npm/%40jridgewell/gen-mapping@0.3.13\",\"objectType\":\"COMPONENT\"}]",
+    "externalReferences": [
+      {
+        "type": "vcs",
+        "url": "git+https://github.com/babel/babel.git#packages/babel-generator",
+        "comment": "as detected from PackageJson property \"repository.url\" and \"repository.directory\""
+      },
+      {
+        "type": "website",
+        "url": "https://babel.dev/docs/en/next/babel-generator",
+        "comment": "as detected from PackageJson property \"homepage\""
+      },
+      {
+        "type": "issue-tracker",
+        "url": "https://github.com/babel/babel/issues?utf8=%E2%9C%93&q=is%3Aissue+label%3A%22pkg%3A%20generator%22+is%3Aopen",
+        "comment": "as detected from PackageJson property \"bugs.url\""
+      },
+      {
+        "type": "distribution",
+        "url": "https://registry.npmjs.org/@babel/generator/-/generator-7.29.8.tgz",
+        "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+      }
+    ],
+    "project": {
+      "authors": [],
+      "name": "babel-transitive-demo",
+      "version": "fixed-target-cve",
+      "classifier": "APPLICATION",
+      "collectionLogic": "NONE",
+      "purl": "pkg:npm/babel-transitive-demo@1.0.1",
+      "directDependencies": "[{\"name\":\"core\",\"purl\":\"pkg:npm/%40babel/core@7.23.2#packages/babel-core\",\"uuid\":\"93ee69e8-21eb-4d0c-90e9-4bb05ebf55b6\",\"version\":\"7.23.2\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/core@7.23.2\",\"objectType\":\"COMPONENT\"}]",
+      "uuid": "93a4d121-d583-454d-8fb7-a5e1056e7082",
+      "properties": [],
+      "tags": [],
+      "lastBomImport": 1790709403116,
+      "lastBomImportFormat": "CycloneDX 1.6",
+      "lastInheritedRiskScore": 1.0,
+      "lastVulnerabilityAnalysis": 1790709403507,
+      "active": true,
+      "isLatest": false
+    },
+    "lastInheritedRiskScore": 0.0,
+    "uuid": "bfa84230-65a8-44f1-aa04-580ebb4b5091",
+    "author": "The Babel Team",
+    "metrics": {
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 0,
+      "unassigned": 0,
+      "vulnerabilities": 0,
+      "suppressed": 0,
+      "findingsTotal": 0,
+      "findingsAudited": 0,
+      "findingsUnaudited": 0,
+      "inheritedRiskScore": 0.0,
+      "policyViolationsFail": 0,
+      "policyViolationsWarn": 0,
+      "policyViolationsInfo": 0,
+      "policyViolationsTotal": 0,
+      "policyViolationsAudited": 0,
+      "policyViolationsUnaudited": 0,
+      "policyViolationsSecurityTotal": 0,
+      "policyViolationsSecurityAudited": 0,
+      "policyViolationsSecurityUnaudited": 0,
+      "policyViolationsLicenseTotal": 0,
+      "policyViolationsLicenseAudited": 0,
+      "policyViolationsLicenseUnaudited": 0,
+      "policyViolationsOperationalTotal": 0,
+      "policyViolationsOperationalAudited": 0,
+      "policyViolationsOperationalUnaudited": 0,
+      "firstOccurrence": 1790709403773,
+      "lastOccurrence": 1790709404367
+    },
+    "repositoryMeta": {
+      "repositoryType": "NPM",
+      "namespace": "@babel",
+      "name": "generator",
+      "latestVersion": "8.0.6",
+      "lastCheck": 1790709197363
+    },
+    "expandDependencyGraph": false,
+    "isInternal": false
+  },
+  {
+    "authors": [
+      {
+        "name": "Logan Smyth"
+      }
+    ],
+    "name": "gensync",
+    "version": "1.0.0-beta.2",
+    "classifier": "LIBRARY",
+    "purl": "pkg:npm/gensync@1.0.0-beta.2",
+    "purlCoordinates": "pkg:npm/gensync@1.0.0-beta.2",
+    "description": "Allows users to use generators in order to write common functions that can be both sync or async.",
+    "resolvedLicense": {
+      "uuid": "80fb3e17-511b-4d4a-bab2-87f8ef1aa7b9",
+      "name": "MIT License",
+      "licenseId": "MIT",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isDeprecatedLicenseId": false,
+      "isCustomLicense": false
+    },
+    "externalReferences": [
+      {
+        "type": "vcs",
+        "url": "git+https://github.com/loganfsmyth/gensync.git",
+        "comment": "as detected from PackageJson property \"repository.url\""
+      },
+      {
+        "type": "website",
+        "url": "https://github.com/loganfsmyth/gensync",
+        "comment": "as detected from PackageJson property \"homepage\""
+      },
+      {
+        "type": "issue-tracker",
+        "url": "https://github.com/loganfsmyth/gensync/issues",
+        "comment": "as detected from PackageJson property \"bugs.url\""
+      },
+      {
+        "type": "distribution",
+        "url": "https://registry.npmjs.org/gensync/-/gensync-1.0.0-beta.2.tgz",
+        "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+      }
+    ],
+    "project": {
+      "authors": [],
+      "name": "babel-transitive-demo",
+      "version": "fixed-target-cve",
+      "classifier": "APPLICATION",
+      "collectionLogic": "NONE",
+      "purl": "pkg:npm/babel-transitive-demo@1.0.1",
+      "directDependencies": "[{\"name\":\"core\",\"purl\":\"pkg:npm/%40babel/core@7.23.2#packages/babel-core\",\"uuid\":\"93ee69e8-21eb-4d0c-90e9-4bb05ebf55b6\",\"version\":\"7.23.2\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/core@7.23.2\",\"objectType\":\"COMPONENT\"}]",
+      "uuid": "93a4d121-d583-454d-8fb7-a5e1056e7082",
+      "properties": [],
+      "tags": [],
+      "lastBomImport": 1790709403116,
+      "lastBomImportFormat": "CycloneDX 1.6",
+      "lastInheritedRiskScore": 1.0,
+      "lastVulnerabilityAnalysis": 1790709403507,
+      "active": true,
+      "isLatest": false
+    },
+    "lastInheritedRiskScore": 0.0,
+    "uuid": "97294a81-6bf2-4ba0-b751-2e5aab131b99",
+    "author": "Logan Smyth",
+    "metrics": {
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 0,
+      "unassigned": 0,
+      "vulnerabilities": 0,
+      "suppressed": 0,
+      "findingsTotal": 0,
+      "findingsAudited": 0,
+      "findingsUnaudited": 0,
+      "inheritedRiskScore": 0.0,
+      "policyViolationsFail": 0,
+      "policyViolationsWarn": 0,
+      "policyViolationsInfo": 0,
+      "policyViolationsTotal": 0,
+      "policyViolationsAudited": 0,
+      "policyViolationsUnaudited": 0,
+      "policyViolationsSecurityTotal": 0,
+      "policyViolationsSecurityAudited": 0,
+      "policyViolationsSecurityUnaudited": 0,
+      "policyViolationsLicenseTotal": 0,
+      "policyViolationsLicenseAudited": 0,
+      "policyViolationsLicenseUnaudited": 0,
+      "policyViolationsOperationalTotal": 0,
+      "policyViolationsOperationalAudited": 0,
+      "policyViolationsOperationalUnaudited": 0,
+      "firstOccurrence": 1790709403729,
+      "lastOccurrence": 1790709404350
+    },
+    "repositoryMeta": {
+      "repositoryType": "NPM",
+      "name": "gensync",
+      "latestVersion": "1.0.0-beta.2",
+      "lastCheck": 1790709194579
+    },
+    "expandDependencyGraph": false,
+    "isInternal": false
+  },
+  {
+    "authors": [
+      {
+        "name": "The Babel Team"
+      }
+    ],
+    "group": "@babel",
+    "name": "helper-compilation-targets",
+    "version": "7.29.7",
+    "classifier": "LIBRARY",
+    "purl": "pkg:npm/%40babel/helper-compilation-targets@7.29.7#packages/babel-helper-compilation-targets",
+    "purlCoordinates": "pkg:npm/%40babel/helper-compilation-targets@7.29.7",
+    "description": "Helper functions on Babel compilation targets",
+    "resolvedLicense": {
+      "uuid": "80fb3e17-511b-4d4a-bab2-87f8ef1aa7b9",
+      "name": "MIT License",
+      "licenseId": "MIT",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isDeprecatedLicenseId": false,
+      "isCustomLicense": false
+    },
+    "directDependencies": "[{\"name\":\"lru-cache\",\"purl\":\"pkg:npm/lru-cache@5.1.1\",\"uuid\":\"27602102-a23a-4ace-b447-7343ab5e4035\",\"version\":\"5.1.1\",\"purlCoordinates\":\"pkg:npm/lru-cache@5.1.1\",\"objectType\":\"COMPONENT\"},{\"name\":\"compat-data\",\"purl\":\"pkg:npm/%40babel/compat-data@7.29.7#packages/babel-compat-data\",\"uuid\":\"5a8823ba-1b3f-4adb-a1e9-147e5ee6b288\",\"version\":\"7.29.7\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/compat-data@7.29.7\",\"objectType\":\"COMPONENT\"},{\"name\":\"helper-validator-option\",\"purl\":\"pkg:npm/%40babel/helper-validator-option@7.29.7#packages/babel-helper-validator-option\",\"uuid\":\"634b879e-e4a4-4e69-aef5-7f0e6800d96c\",\"version\":\"7.29.7\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/helper-validator-option@7.29.7\",\"objectType\":\"COMPONENT\"},{\"name\":\"semver\",\"purl\":\"pkg:npm/semver@6.3.1\",\"uuid\":\"6a04c3b5-b29d-4995-9b6a-c8065b5a1980\",\"version\":\"6.3.1\",\"purlCoordinates\":\"pkg:npm/semver@6.3.1\",\"objectType\":\"COMPONENT\"},{\"name\":\"browserslist\",\"purl\":\"pkg:npm/browserslist@4.29.3\",\"uuid\":\"06978293-6b8c-415a-9203-05e1013e8fdd\",\"version\":\"4.29.3\",\"purlCoordinates\":\"pkg:npm/browserslist@4.29.3\",\"objectType\":\"COMPONENT\"}]",
+    "externalReferences": [
+      {
+        "type": "vcs",
+        "url": "git+https://github.com/babel/babel.git#packages/babel-helper-compilation-targets",
+        "comment": "as detected from PackageJson property \"repository.url\" and \"repository.directory\""
+      },
+      {
+        "type": "website",
+        "url": "https://github.com/babel/babel#readme",
+        "comment": "as detected from PackageJson property \"homepage\""
+      },
+      {
+        "type": "issue-tracker",
+        "url": "https://github.com/babel/babel/issues",
+        "comment": "as detected from PackageJson property \"bugs.url\""
+      },
+      {
+        "type": "distribution",
+        "url": "https://registry.npmjs.org/@babel/helper-compilation-targets/-/helper-compilation-targets-7.29.7.tgz",
+        "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+      }
+    ],
+    "project": {
+      "authors": [],
+      "name": "babel-transitive-demo",
+      "version": "fixed-target-cve",
+      "classifier": "APPLICATION",
+      "collectionLogic": "NONE",
+      "purl": "pkg:npm/babel-transitive-demo@1.0.1",
+      "directDependencies": "[{\"name\":\"core\",\"purl\":\"pkg:npm/%40babel/core@7.23.2#packages/babel-core\",\"uuid\":\"93ee69e8-21eb-4d0c-90e9-4bb05ebf55b6\",\"version\":\"7.23.2\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/core@7.23.2\",\"objectType\":\"COMPONENT\"}]",
+      "uuid": "93a4d121-d583-454d-8fb7-a5e1056e7082",
+      "properties": [],
+      "tags": [],
+      "lastBomImport": 1790709403116,
+      "lastBomImportFormat": "CycloneDX 1.6",
+      "lastInheritedRiskScore": 1.0,
+      "lastVulnerabilityAnalysis": 1790709403507,
+      "active": true,
+      "isLatest": false
+    },
+    "lastInheritedRiskScore": 0.0,
+    "uuid": "950997d2-f1e7-40a1-bdf1-5c1c5820a1fd",
+    "author": "The Babel Team",
+    "metrics": {
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 0,
+      "unassigned": 0,
+      "vulnerabilities": 0,
+      "suppressed": 0,
+      "findingsTotal": 0,
+      "findingsAudited": 0,
+      "findingsUnaudited": 0,
+      "inheritedRiskScore": 0.0,
+      "policyViolationsFail": 0,
+      "policyViolationsWarn": 0,
+      "policyViolationsInfo": 0,
+      "policyViolationsTotal": 0,
+      "policyViolationsAudited": 0,
+      "policyViolationsUnaudited": 0,
+      "policyViolationsSecurityTotal": 0,
+      "policyViolationsSecurityAudited": 0,
+      "policyViolationsSecurityUnaudited": 0,
+      "policyViolationsLicenseTotal": 0,
+      "policyViolationsLicenseAudited": 0,
+      "policyViolationsLicenseUnaudited": 0,
+      "policyViolationsOperationalTotal": 0,
+      "policyViolationsOperationalAudited": 0,
+      "policyViolationsOperationalUnaudited": 0,
+      "firstOccurrence": 1790709403770,
+      "lastOccurrence": 1790709404357
+    },
+    "repositoryMeta": {
+      "repositoryType": "NPM",
+      "namespace": "@babel",
+      "name": "helper-compilation-targets",
+      "latestVersion": "8.0.6",
+      "lastCheck": 1790709194286
+    },
+    "expandDependencyGraph": false,
+    "isInternal": false
+  },
+  {
+    "authors": [
+      {
+        "name": "The Babel Team"
+      }
+    ],
+    "group": "@babel",
+    "name": "helper-globals",
+    "version": "7.29.7",
+    "classifier": "LIBRARY",
+    "purl": "pkg:npm/%40babel/helper-globals@7.29.7#packages/babel-helper-globals",
+    "purlCoordinates": "pkg:npm/%40babel/helper-globals@7.29.7",
+    "description": "A collection of JavaScript globals for Babel internal usage",
+    "resolvedLicense": {
+      "uuid": "80fb3e17-511b-4d4a-bab2-87f8ef1aa7b9",
+      "name": "MIT License",
+      "licenseId": "MIT",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isDeprecatedLicenseId": false,
+      "isCustomLicense": false
+    },
+    "externalReferences": [
+      {
+        "type": "vcs",
+        "url": "git+https://github.com/babel/babel.git#packages/babel-helper-globals",
+        "comment": "as detected from PackageJson property \"repository.url\" and \"repository.directory\""
+      },
+      {
+        "type": "website",
+        "url": "https://github.com/babel/babel#readme",
+        "comment": "as detected from PackageJson property \"homepage\""
+      },
+      {
+        "type": "issue-tracker",
+        "url": "https://github.com/babel/babel/issues",
+        "comment": "as detected from PackageJson property \"bugs.url\""
+      },
+      {
+        "type": "distribution",
+        "url": "https://registry.npmjs.org/@babel/helper-globals/-/helper-globals-7.29.7.tgz",
+        "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+      }
+    ],
+    "project": {
+      "authors": [],
+      "name": "babel-transitive-demo",
+      "version": "fixed-target-cve",
+      "classifier": "APPLICATION",
+      "collectionLogic": "NONE",
+      "purl": "pkg:npm/babel-transitive-demo@1.0.1",
+      "directDependencies": "[{\"name\":\"core\",\"purl\":\"pkg:npm/%40babel/core@7.23.2#packages/babel-core\",\"uuid\":\"93ee69e8-21eb-4d0c-90e9-4bb05ebf55b6\",\"version\":\"7.23.2\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/core@7.23.2\",\"objectType\":\"COMPONENT\"}]",
+      "uuid": "93a4d121-d583-454d-8fb7-a5e1056e7082",
+      "properties": [],
+      "tags": [],
+      "lastBomImport": 1790709403116,
+      "lastBomImportFormat": "CycloneDX 1.6",
+      "lastInheritedRiskScore": 1.0,
+      "lastVulnerabilityAnalysis": 1790709403507,
+      "active": true,
+      "isLatest": false
+    },
+    "lastInheritedRiskScore": 0.0,
+    "uuid": "0f1cffde-4422-4029-908e-075e81cb48ca",
+    "author": "The Babel Team",
+    "metrics": {
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 0,
+      "unassigned": 0,
+      "vulnerabilities": 0,
+      "suppressed": 0,
+      "findingsTotal": 0,
+      "findingsAudited": 0,
+      "findingsUnaudited": 0,
+      "inheritedRiskScore": 0.0,
+      "policyViolationsFail": 0,
+      "policyViolationsWarn": 0,
+      "policyViolationsInfo": 0,
+      "policyViolationsTotal": 0,
+      "policyViolationsAudited": 0,
+      "policyViolationsUnaudited": 0,
+      "policyViolationsSecurityTotal": 0,
+      "policyViolationsSecurityAudited": 0,
+      "policyViolationsSecurityUnaudited": 0,
+      "policyViolationsLicenseTotal": 0,
+      "policyViolationsLicenseAudited": 0,
+      "policyViolationsLicenseUnaudited": 0,
+      "policyViolationsOperationalTotal": 0,
+      "policyViolationsOperationalAudited": 0,
+      "policyViolationsOperationalUnaudited": 0,
+      "firstOccurrence": 1790709403673,
+      "lastOccurrence": 1790709404340
+    },
+    "repositoryMeta": {
+      "repositoryType": "NPM",
+      "namespace": "@babel",
+      "name": "helper-globals",
+      "latestVersion": "8.0.6",
+      "lastCheck": 1790709404244
+    },
+    "expandDependencyGraph": false,
+    "isInternal": false
+  },
+  {
+    "authors": [
+      {
+        "name": "The Babel Team"
+      }
+    ],
+    "group": "@babel",
+    "name": "helper-module-imports",
+    "version": "7.29.7",
+    "classifier": "LIBRARY",
+    "purl": "pkg:npm/%40babel/helper-module-imports@7.29.7#packages/babel-helper-module-imports",
+    "purlCoordinates": "pkg:npm/%40babel/helper-module-imports@7.29.7",
+    "description": "Babel helper functions for inserting module loads",
+    "resolvedLicense": {
+      "uuid": "80fb3e17-511b-4d4a-bab2-87f8ef1aa7b9",
+      "name": "MIT License",
+      "licenseId": "MIT",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isDeprecatedLicenseId": false,
+      "isCustomLicense": false
+    },
+    "directDependencies": "[{\"name\":\"types\",\"purl\":\"pkg:npm/%40babel/types@7.29.8#packages/babel-types\",\"uuid\":\"e2350ef7-ac72-4e88-8a23-276d67acce10\",\"version\":\"7.29.8\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/types@7.29.8\",\"objectType\":\"COMPONENT\"},{\"name\":\"traverse\",\"purl\":\"pkg:npm/%40babel/traverse@7.29.8#packages/babel-traverse\",\"uuid\":\"b1233339-cb4e-492d-a765-32a66013069e\",\"version\":\"7.29.8\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/traverse@7.29.8\",\"objectType\":\"COMPONENT\"}]",
+    "externalReferences": [
+      {
+        "type": "vcs",
+        "url": "git+https://github.com/babel/babel.git#packages/babel-helper-module-imports",
+        "comment": "as detected from PackageJson property \"repository.url\" and \"repository.directory\""
+      },
+      {
+        "type": "website",
+        "url": "https://babel.dev/docs/en/next/babel-helper-module-imports",
+        "comment": "as detected from PackageJson property \"homepage\""
+      },
+      {
+        "type": "issue-tracker",
+        "url": "https://github.com/babel/babel/issues",
+        "comment": "as detected from PackageJson property \"bugs.url\""
+      },
+      {
+        "type": "distribution",
+        "url": "https://registry.npmjs.org/@babel/helper-module-imports/-/helper-module-imports-7.29.7.tgz",
+        "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+      }
+    ],
+    "project": {
+      "authors": [],
+      "name": "babel-transitive-demo",
+      "version": "fixed-target-cve",
+      "classifier": "APPLICATION",
+      "collectionLogic": "NONE",
+      "purl": "pkg:npm/babel-transitive-demo@1.0.1",
+      "directDependencies": "[{\"name\":\"core\",\"purl\":\"pkg:npm/%40babel/core@7.23.2#packages/babel-core\",\"uuid\":\"93ee69e8-21eb-4d0c-90e9-4bb05ebf55b6\",\"version\":\"7.23.2\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/core@7.23.2\",\"objectType\":\"COMPONENT\"}]",
+      "uuid": "93a4d121-d583-454d-8fb7-a5e1056e7082",
+      "properties": [],
+      "tags": [],
+      "lastBomImport": 1790709403116,
+      "lastBomImportFormat": "CycloneDX 1.6",
+      "lastInheritedRiskScore": 1.0,
+      "lastVulnerabilityAnalysis": 1790709403507,
+      "active": true,
+      "isLatest": false
+    },
+    "lastInheritedRiskScore": 0.0,
+    "uuid": "6e1294bd-8e42-4b96-bf82-8e2a21d74110",
+    "author": "The Babel Team",
+    "metrics": {
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 0,
+      "unassigned": 0,
+      "vulnerabilities": 0,
+      "suppressed": 0,
+      "findingsTotal": 0,
+      "findingsAudited": 0,
+      "findingsUnaudited": 0,
+      "inheritedRiskScore": 0.0,
+      "policyViolationsFail": 0,
+      "policyViolationsWarn": 0,
+      "policyViolationsInfo": 0,
+      "policyViolationsTotal": 0,
+      "policyViolationsAudited": 0,
+      "policyViolationsUnaudited": 0,
+      "policyViolationsSecurityTotal": 0,
+      "policyViolationsSecurityAudited": 0,
+      "policyViolationsSecurityUnaudited": 0,
+      "policyViolationsLicenseTotal": 0,
+      "policyViolationsLicenseAudited": 0,
+      "policyViolationsLicenseUnaudited": 0,
+      "policyViolationsOperationalTotal": 0,
+      "policyViolationsOperationalAudited": 0,
+      "policyViolationsOperationalUnaudited": 0,
+      "firstOccurrence": 1790709403677,
+      "lastOccurrence": 1790709404341
+    },
+    "repositoryMeta": {
+      "repositoryType": "NPM",
+      "namespace": "@babel",
+      "name": "helper-module-imports",
+      "latestVersion": "8.0.0",
+      "lastCheck": 1790709192132
+    },
+    "expandDependencyGraph": false,
+    "isInternal": false
+  },
+  {
+    "authors": [
+      {
+        "name": "The Babel Team"
+      }
+    ],
+    "group": "@babel",
+    "name": "helper-module-transforms",
+    "version": "7.29.7",
+    "classifier": "LIBRARY",
+    "purl": "pkg:npm/%40babel/helper-module-transforms@7.29.7#packages/babel-helper-module-transforms",
+    "purlCoordinates": "pkg:npm/%40babel/helper-module-transforms@7.29.7",
+    "description": "Babel helper functions for implementing ES6 module transformations",
+    "resolvedLicense": {
+      "uuid": "80fb3e17-511b-4d4a-bab2-87f8ef1aa7b9",
+      "name": "MIT License",
+      "licenseId": "MIT",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isDeprecatedLicenseId": false,
+      "isCustomLicense": false
+    },
+    "directDependencies": "[{\"name\":\"core\",\"purl\":\"pkg:npm/%40babel/core@7.23.2#packages/babel-core\",\"uuid\":\"93ee69e8-21eb-4d0c-90e9-4bb05ebf55b6\",\"version\":\"7.23.2\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/core@7.23.2\",\"objectType\":\"COMPONENT\"},{\"name\":\"traverse\",\"purl\":\"pkg:npm/%40babel/traverse@7.29.8#packages/babel-traverse\",\"uuid\":\"b1233339-cb4e-492d-a765-32a66013069e\",\"version\":\"7.29.8\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/traverse@7.29.8\",\"objectType\":\"COMPONENT\"},{\"name\":\"helper-module-imports\",\"purl\":\"pkg:npm/%40babel/helper-module-imports@7.29.7#packages/babel-helper-module-imports\",\"uuid\":\"6e1294bd-8e42-4b96-bf82-8e2a21d74110\",\"version\":\"7.29.7\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/helper-module-imports@7.29.7\",\"objectType\":\"COMPONENT\"},{\"name\":\"helper-validator-identifier\",\"purl\":\"pkg:npm/%40babel/helper-validator-identifier@7.29.7#packages/babel-helper-validator-identifier\",\"uuid\":\"4090f887-c992-40c3-afbd-b5b1ab9c1a3e\",\"version\":\"7.29.7\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/helper-validator-identifier@7.29.7\",\"objectType\":\"COMPONENT\"}]",
+    "externalReferences": [
+      {
+        "type": "vcs",
+        "url": "git+https://github.com/babel/babel.git#packages/babel-helper-module-transforms",
+        "comment": "as detected from PackageJson property \"repository.url\" and \"repository.directory\""
+      },
+      {
+        "type": "website",
+        "url": "https://babel.dev/docs/en/next/babel-helper-module-transforms",
+        "comment": "as detected from PackageJson property \"homepage\""
+      },
+      {
+        "type": "issue-tracker",
+        "url": "https://github.com/babel/babel/issues",
+        "comment": "as detected from PackageJson property \"bugs.url\""
+      },
+      {
+        "type": "distribution",
+        "url": "https://registry.npmjs.org/@babel/helper-module-transforms/-/helper-module-transforms-7.29.7.tgz",
+        "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+      }
+    ],
+    "project": {
+      "authors": [],
+      "name": "babel-transitive-demo",
+      "version": "fixed-target-cve",
+      "classifier": "APPLICATION",
+      "collectionLogic": "NONE",
+      "purl": "pkg:npm/babel-transitive-demo@1.0.1",
+      "directDependencies": "[{\"name\":\"core\",\"purl\":\"pkg:npm/%40babel/core@7.23.2#packages/babel-core\",\"uuid\":\"93ee69e8-21eb-4d0c-90e9-4bb05ebf55b6\",\"version\":\"7.23.2\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/core@7.23.2\",\"objectType\":\"COMPONENT\"}]",
+      "uuid": "93a4d121-d583-454d-8fb7-a5e1056e7082",
+      "properties": [],
+      "tags": [],
+      "lastBomImport": 1790709403116,
+      "lastBomImportFormat": "CycloneDX 1.6",
+      "lastInheritedRiskScore": 1.0,
+      "lastVulnerabilityAnalysis": 1790709403507,
+      "active": true,
+      "isLatest": false
+    },
+    "lastInheritedRiskScore": 0.0,
+    "uuid": "b6fb3fa5-19c0-4b92-9296-0e708e1c0dcc",
+    "author": "The Babel Team",
+    "metrics": {
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 0,
+      "unassigned": 0,
+      "vulnerabilities": 0,
+      "suppressed": 0,
+      "findingsTotal": 0,
+      "findingsAudited": 0,
+      "findingsUnaudited": 0,
+      "inheritedRiskScore": 0.0,
+      "policyViolationsFail": 0,
+      "policyViolationsWarn": 0,
+      "policyViolationsInfo": 0,
+      "policyViolationsTotal": 0,
+      "policyViolationsAudited": 0,
+      "policyViolationsUnaudited": 0,
+      "policyViolationsSecurityTotal": 0,
+      "policyViolationsSecurityAudited": 0,
+      "policyViolationsSecurityUnaudited": 0,
+      "policyViolationsLicenseTotal": 0,
+      "policyViolationsLicenseAudited": 0,
+      "policyViolationsLicenseUnaudited": 0,
+      "policyViolationsOperationalTotal": 0,
+      "policyViolationsOperationalAudited": 0,
+      "policyViolationsOperationalUnaudited": 0,
+      "firstOccurrence": 1790709403766,
+      "lastOccurrence": 1790709404357
+    },
+    "repositoryMeta": {
+      "repositoryType": "NPM",
+      "namespace": "@babel",
+      "name": "helper-module-transforms",
+      "latestVersion": "8.0.6",
+      "lastCheck": 1790709193056
+    },
+    "expandDependencyGraph": false,
+    "isInternal": false
+  },
+  {
+    "authors": [
+      {
+        "name": "The Babel Team"
+      }
+    ],
+    "group": "@babel",
+    "name": "helper-string-parser",
+    "version": "7.29.7",
+    "classifier": "LIBRARY",
+    "purl": "pkg:npm/%40babel/helper-string-parser@7.29.7#packages/babel-helper-string-parser",
+    "purlCoordinates": "pkg:npm/%40babel/helper-string-parser@7.29.7",
+    "description": "A utility package to parse strings",
+    "resolvedLicense": {
+      "uuid": "80fb3e17-511b-4d4a-bab2-87f8ef1aa7b9",
+      "name": "MIT License",
+      "licenseId": "MIT",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isDeprecatedLicenseId": false,
+      "isCustomLicense": false
+    },
+    "externalReferences": [
+      {
+        "type": "vcs",
+        "url": "git+https://github.com/babel/babel.git#packages/babel-helper-string-parser",
+        "comment": "as detected from PackageJson property \"repository.url\" and \"repository.directory\""
+      },
+      {
+        "type": "website",
+        "url": "https://babel.dev/docs/en/next/babel-helper-string-parser",
+        "comment": "as detected from PackageJson property \"homepage\""
+      },
+      {
+        "type": "issue-tracker",
+        "url": "https://github.com/babel/babel/issues",
+        "comment": "as detected from PackageJson property \"bugs.url\""
+      },
+      {
+        "type": "distribution",
+        "url": "https://registry.npmjs.org/@babel/helper-string-parser/-/helper-string-parser-7.29.7.tgz",
+        "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+      }
+    ],
+    "project": {
+      "authors": [],
+      "name": "babel-transitive-demo",
+      "version": "fixed-target-cve",
+      "classifier": "APPLICATION",
+      "collectionLogic": "NONE",
+      "purl": "pkg:npm/babel-transitive-demo@1.0.1",
+      "directDependencies": "[{\"name\":\"core\",\"purl\":\"pkg:npm/%40babel/core@7.23.2#packages/babel-core\",\"uuid\":\"93ee69e8-21eb-4d0c-90e9-4bb05ebf55b6\",\"version\":\"7.23.2\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/core@7.23.2\",\"objectType\":\"COMPONENT\"}]",
+      "uuid": "93a4d121-d583-454d-8fb7-a5e1056e7082",
+      "properties": [],
+      "tags": [],
+      "lastBomImport": 1790709403116,
+      "lastBomImportFormat": "CycloneDX 1.6",
+      "lastInheritedRiskScore": 1.0,
+      "lastVulnerabilityAnalysis": 1790709403507,
+      "active": true,
+      "isLatest": false
+    },
+    "lastInheritedRiskScore": 0.0,
+    "uuid": "c35ff952-2197-4b8c-bf50-5ba940c8671d",
+    "author": "The Babel Team",
+    "metrics": {
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 0,
+      "unassigned": 0,
+      "vulnerabilities": 0,
+      "suppressed": 0,
+      "findingsTotal": 0,
+      "findingsAudited": 0,
+      "findingsUnaudited": 0,
+      "inheritedRiskScore": 0.0,
+      "policyViolationsFail": 0,
+      "policyViolationsWarn": 0,
+      "policyViolationsInfo": 0,
+      "policyViolationsTotal": 0,
+      "policyViolationsAudited": 0,
+      "policyViolationsUnaudited": 0,
+      "policyViolationsSecurityTotal": 0,
+      "policyViolationsSecurityAudited": 0,
+      "policyViolationsSecurityUnaudited": 0,
+      "policyViolationsLicenseTotal": 0,
+      "policyViolationsLicenseAudited": 0,
+      "policyViolationsLicenseUnaudited": 0,
+      "policyViolationsOperationalTotal": 0,
+      "policyViolationsOperationalAudited": 0,
+      "policyViolationsOperationalUnaudited": 0,
+      "firstOccurrence": 1790709403669,
+      "lastOccurrence": 1790709404340
+    },
+    "repositoryMeta": {
+      "repositoryType": "NPM",
+      "namespace": "@babel",
+      "name": "helper-string-parser",
+      "latestVersion": "8.0.6",
+      "lastCheck": 1790709195793
+    },
+    "expandDependencyGraph": false,
+    "isInternal": false
+  },
+  {
+    "authors": [
+      {
+        "name": "The Babel Team"
+      }
+    ],
+    "group": "@babel",
+    "name": "helper-validator-identifier",
+    "version": "7.29.7",
+    "classifier": "LIBRARY",
+    "purl": "pkg:npm/%40babel/helper-validator-identifier@7.29.7#packages/babel-helper-validator-identifier",
+    "purlCoordinates": "pkg:npm/%40babel/helper-validator-identifier@7.29.7",
+    "description": "Validate identifier/keywords name",
+    "resolvedLicense": {
+      "uuid": "80fb3e17-511b-4d4a-bab2-87f8ef1aa7b9",
+      "name": "MIT License",
+      "licenseId": "MIT",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isDeprecatedLicenseId": false,
+      "isCustomLicense": false
+    },
+    "externalReferences": [
+      {
+        "type": "vcs",
+        "url": "git+https://github.com/babel/babel.git#packages/babel-helper-validator-identifier",
+        "comment": "as detected from PackageJson property \"repository.url\" and \"repository.directory\""
+      },
+      {
+        "type": "website",
+        "url": "https://github.com/babel/babel#readme",
+        "comment": "as detected from PackageJson property \"homepage\""
+      },
+      {
+        "type": "issue-tracker",
+        "url": "https://github.com/babel/babel/issues",
+        "comment": "as detected from PackageJson property \"bugs.url\""
+      },
+      {
+        "type": "distribution",
+        "url": "https://registry.npmjs.org/@babel/helper-validator-identifier/-/helper-validator-identifier-7.29.7.tgz",
+        "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+      }
+    ],
+    "project": {
+      "authors": [],
+      "name": "babel-transitive-demo",
+      "version": "fixed-target-cve",
+      "classifier": "APPLICATION",
+      "collectionLogic": "NONE",
+      "purl": "pkg:npm/babel-transitive-demo@1.0.1",
+      "directDependencies": "[{\"name\":\"core\",\"purl\":\"pkg:npm/%40babel/core@7.23.2#packages/babel-core\",\"uuid\":\"93ee69e8-21eb-4d0c-90e9-4bb05ebf55b6\",\"version\":\"7.23.2\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/core@7.23.2\",\"objectType\":\"COMPONENT\"}]",
+      "uuid": "93a4d121-d583-454d-8fb7-a5e1056e7082",
+      "properties": [],
+      "tags": [],
+      "lastBomImport": 1790709403116,
+      "lastBomImportFormat": "CycloneDX 1.6",
+      "lastInheritedRiskScore": 1.0,
+      "lastVulnerabilityAnalysis": 1790709403507,
+      "active": true,
+      "isLatest": false
+    },
+    "lastInheritedRiskScore": 0.0,
+    "uuid": "4090f887-c992-40c3-afbd-b5b1ab9c1a3e",
+    "author": "The Babel Team",
+    "metrics": {
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 0,
+      "unassigned": 0,
+      "vulnerabilities": 0,
+      "suppressed": 0,
+      "findingsTotal": 0,
+      "findingsAudited": 0,
+      "findingsUnaudited": 0,
+      "inheritedRiskScore": 0.0,
+      "policyViolationsFail": 0,
+      "policyViolationsWarn": 0,
+      "policyViolationsInfo": 0,
+      "policyViolationsTotal": 0,
+      "policyViolationsAudited": 0,
+      "policyViolationsUnaudited": 0,
+      "policyViolationsSecurityTotal": 0,
+      "policyViolationsSecurityAudited": 0,
+      "policyViolationsSecurityUnaudited": 0,
+      "policyViolationsLicenseTotal": 0,
+      "policyViolationsLicenseAudited": 0,
+      "policyViolationsLicenseUnaudited": 0,
+      "policyViolationsOperationalTotal": 0,
+      "policyViolationsOperationalAudited": 0,
+      "policyViolationsOperationalUnaudited": 0,
+      "firstOccurrence": 1790709403711,
+      "lastOccurrence": 1790709404347
+    },
+    "repositoryMeta": {
+      "repositoryType": "NPM",
+      "namespace": "@babel",
+      "name": "helper-validator-identifier",
+      "latestVersion": "8.0.6",
+      "lastCheck": 1790709188768
+    },
+    "expandDependencyGraph": false,
+    "isInternal": false
+  },
+  {
+    "authors": [
+      {
+        "name": "The Babel Team"
+      }
+    ],
+    "group": "@babel",
+    "name": "helper-validator-option",
+    "version": "7.29.7",
+    "classifier": "LIBRARY",
+    "purl": "pkg:npm/%40babel/helper-validator-option@7.29.7#packages/babel-helper-validator-option",
+    "purlCoordinates": "pkg:npm/%40babel/helper-validator-option@7.29.7",
+    "description": "Validate plugin/preset options",
+    "resolvedLicense": {
+      "uuid": "80fb3e17-511b-4d4a-bab2-87f8ef1aa7b9",
+      "name": "MIT License",
+      "licenseId": "MIT",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isDeprecatedLicenseId": false,
+      "isCustomLicense": false
+    },
+    "externalReferences": [
+      {
+        "type": "vcs",
+        "url": "git+https://github.com/babel/babel.git#packages/babel-helper-validator-option",
+        "comment": "as detected from PackageJson property \"repository.url\" and \"repository.directory\""
+      },
+      {
+        "type": "website",
+        "url": "https://github.com/babel/babel#readme",
+        "comment": "as detected from PackageJson property \"homepage\""
+      },
+      {
+        "type": "issue-tracker",
+        "url": "https://github.com/babel/babel/issues",
+        "comment": "as detected from PackageJson property \"bugs.url\""
+      },
+      {
+        "type": "distribution",
+        "url": "https://registry.npmjs.org/@babel/helper-validator-option/-/helper-validator-option-7.29.7.tgz",
+        "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+      }
+    ],
+    "project": {
+      "authors": [],
+      "name": "babel-transitive-demo",
+      "version": "fixed-target-cve",
+      "classifier": "APPLICATION",
+      "collectionLogic": "NONE",
+      "purl": "pkg:npm/babel-transitive-demo@1.0.1",
+      "directDependencies": "[{\"name\":\"core\",\"purl\":\"pkg:npm/%40babel/core@7.23.2#packages/babel-core\",\"uuid\":\"93ee69e8-21eb-4d0c-90e9-4bb05ebf55b6\",\"version\":\"7.23.2\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/core@7.23.2\",\"objectType\":\"COMPONENT\"}]",
+      "uuid": "93a4d121-d583-454d-8fb7-a5e1056e7082",
+      "properties": [],
+      "tags": [],
+      "lastBomImport": 1790709403116,
+      "lastBomImportFormat": "CycloneDX 1.6",
+      "lastInheritedRiskScore": 1.0,
+      "lastVulnerabilityAnalysis": 1790709403507,
+      "active": true,
+      "isLatest": false
+    },
+    "lastInheritedRiskScore": 0.0,
+    "uuid": "634b879e-e4a4-4e69-aef5-7f0e6800d96c",
+    "author": "The Babel Team",
+    "metrics": {
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 0,
+      "unassigned": 0,
+      "vulnerabilities": 0,
+      "suppressed": 0,
+      "findingsTotal": 0,
+      "findingsAudited": 0,
+      "findingsUnaudited": 0,
+      "inheritedRiskScore": 0.0,
+      "policyViolationsFail": 0,
+      "policyViolationsWarn": 0,
+      "policyViolationsInfo": 0,
+      "policyViolationsTotal": 0,
+      "policyViolationsAudited": 0,
+      "policyViolationsUnaudited": 0,
+      "policyViolationsSecurityTotal": 0,
+      "policyViolationsSecurityAudited": 0,
+      "policyViolationsSecurityUnaudited": 0,
+      "policyViolationsLicenseTotal": 0,
+      "policyViolationsLicenseAudited": 0,
+      "policyViolationsLicenseUnaudited": 0,
+      "policyViolationsOperationalTotal": 0,
+      "policyViolationsOperationalAudited": 0,
+      "policyViolationsOperationalUnaudited": 0,
+      "firstOccurrence": 1790709403690,
+      "lastOccurrence": 1790709404343
+    },
+    "repositoryMeta": {
+      "repositoryType": "NPM",
+      "namespace": "@babel",
+      "name": "helper-validator-option",
+      "latestVersion": "8.0.0",
+      "lastCheck": 1790709197049
+    },
+    "expandDependencyGraph": false,
+    "isInternal": false
+  },
+  {
+    "authors": [
+      {
+        "name": "The Babel Team"
+      }
+    ],
+    "group": "@babel",
+    "name": "helpers",
+    "version": "7.29.7",
+    "classifier": "LIBRARY",
+    "purl": "pkg:npm/%40babel/helpers@7.29.7#packages/babel-helpers",
+    "purlCoordinates": "pkg:npm/%40babel/helpers@7.29.7",
+    "description": "Collection of helper functions used by Babel transforms.",
+    "resolvedLicense": {
+      "uuid": "80fb3e17-511b-4d4a-bab2-87f8ef1aa7b9",
+      "name": "MIT License",
+      "licenseId": "MIT",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isDeprecatedLicenseId": false,
+      "isCustomLicense": false
+    },
+    "directDependencies": "[{\"name\":\"template\",\"purl\":\"pkg:npm/%40babel/template@7.29.7#packages/babel-template\",\"uuid\":\"b3b7df54-7d88-43b8-b3b0-83f946d48c3a\",\"version\":\"7.29.7\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/template@7.29.7\",\"objectType\":\"COMPONENT\"},{\"name\":\"types\",\"purl\":\"pkg:npm/%40babel/types@7.29.8#packages/babel-types\",\"uuid\":\"e2350ef7-ac72-4e88-8a23-276d67acce10\",\"version\":\"7.29.8\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/types@7.29.8\",\"objectType\":\"COMPONENT\"}]",
+    "externalReferences": [
+      {
+        "type": "vcs",
+        "url": "git+https://github.com/babel/babel.git#packages/babel-helpers",
+        "comment": "as detected from PackageJson property \"repository.url\" and \"repository.directory\""
+      },
+      {
+        "type": "website",
+        "url": "https://babel.dev/docs/en/next/babel-helpers",
+        "comment": "as detected from PackageJson property \"homepage\""
+      },
+      {
+        "type": "issue-tracker",
+        "url": "https://github.com/babel/babel/issues",
+        "comment": "as detected from PackageJson property \"bugs.url\""
+      },
+      {
+        "type": "distribution",
+        "url": "https://registry.npmjs.org/@babel/helpers/-/helpers-7.29.7.tgz",
+        "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+      }
+    ],
+    "project": {
+      "authors": [],
+      "name": "babel-transitive-demo",
+      "version": "fixed-target-cve",
+      "classifier": "APPLICATION",
+      "collectionLogic": "NONE",
+      "purl": "pkg:npm/babel-transitive-demo@1.0.1",
+      "directDependencies": "[{\"name\":\"core\",\"purl\":\"pkg:npm/%40babel/core@7.23.2#packages/babel-core\",\"uuid\":\"93ee69e8-21eb-4d0c-90e9-4bb05ebf55b6\",\"version\":\"7.23.2\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/core@7.23.2\",\"objectType\":\"COMPONENT\"}]",
+      "uuid": "93a4d121-d583-454d-8fb7-a5e1056e7082",
+      "properties": [],
+      "tags": [],
+      "lastBomImport": 1790709403116,
+      "lastBomImportFormat": "CycloneDX 1.6",
+      "lastInheritedRiskScore": 1.0,
+      "lastVulnerabilityAnalysis": 1790709403507,
+      "active": true,
+      "isLatest": false
+    },
+    "lastInheritedRiskScore": 0.0,
+    "uuid": "e3ed21b2-50d0-4fcd-9de3-1c342b50e31f",
+    "author": "The Babel Team",
+    "metrics": {
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 0,
+      "unassigned": 0,
+      "vulnerabilities": 0,
+      "suppressed": 0,
+      "findingsTotal": 0,
+      "findingsAudited": 0,
+      "findingsUnaudited": 0,
+      "inheritedRiskScore": 0.0,
+      "policyViolationsFail": 0,
+      "policyViolationsWarn": 0,
+      "policyViolationsInfo": 0,
+      "policyViolationsTotal": 0,
+      "policyViolationsAudited": 0,
+      "policyViolationsUnaudited": 0,
+      "policyViolationsSecurityTotal": 0,
+      "policyViolationsSecurityAudited": 0,
+      "policyViolationsSecurityUnaudited": 0,
+      "policyViolationsLicenseTotal": 0,
+      "policyViolationsLicenseAudited": 0,
+      "policyViolationsLicenseUnaudited": 0,
+      "policyViolationsOperationalTotal": 0,
+      "policyViolationsOperationalAudited": 0,
+      "policyViolationsOperationalUnaudited": 0,
+      "firstOccurrence": 1790709403763,
+      "lastOccurrence": 1790709404356
+    },
+    "repositoryMeta": {
+      "repositoryType": "NPM",
+      "namespace": "@babel",
+      "name": "helpers",
+      "latestVersion": "8.0.5",
+      "lastCheck": 1790709189393
+    },
+    "expandDependencyGraph": false,
+    "isInternal": false
+  },
+  {
+    "authors": [
+      {
+        "name": "Simon Lydell"
+      }
+    ],
+    "name": "js-tokens",
+    "version": "4.0.0",
+    "classifier": "LIBRARY",
+    "purl": "pkg:npm/js-tokens@4.0.0",
+    "purlCoordinates": "pkg:npm/js-tokens@4.0.0",
+    "description": "A regex that tokenizes JavaScript.",
+    "resolvedLicense": {
+      "uuid": "80fb3e17-511b-4d4a-bab2-87f8ef1aa7b9",
+      "name": "MIT License",
+      "licenseId": "MIT",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isDeprecatedLicenseId": false,
+      "isCustomLicense": false
+    },
+    "externalReferences": [
+      {
+        "type": "vcs",
+        "url": "git+https://github.com/lydell/js-tokens.git",
+        "comment": "as detected from PackageJson property \"repository.url\""
+      },
+      {
+        "type": "website",
+        "url": "https://github.com/lydell/js-tokens#readme",
+        "comment": "as detected from PackageJson property \"homepage\""
+      },
+      {
+        "type": "issue-tracker",
+        "url": "https://github.com/lydell/js-tokens/issues",
+        "comment": "as detected from PackageJson property \"bugs.url\""
+      },
+      {
+        "type": "distribution",
+        "url": "https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz",
+        "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+      }
+    ],
+    "project": {
+      "authors": [],
+      "name": "babel-transitive-demo",
+      "version": "fixed-target-cve",
+      "classifier": "APPLICATION",
+      "collectionLogic": "NONE",
+      "purl": "pkg:npm/babel-transitive-demo@1.0.1",
+      "directDependencies": "[{\"name\":\"core\",\"purl\":\"pkg:npm/%40babel/core@7.23.2#packages/babel-core\",\"uuid\":\"93ee69e8-21eb-4d0c-90e9-4bb05ebf55b6\",\"version\":\"7.23.2\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/core@7.23.2\",\"objectType\":\"COMPONENT\"}]",
+      "uuid": "93a4d121-d583-454d-8fb7-a5e1056e7082",
+      "properties": [],
+      "tags": [],
+      "lastBomImport": 1790709403116,
+      "lastBomImportFormat": "CycloneDX 1.6",
+      "lastInheritedRiskScore": 1.0,
+      "lastVulnerabilityAnalysis": 1790709403507,
+      "active": true,
+      "isLatest": false
+    },
+    "lastInheritedRiskScore": 0.0,
+    "uuid": "af141d1d-1181-43d0-bf49-f2a6b6f81a1e",
+    "author": "Simon Lydell",
+    "metrics": {
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 0,
+      "unassigned": 0,
+      "vulnerabilities": 0,
+      "suppressed": 0,
+      "findingsTotal": 0,
+      "findingsAudited": 0,
+      "findingsUnaudited": 0,
+      "inheritedRiskScore": 0.0,
+      "policyViolationsFail": 0,
+      "policyViolationsWarn": 0,
+      "policyViolationsInfo": 0,
+      "policyViolationsTotal": 0,
+      "policyViolationsAudited": 0,
+      "policyViolationsUnaudited": 0,
+      "policyViolationsSecurityTotal": 0,
+      "policyViolationsSecurityAudited": 0,
+      "policyViolationsSecurityUnaudited": 0,
+      "policyViolationsLicenseTotal": 0,
+      "policyViolationsLicenseAudited": 0,
+      "policyViolationsLicenseUnaudited": 0,
+      "policyViolationsOperationalTotal": 0,
+      "policyViolationsOperationalAudited": 0,
+      "policyViolationsOperationalUnaudited": 0,
+      "firstOccurrence": 1790709403707,
+      "lastOccurrence": 1790709404346
+    },
+    "repositoryMeta": {
+      "repositoryType": "NPM",
+      "name": "js-tokens",
+      "latestVersion": "10.0.0",
+      "lastCheck": 1790709188463
+    },
+    "expandDependencyGraph": false,
+    "isInternal": false
+  },
+  {
+    "authors": [
+      {
+        "name": "Mathias Bynens"
+      }
+    ],
+    "name": "jsesc",
+    "version": "3.1.0",
+    "classifier": "LIBRARY",
+    "purl": "pkg:npm/jsesc@3.1.0",
+    "purlCoordinates": "pkg:npm/jsesc@3.1.0",
+    "description": "Given some data, jsesc returns the shortest possible stringified & ASCII-safe representation of that data.",
+    "resolvedLicense": {
+      "uuid": "80fb3e17-511b-4d4a-bab2-87f8ef1aa7b9",
+      "name": "MIT License",
+      "licenseId": "MIT",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isDeprecatedLicenseId": false,
+      "isCustomLicense": false
+    },
+    "externalReferences": [
+      {
+        "type": "vcs",
+        "url": "git+https://github.com/mathiasbynens/jsesc.git",
+        "comment": "as detected from PackageJson property \"repository.url\""
+      },
+      {
+        "type": "website",
+        "url": "https://mths.be/jsesc",
+        "comment": "as detected from PackageJson property \"homepage\""
+      },
+      {
+        "type": "issue-tracker",
+        "url": "https://github.com/mathiasbynens/jsesc/issues",
+        "comment": "as detected from PackageJson property \"bugs.url\""
+      },
+      {
+        "type": "distribution",
+        "url": "https://registry.npmjs.org/jsesc/-/jsesc-3.1.0.tgz",
+        "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+      }
+    ],
+    "project": {
+      "authors": [],
+      "name": "babel-transitive-demo",
+      "version": "fixed-target-cve",
+      "classifier": "APPLICATION",
+      "collectionLogic": "NONE",
+      "purl": "pkg:npm/babel-transitive-demo@1.0.1",
+      "directDependencies": "[{\"name\":\"core\",\"purl\":\"pkg:npm/%40babel/core@7.23.2#packages/babel-core\",\"uuid\":\"93ee69e8-21eb-4d0c-90e9-4bb05ebf55b6\",\"version\":\"7.23.2\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/core@7.23.2\",\"objectType\":\"COMPONENT\"}]",
+      "uuid": "93a4d121-d583-454d-8fb7-a5e1056e7082",
+      "properties": [],
+      "tags": [],
+      "lastBomImport": 1790709403116,
+      "lastBomImportFormat": "CycloneDX 1.6",
+      "lastInheritedRiskScore": 1.0,
+      "lastVulnerabilityAnalysis": 1790709403507,
+      "active": true,
+      "isLatest": false
+    },
+    "lastInheritedRiskScore": 0.0,
+    "uuid": "6c072082-7540-4649-a953-8af2727696ac",
+    "author": "Mathias Bynens",
+    "metrics": {
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 0,
+      "unassigned": 0,
+      "vulnerabilities": 0,
+      "suppressed": 0,
+      "findingsTotal": 0,
+      "findingsAudited": 0,
+      "findingsUnaudited": 0,
+      "inheritedRiskScore": 0.0,
+      "policyViolationsFail": 0,
+      "policyViolationsWarn": 0,
+      "policyViolationsInfo": 0,
+      "policyViolationsTotal": 0,
+      "policyViolationsAudited": 0,
+      "policyViolationsUnaudited": 0,
+      "policyViolationsSecurityTotal": 0,
+      "policyViolationsSecurityAudited": 0,
+      "policyViolationsSecurityUnaudited": 0,
+      "policyViolationsLicenseTotal": 0,
+      "policyViolationsLicenseAudited": 0,
+      "policyViolationsLicenseUnaudited": 0,
+      "policyViolationsOperationalTotal": 0,
+      "policyViolationsOperationalAudited": 0,
+      "policyViolationsOperationalUnaudited": 0,
+      "firstOccurrence": 1790709403698,
+      "lastOccurrence": 1790709404345
+    },
+    "repositoryMeta": {
+      "repositoryType": "NPM",
+      "name": "jsesc",
+      "latestVersion": "3.1.0",
+      "lastCheck": 1790709197663
+    },
+    "expandDependencyGraph": false,
+    "isInternal": false
+  },
+  {
+    "authors": [
+      {
+        "name": "Aseem Kishore"
+      }
+    ],
+    "name": "json5",
+    "version": "2.2.3",
+    "classifier": "LIBRARY",
+    "purl": "pkg:npm/json5@2.2.3",
+    "purlCoordinates": "pkg:npm/json5@2.2.3",
+    "description": "JSON for Humans",
+    "resolvedLicense": {
+      "uuid": "80fb3e17-511b-4d4a-bab2-87f8ef1aa7b9",
+      "name": "MIT License",
+      "licenseId": "MIT",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isDeprecatedLicenseId": false,
+      "isCustomLicense": false
+    },
+    "externalReferences": [
+      {
+        "type": "vcs",
+        "url": "git+https://github.com/json5/json5.git",
+        "comment": "as detected from PackageJson property \"repository.url\""
+      },
+      {
+        "type": "website",
+        "url": "http://json5.org/",
+        "comment": "as detected from PackageJson property \"homepage\""
+      },
+      {
+        "type": "issue-tracker",
+        "url": "https://github.com/json5/json5/issues",
+        "comment": "as detected from PackageJson property \"bugs.url\""
+      },
+      {
+        "type": "distribution",
+        "url": "https://registry.npmjs.org/json5/-/json5-2.2.3.tgz",
+        "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+      }
+    ],
+    "project": {
+      "authors": [],
+      "name": "babel-transitive-demo",
+      "version": "fixed-target-cve",
+      "classifier": "APPLICATION",
+      "collectionLogic": "NONE",
+      "purl": "pkg:npm/babel-transitive-demo@1.0.1",
+      "directDependencies": "[{\"name\":\"core\",\"purl\":\"pkg:npm/%40babel/core@7.23.2#packages/babel-core\",\"uuid\":\"93ee69e8-21eb-4d0c-90e9-4bb05ebf55b6\",\"version\":\"7.23.2\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/core@7.23.2\",\"objectType\":\"COMPONENT\"}]",
+      "uuid": "93a4d121-d583-454d-8fb7-a5e1056e7082",
+      "properties": [],
+      "tags": [],
+      "lastBomImport": 1790709403116,
+      "lastBomImportFormat": "CycloneDX 1.6",
+      "lastInheritedRiskScore": 1.0,
+      "lastVulnerabilityAnalysis": 1790709403507,
+      "active": true,
+      "isLatest": false
+    },
+    "lastInheritedRiskScore": 0.0,
+    "uuid": "ba91255e-6d0a-4273-9791-08988eb4aa2d",
+    "author": "Aseem Kishore",
+    "metrics": {
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 0,
+      "unassigned": 0,
+      "vulnerabilities": 0,
+      "suppressed": 0,
+      "findingsTotal": 0,
+      "findingsAudited": 0,
+      "findingsUnaudited": 0,
+      "inheritedRiskScore": 0.0,
+      "policyViolationsFail": 0,
+      "policyViolationsWarn": 0,
+      "policyViolationsInfo": 0,
+      "policyViolationsTotal": 0,
+      "policyViolationsAudited": 0,
+      "policyViolationsUnaudited": 0,
+      "policyViolationsSecurityTotal": 0,
+      "policyViolationsSecurityAudited": 0,
+      "policyViolationsSecurityUnaudited": 0,
+      "policyViolationsLicenseTotal": 0,
+      "policyViolationsLicenseAudited": 0,
+      "policyViolationsLicenseUnaudited": 0,
+      "policyViolationsOperationalTotal": 0,
+      "policyViolationsOperationalAudited": 0,
+      "policyViolationsOperationalUnaudited": 0,
+      "firstOccurrence": 1790709403726,
+      "lastOccurrence": 1790709404350
+    },
+    "repositoryMeta": {
+      "repositoryType": "NPM",
+      "name": "json5",
+      "latestVersion": "2.2.3",
+      "lastCheck": 1790709200833
+    },
+    "expandDependencyGraph": false,
+    "isInternal": false
+  },
+  {
+    "authors": [
+      {
+        "name": "Isaac Z. Schlueter"
+      }
+    ],
+    "name": "lru-cache",
+    "version": "5.1.1",
+    "classifier": "LIBRARY",
+    "purl": "pkg:npm/lru-cache@5.1.1",
+    "purlCoordinates": "pkg:npm/lru-cache@5.1.1",
+    "description": "A cache object that deletes the least-recently-used items.",
+    "resolvedLicense": {
+      "uuid": "45bb401a-25fa-4797-8f4f-c96d3ed92efe",
+      "name": "ISC License",
+      "licenseId": "ISC",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isDeprecatedLicenseId": false,
+      "isCustomLicense": false
+    },
+    "directDependencies": "[{\"name\":\"yallist\",\"purl\":\"pkg:npm/yallist@3.1.1\",\"uuid\":\"4d518ca0-9882-4a66-a4b2-77cf7813de2a\",\"version\":\"3.1.1\",\"purlCoordinates\":\"pkg:npm/yallist@3.1.1\",\"objectType\":\"COMPONENT\"}]",
+    "externalReferences": [
+      {
+        "type": "vcs",
+        "url": "git://github.com/isaacs/node-lru-cache.git",
+        "comment": "as detected from PackageJson property \"repository.url\""
+      },
+      {
+        "type": "website",
+        "url": "https://github.com/isaacs/node-lru-cache#readme",
+        "comment": "as detected from PackageJson property \"homepage\""
+      },
+      {
+        "type": "issue-tracker",
+        "url": "https://github.com/isaacs/node-lru-cache/issues",
+        "comment": "as detected from PackageJson property \"bugs.url\""
+      },
+      {
+        "type": "distribution",
+        "url": "https://registry.npmjs.org/lru-cache/-/lru-cache-5.1.1.tgz",
+        "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+      }
+    ],
+    "project": {
+      "authors": [],
+      "name": "babel-transitive-demo",
+      "version": "fixed-target-cve",
+      "classifier": "APPLICATION",
+      "collectionLogic": "NONE",
+      "purl": "pkg:npm/babel-transitive-demo@1.0.1",
+      "directDependencies": "[{\"name\":\"core\",\"purl\":\"pkg:npm/%40babel/core@7.23.2#packages/babel-core\",\"uuid\":\"93ee69e8-21eb-4d0c-90e9-4bb05ebf55b6\",\"version\":\"7.23.2\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/core@7.23.2\",\"objectType\":\"COMPONENT\"}]",
+      "uuid": "93a4d121-d583-454d-8fb7-a5e1056e7082",
+      "properties": [],
+      "tags": [],
+      "lastBomImport": 1790709403116,
+      "lastBomImportFormat": "CycloneDX 1.6",
+      "lastInheritedRiskScore": 1.0,
+      "lastVulnerabilityAnalysis": 1790709403507,
+      "active": true,
+      "isLatest": false
+    },
+    "lastInheritedRiskScore": 0.0,
+    "uuid": "27602102-a23a-4ace-b447-7343ab5e4035",
+    "author": "Isaac Z. Schlueter",
+    "metrics": {
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 0,
+      "unassigned": 0,
+      "vulnerabilities": 0,
+      "suppressed": 0,
+      "findingsTotal": 0,
+      "findingsAudited": 0,
+      "findingsUnaudited": 0,
+      "inheritedRiskScore": 0.0,
+      "policyViolationsFail": 0,
+      "policyViolationsWarn": 0,
+      "policyViolationsInfo": 0,
+      "policyViolationsTotal": 0,
+      "policyViolationsAudited": 0,
+      "policyViolationsUnaudited": 0,
+      "policyViolationsSecurityTotal": 0,
+      "policyViolationsSecurityAudited": 0,
+      "policyViolationsSecurityUnaudited": 0,
+      "policyViolationsLicenseTotal": 0,
+      "policyViolationsLicenseAudited": 0,
+      "policyViolationsLicenseUnaudited": 0,
+      "policyViolationsOperationalTotal": 0,
+      "policyViolationsOperationalAudited": 0,
+      "policyViolationsOperationalUnaudited": 0,
+      "firstOccurrence": 1790709403681,
+      "lastOccurrence": 1790709404342
+    },
+    "repositoryMeta": {
+      "repositoryType": "NPM",
+      "name": "lru-cache",
+      "latestVersion": "11.5.3",
+      "lastCheck": 1790709191830
+    },
+    "expandDependencyGraph": false,
+    "isInternal": false
+  },
+  {
+    "authors": [],
+    "name": "ms",
+    "version": "2.1.3",
+    "classifier": "LIBRARY",
+    "purl": "pkg:npm/ms@2.1.3",
+    "purlCoordinates": "pkg:npm/ms@2.1.3",
+    "description": "Tiny millisecond conversion utility",
+    "resolvedLicense": {
+      "uuid": "80fb3e17-511b-4d4a-bab2-87f8ef1aa7b9",
+      "name": "MIT License",
+      "licenseId": "MIT",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isDeprecatedLicenseId": false,
+      "isCustomLicense": false
+    },
+    "externalReferences": [
+      {
+        "type": "vcs",
+        "url": "git+https://github.com/vercel/ms.git",
+        "comment": "as detected from PackageJson property \"repository.url\""
+      },
+      {
+        "type": "website",
+        "url": "https://github.com/vercel/ms#readme",
+        "comment": "as detected from PackageJson property \"homepage\""
+      },
+      {
+        "type": "issue-tracker",
+        "url": "https://github.com/vercel/ms/issues",
+        "comment": "as detected from PackageJson property \"bugs.url\""
+      },
+      {
+        "type": "distribution",
+        "url": "https://registry.npmjs.org/ms/-/ms-2.1.3.tgz",
+        "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+      }
+    ],
+    "project": {
+      "authors": [],
+      "name": "babel-transitive-demo",
+      "version": "fixed-target-cve",
+      "classifier": "APPLICATION",
+      "collectionLogic": "NONE",
+      "purl": "pkg:npm/babel-transitive-demo@1.0.1",
+      "directDependencies": "[{\"name\":\"core\",\"purl\":\"pkg:npm/%40babel/core@7.23.2#packages/babel-core\",\"uuid\":\"93ee69e8-21eb-4d0c-90e9-4bb05ebf55b6\",\"version\":\"7.23.2\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/core@7.23.2\",\"objectType\":\"COMPONENT\"}]",
+      "uuid": "93a4d121-d583-454d-8fb7-a5e1056e7082",
+      "properties": [],
+      "tags": [],
+      "lastBomImport": 1790709403116,
+      "lastBomImportFormat": "CycloneDX 1.6",
+      "lastInheritedRiskScore": 1.0,
+      "lastVulnerabilityAnalysis": 1790709403507,
+      "active": true,
+      "isLatest": false
+    },
+    "lastInheritedRiskScore": 0.0,
+    "uuid": "470dc048-f4b2-4d76-8bbb-f54de408eb8b",
+    "metrics": {
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 0,
+      "unassigned": 0,
+      "vulnerabilities": 0,
+      "suppressed": 0,
+      "findingsTotal": 0,
+      "findingsAudited": 0,
+      "findingsUnaudited": 0,
+      "inheritedRiskScore": 0.0,
+      "policyViolationsFail": 0,
+      "policyViolationsWarn": 0,
+      "policyViolationsInfo": 0,
+      "policyViolationsTotal": 0,
+      "policyViolationsAudited": 0,
+      "policyViolationsUnaudited": 0,
+      "policyViolationsSecurityTotal": 0,
+      "policyViolationsSecurityAudited": 0,
+      "policyViolationsSecurityUnaudited": 0,
+      "policyViolationsLicenseTotal": 0,
+      "policyViolationsLicenseAudited": 0,
+      "policyViolationsLicenseUnaudited": 0,
+      "policyViolationsOperationalTotal": 0,
+      "policyViolationsOperationalAudited": 0,
+      "policyViolationsOperationalUnaudited": 0,
+      "firstOccurrence": 1790709403665,
+      "lastOccurrence": 1790709404339
+    },
+    "repositoryMeta": {
+      "repositoryType": "NPM",
+      "name": "ms",
+      "latestVersion": "2.1.3",
+      "lastCheck": 1790709194868
+    },
+    "expandDependencyGraph": false,
+    "isInternal": false
+  },
+  {
+    "authors": [
+      {
+        "name": "Sergey Rubanov"
+      }
+    ],
+    "name": "node-releases",
+    "version": "2.0.57",
+    "classifier": "LIBRARY",
+    "purl": "pkg:npm/node-releases@2.0.57",
+    "purlCoordinates": "pkg:npm/node-releases@2.0.57",
+    "description": "Node.js releases data",
+    "resolvedLicense": {
+      "uuid": "80fb3e17-511b-4d4a-bab2-87f8ef1aa7b9",
+      "name": "MIT License",
+      "licenseId": "MIT",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isDeprecatedLicenseId": false,
+      "isCustomLicense": false
+    },
+    "externalReferences": [
+      {
+        "type": "vcs",
+        "url": "git+https://github.com/chicoxyzzy/node-releases.git",
+        "comment": "as detected from PackageJson property \"repository.url\""
+      },
+      {
+        "type": "website",
+        "url": "https://github.com/chicoxyzzy/node-releases#readme",
+        "comment": "as detected from PackageJson property \"homepage\""
+      },
+      {
+        "type": "issue-tracker",
+        "url": "https://github.com/chicoxyzzy/node-releases/issues",
+        "comment": "as detected from PackageJson property \"bugs.url\""
+      },
+      {
+        "type": "distribution",
+        "url": "https://registry.npmjs.org/node-releases/-/node-releases-2.0.57.tgz",
+        "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+      }
+    ],
+    "project": {
+      "authors": [],
+      "name": "babel-transitive-demo",
+      "version": "fixed-target-cve",
+      "classifier": "APPLICATION",
+      "collectionLogic": "NONE",
+      "purl": "pkg:npm/babel-transitive-demo@1.0.1",
+      "directDependencies": "[{\"name\":\"core\",\"purl\":\"pkg:npm/%40babel/core@7.23.2#packages/babel-core\",\"uuid\":\"93ee69e8-21eb-4d0c-90e9-4bb05ebf55b6\",\"version\":\"7.23.2\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/core@7.23.2\",\"objectType\":\"COMPONENT\"}]",
+      "uuid": "93a4d121-d583-454d-8fb7-a5e1056e7082",
+      "properties": [],
+      "tags": [],
+      "lastBomImport": 1790709403116,
+      "lastBomImportFormat": "CycloneDX 1.6",
+      "lastInheritedRiskScore": 1.0,
+      "lastVulnerabilityAnalysis": 1790709403507,
+      "active": true,
+      "isLatest": false
+    },
+    "lastInheritedRiskScore": 0.0,
+    "uuid": "57428ae6-c253-4f17-9838-ba84e9b4898c",
+    "author": "Sergey Rubanov",
+    "metrics": {
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 0,
+      "unassigned": 0,
+      "vulnerabilities": 0,
+      "suppressed": 0,
+      "findingsTotal": 0,
+      "findingsAudited": 0,
+      "findingsUnaudited": 0,
+      "inheritedRiskScore": 0.0,
+      "policyViolationsFail": 0,
+      "policyViolationsWarn": 0,
+      "policyViolationsInfo": 0,
+      "policyViolationsTotal": 0,
+      "policyViolationsAudited": 0,
+      "policyViolationsUnaudited": 0,
+      "policyViolationsSecurityTotal": 0,
+      "policyViolationsSecurityAudited": 0,
+      "policyViolationsSecurityUnaudited": 0,
+      "policyViolationsLicenseTotal": 0,
+      "policyViolationsLicenseAudited": 0,
+      "policyViolationsLicenseUnaudited": 0,
+      "policyViolationsOperationalTotal": 0,
+      "policyViolationsOperationalAudited": 0,
+      "policyViolationsOperationalUnaudited": 0,
+      "firstOccurrence": 1790709403637,
+      "lastOccurrence": 1790709404334
+    },
+    "repositoryMeta": {
+      "repositoryType": "NPM",
+      "name": "node-releases",
+      "latestVersion": "2.0.57",
+      "lastCheck": 1790709201462
+    },
+    "expandDependencyGraph": false,
+    "isInternal": false
+  },
+  {
+    "authors": [
+      {
+        "name": "The Babel Team"
+      }
+    ],
+    "group": "@babel",
+    "name": "parser",
+    "version": "7.29.9",
+    "classifier": "LIBRARY",
+    "purl": "pkg:npm/%40babel/parser@7.29.9#packages/babel-parser",
+    "purlCoordinates": "pkg:npm/%40babel/parser@7.29.9",
+    "description": "A JavaScript parser",
+    "resolvedLicense": {
+      "uuid": "80fb3e17-511b-4d4a-bab2-87f8ef1aa7b9",
+      "name": "MIT License",
+      "licenseId": "MIT",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isDeprecatedLicenseId": false,
+      "isCustomLicense": false
+    },
+    "directDependencies": "[{\"name\":\"types\",\"purl\":\"pkg:npm/%40babel/types@7.29.8#packages/babel-types\",\"uuid\":\"e2350ef7-ac72-4e88-8a23-276d67acce10\",\"version\":\"7.29.8\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/types@7.29.8\",\"objectType\":\"COMPONENT\"}]",
+    "externalReferences": [
+      {
+        "type": "vcs",
+        "url": "git+https://github.com/babel/babel.git#packages/babel-parser",
+        "comment": "as detected from PackageJson property \"repository.url\" and \"repository.directory\""
+      },
+      {
+        "type": "website",
+        "url": "https://babel.dev/docs/en/next/babel-parser",
+        "comment": "as detected from PackageJson property \"homepage\""
+      },
+      {
+        "type": "issue-tracker",
+        "url": "https://github.com/babel/babel/issues?utf8=%E2%9C%93&q=is%3Aissue+label%3A%22pkg%3A+parser+%28babylon%29%22+is%3Aopen",
+        "comment": "as detected from PackageJson property \"bugs.url\""
+      },
+      {
+        "type": "distribution",
+        "url": "https://registry.npmjs.org/@babel/parser/-/parser-7.29.9.tgz",
+        "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+      }
+    ],
+    "project": {
+      "authors": [],
+      "name": "babel-transitive-demo",
+      "version": "fixed-target-cve",
+      "classifier": "APPLICATION",
+      "collectionLogic": "NONE",
+      "purl": "pkg:npm/babel-transitive-demo@1.0.1",
+      "directDependencies": "[{\"name\":\"core\",\"purl\":\"pkg:npm/%40babel/core@7.23.2#packages/babel-core\",\"uuid\":\"93ee69e8-21eb-4d0c-90e9-4bb05ebf55b6\",\"version\":\"7.23.2\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/core@7.23.2\",\"objectType\":\"COMPONENT\"}]",
+      "uuid": "93a4d121-d583-454d-8fb7-a5e1056e7082",
+      "properties": [],
+      "tags": [],
+      "lastBomImport": 1790709403116,
+      "lastBomImportFormat": "CycloneDX 1.6",
+      "lastInheritedRiskScore": 1.0,
+      "lastVulnerabilityAnalysis": 1790709403507,
+      "active": true,
+      "isLatest": false
+    },
+    "lastInheritedRiskScore": 0.0,
+    "uuid": "66f41d83-a368-473a-8be1-11855953cdae",
+    "author": "The Babel Team",
+    "metrics": {
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 0,
+      "unassigned": 0,
+      "vulnerabilities": 0,
+      "suppressed": 0,
+      "findingsTotal": 0,
+      "findingsAudited": 0,
+      "findingsUnaudited": 0,
+      "inheritedRiskScore": 0.0,
+      "policyViolationsFail": 0,
+      "policyViolationsWarn": 0,
+      "policyViolationsInfo": 0,
+      "policyViolationsTotal": 0,
+      "policyViolationsAudited": 0,
+      "policyViolationsUnaudited": 0,
+      "policyViolationsSecurityTotal": 0,
+      "policyViolationsSecurityAudited": 0,
+      "policyViolationsSecurityUnaudited": 0,
+      "policyViolationsLicenseTotal": 0,
+      "policyViolationsLicenseAudited": 0,
+      "policyViolationsLicenseUnaudited": 0,
+      "policyViolationsOperationalTotal": 0,
+      "policyViolationsOperationalAudited": 0,
+      "policyViolationsOperationalUnaudited": 0,
+      "firstOccurrence": 1790709403760,
+      "lastOccurrence": 1790709404355
+    },
+    "repositoryMeta": {
+      "repositoryType": "NPM",
+      "namespace": "@babel",
+      "name": "parser",
+      "latestVersion": "7.29.9",
+      "lastCheck": 1790709198687
+    },
+    "expandDependencyGraph": false,
+    "isInternal": false
+  },
+  {
+    "authors": [
+      {
+        "name": "Alexey Raspopov"
+      }
+    ],
+    "name": "picocolors",
+    "version": "1.1.1",
+    "classifier": "LIBRARY",
+    "purl": "pkg:npm/picocolors@1.1.1",
+    "purlCoordinates": "pkg:npm/picocolors@1.1.1",
+    "description": "The tiniest and the fastest library for terminal output formatting with ANSI colors",
+    "resolvedLicense": {
+      "uuid": "45bb401a-25fa-4797-8f4f-c96d3ed92efe",
+      "name": "ISC License",
+      "licenseId": "ISC",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isDeprecatedLicenseId": false,
+      "isCustomLicense": false
+    },
+    "externalReferences": [
+      {
+        "type": "vcs",
+        "url": "git+https://github.com/alexeyraspopov/picocolors.git",
+        "comment": "as detected from PackageJson property \"repository.url\""
+      },
+      {
+        "type": "website",
+        "url": "https://github.com/alexeyraspopov/picocolors#readme",
+        "comment": "as detected from PackageJson property \"homepage\""
+      },
+      {
+        "type": "issue-tracker",
+        "url": "https://github.com/alexeyraspopov/picocolors/issues",
+        "comment": "as detected from PackageJson property \"bugs.url\""
+      },
+      {
+        "type": "distribution",
+        "url": "https://registry.npmjs.org/picocolors/-/picocolors-1.1.1.tgz",
+        "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+      }
+    ],
+    "project": {
+      "authors": [],
+      "name": "babel-transitive-demo",
+      "version": "fixed-target-cve",
+      "classifier": "APPLICATION",
+      "collectionLogic": "NONE",
+      "purl": "pkg:npm/babel-transitive-demo@1.0.1",
+      "directDependencies": "[{\"name\":\"core\",\"purl\":\"pkg:npm/%40babel/core@7.23.2#packages/babel-core\",\"uuid\":\"93ee69e8-21eb-4d0c-90e9-4bb05ebf55b6\",\"version\":\"7.23.2\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/core@7.23.2\",\"objectType\":\"COMPONENT\"}]",
+      "uuid": "93a4d121-d583-454d-8fb7-a5e1056e7082",
+      "properties": [],
+      "tags": [],
+      "lastBomImport": 1790709403116,
+      "lastBomImportFormat": "CycloneDX 1.6",
+      "lastInheritedRiskScore": 1.0,
+      "lastVulnerabilityAnalysis": 1790709403507,
+      "active": true,
+      "isLatest": false
+    },
+    "lastInheritedRiskScore": 0.0,
+    "uuid": "61f8ae74-b92e-43c7-b1a6-545fc14b0e64",
+    "author": "Alexey Raspopov",
+    "metrics": {
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 0,
+      "unassigned": 0,
+      "vulnerabilities": 0,
+      "suppressed": 0,
+      "findingsTotal": 0,
+      "findingsAudited": 0,
+      "findingsUnaudited": 0,
+      "inheritedRiskScore": 0.0,
+      "policyViolationsFail": 0,
+      "policyViolationsWarn": 0,
+      "policyViolationsInfo": 0,
+      "policyViolationsTotal": 0,
+      "policyViolationsAudited": 0,
+      "policyViolationsUnaudited": 0,
+      "policyViolationsSecurityTotal": 0,
+      "policyViolationsSecurityAudited": 0,
+      "policyViolationsSecurityUnaudited": 0,
+      "policyViolationsLicenseTotal": 0,
+      "policyViolationsLicenseAudited": 0,
+      "policyViolationsLicenseUnaudited": 0,
+      "policyViolationsOperationalTotal": 0,
+      "policyViolationsOperationalAudited": 0,
+      "policyViolationsOperationalUnaudited": 0,
+      "firstOccurrence": 1790709403702,
+      "lastOccurrence": 1790709404346
+    },
+    "repositoryMeta": {
+      "repositoryType": "NPM",
+      "name": "picocolors",
+      "latestVersion": "1.1.1",
+      "lastCheck": 1790709201126
+    },
+    "expandDependencyGraph": false,
+    "isInternal": false
+  },
+  {
+    "authors": [
+      {
+        "name": "Justin Ridgewell"
+      }
+    ],
+    "group": "@ampproject",
+    "name": "remapping",
+    "version": "2.3.0",
+    "classifier": "LIBRARY",
+    "purl": "pkg:npm/%40ampproject/remapping@2.3.0",
+    "purlCoordinates": "pkg:npm/%40ampproject/remapping@2.3.0",
+    "description": "Remap sequential sourcemaps through transformations to point at the original source code",
+    "resolvedLicense": {
+      "uuid": "2280dcaf-e9c6-45e5-9ee4-857008307810",
+      "name": "Apache License 2.0",
+      "licenseId": "Apache-2.0",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isDeprecatedLicenseId": false,
+      "isCustomLicense": false
+    },
+    "directDependencies": "[{\"name\":\"trace-mapping\",\"purl\":\"pkg:npm/%40jridgewell/trace-mapping@0.3.31#packages/trace-mapping\",\"uuid\":\"b71eabbf-da5c-4da5-a985-45f2294ffeef\",\"version\":\"0.3.31\",\"group\":\"@jridgewell\",\"purlCoordinates\":\"pkg:npm/%40jridgewell/trace-mapping@0.3.31\",\"objectType\":\"COMPONENT\"},{\"name\":\"gen-mapping\",\"purl\":\"pkg:npm/%40jridgewell/gen-mapping@0.3.13#packages/gen-mapping\",\"uuid\":\"df1ad5ef-c44b-4f8e-8c09-6268897f8f38\",\"version\":\"0.3.13\",\"group\":\"@jridgewell\",\"purlCoordinates\":\"pkg:npm/%40jridgewell/gen-mapping@0.3.13\",\"objectType\":\"COMPONENT\"}]",
+    "externalReferences": [
+      {
+        "type": "vcs",
+        "url": "git+https://github.com/ampproject/remapping.git",
+        "comment": "as detected from PackageJson property \"repository.url\""
+      },
+      {
+        "type": "website",
+        "url": "https://github.com/ampproject/remapping#readme",
+        "comment": "as detected from PackageJson property \"homepage\""
+      },
+      {
+        "type": "issue-tracker",
+        "url": "https://github.com/ampproject/remapping/issues",
+        "comment": "as detected from PackageJson property \"bugs.url\""
+      },
+      {
+        "type": "distribution",
+        "url": "https://registry.npmjs.org/@ampproject/remapping/-/remapping-2.3.0.tgz",
+        "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+      }
+    ],
+    "project": {
+      "authors": [],
+      "name": "babel-transitive-demo",
+      "version": "fixed-target-cve",
+      "classifier": "APPLICATION",
+      "collectionLogic": "NONE",
+      "purl": "pkg:npm/babel-transitive-demo@1.0.1",
+      "directDependencies": "[{\"name\":\"core\",\"purl\":\"pkg:npm/%40babel/core@7.23.2#packages/babel-core\",\"uuid\":\"93ee69e8-21eb-4d0c-90e9-4bb05ebf55b6\",\"version\":\"7.23.2\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/core@7.23.2\",\"objectType\":\"COMPONENT\"}]",
+      "uuid": "93a4d121-d583-454d-8fb7-a5e1056e7082",
+      "properties": [],
+      "tags": [],
+      "lastBomImport": 1790709403116,
+      "lastBomImportFormat": "CycloneDX 1.6",
+      "lastInheritedRiskScore": 1.0,
+      "lastVulnerabilityAnalysis": 1790709403507,
+      "active": true,
+      "isLatest": false
+    },
+    "lastInheritedRiskScore": 0.0,
+    "uuid": "97e2a57e-5d1e-4787-8a62-daa8f14a913e",
+    "author": "Justin Ridgewell",
+    "metrics": {
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 0,
+      "unassigned": 0,
+      "vulnerabilities": 0,
+      "suppressed": 0,
+      "findingsTotal": 0,
+      "findingsAudited": 0,
+      "findingsUnaudited": 0,
+      "inheritedRiskScore": 0.0,
+      "policyViolationsFail": 0,
+      "policyViolationsWarn": 0,
+      "policyViolationsInfo": 0,
+      "policyViolationsTotal": 0,
+      "policyViolationsAudited": 0,
+      "policyViolationsUnaudited": 0,
+      "policyViolationsSecurityTotal": 0,
+      "policyViolationsSecurityAudited": 0,
+      "policyViolationsSecurityUnaudited": 0,
+      "policyViolationsLicenseTotal": 0,
+      "policyViolationsLicenseAudited": 0,
+      "policyViolationsLicenseUnaudited": 0,
+      "policyViolationsOperationalTotal": 0,
+      "policyViolationsOperationalAudited": 0,
+      "policyViolationsOperationalUnaudited": 0,
+      "firstOccurrence": 1790709403778,
+      "lastOccurrence": 1790709404369
+    },
+    "repositoryMeta": {
+      "repositoryType": "NPM",
+      "namespace": "@ampproject",
+      "name": "remapping",
+      "latestVersion": "2.3.0",
+      "lastCheck": 1790709189702
+    },
+    "expandDependencyGraph": false,
+    "isInternal": false
+  },
+  {
+    "authors": [
+      {
+        "name": "Justin Ridgewell"
+      }
+    ],
+    "group": "@jridgewell",
+    "name": "resolve-uri",
+    "version": "3.1.2",
+    "classifier": "LIBRARY",
+    "purl": "pkg:npm/%40jridgewell/resolve-uri@3.1.2",
+    "purlCoordinates": "pkg:npm/%40jridgewell/resolve-uri@3.1.2",
+    "description": "Resolve a URI relative to an optional base URI",
+    "resolvedLicense": {
+      "uuid": "80fb3e17-511b-4d4a-bab2-87f8ef1aa7b9",
+      "name": "MIT License",
+      "licenseId": "MIT",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isDeprecatedLicenseId": false,
+      "isCustomLicense": false
+    },
+    "externalReferences": [
+      {
+        "type": "vcs",
+        "url": "git+https://github.com/jridgewell/resolve-uri.git",
+        "comment": "as detected from PackageJson property \"repository.url\""
+      },
+      {
+        "type": "website",
+        "url": "https://github.com/jridgewell/resolve-uri#readme",
+        "comment": "as detected from PackageJson property \"homepage\""
+      },
+      {
+        "type": "issue-tracker",
+        "url": "https://github.com/jridgewell/resolve-uri/issues",
+        "comment": "as detected from PackageJson property \"bugs.url\""
+      },
+      {
+        "type": "distribution",
+        "url": "https://registry.npmjs.org/@jridgewell/resolve-uri/-/resolve-uri-3.1.2.tgz",
+        "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+      }
+    ],
+    "project": {
+      "authors": [],
+      "name": "babel-transitive-demo",
+      "version": "fixed-target-cve",
+      "classifier": "APPLICATION",
+      "collectionLogic": "NONE",
+      "purl": "pkg:npm/babel-transitive-demo@1.0.1",
+      "directDependencies": "[{\"name\":\"core\",\"purl\":\"pkg:npm/%40babel/core@7.23.2#packages/babel-core\",\"uuid\":\"93ee69e8-21eb-4d0c-90e9-4bb05ebf55b6\",\"version\":\"7.23.2\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/core@7.23.2\",\"objectType\":\"COMPONENT\"}]",
+      "uuid": "93a4d121-d583-454d-8fb7-a5e1056e7082",
+      "properties": [],
+      "tags": [],
+      "lastBomImport": 1790709403116,
+      "lastBomImportFormat": "CycloneDX 1.6",
+      "lastInheritedRiskScore": 1.0,
+      "lastVulnerabilityAnalysis": 1790709403507,
+      "active": true,
+      "isLatest": false
+    },
+    "lastInheritedRiskScore": 0.0,
+    "uuid": "24503762-76ba-45ea-9591-0c61c7f1cab1",
+    "author": "Justin Ridgewell",
+    "metrics": {
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 0,
+      "unassigned": 0,
+      "vulnerabilities": 0,
+      "suppressed": 0,
+      "findingsTotal": 0,
+      "findingsAudited": 0,
+      "findingsUnaudited": 0,
+      "inheritedRiskScore": 0.0,
+      "policyViolationsFail": 0,
+      "policyViolationsWarn": 0,
+      "policyViolationsInfo": 0,
+      "policyViolationsTotal": 0,
+      "policyViolationsAudited": 0,
+      "policyViolationsUnaudited": 0,
+      "policyViolationsSecurityTotal": 0,
+      "policyViolationsSecurityAudited": 0,
+      "policyViolationsSecurityUnaudited": 0,
+      "policyViolationsLicenseTotal": 0,
+      "policyViolationsLicenseAudited": 0,
+      "policyViolationsLicenseUnaudited": 0,
+      "policyViolationsOperationalTotal": 0,
+      "policyViolationsOperationalAudited": 0,
+      "policyViolationsOperationalUnaudited": 0,
+      "firstOccurrence": 1790709403653,
+      "lastOccurrence": 1790709404337
+    },
+    "repositoryMeta": {
+      "repositoryType": "NPM",
+      "namespace": "@jridgewell",
+      "name": "resolve-uri",
+      "latestVersion": "3.1.2",
+      "lastCheck": 1790709196737
+    },
+    "expandDependencyGraph": false,
+    "isInternal": false
+  },
+  {
+    "authors": [
+      {
+        "name": "GitHub Inc."
+      }
+    ],
+    "name": "semver",
+    "version": "6.3.1",
+    "classifier": "LIBRARY",
+    "purl": "pkg:npm/semver@6.3.1",
+    "purlCoordinates": "pkg:npm/semver@6.3.1",
+    "description": "The semantic version parser used by npm.",
+    "resolvedLicense": {
+      "uuid": "45bb401a-25fa-4797-8f4f-c96d3ed92efe",
+      "name": "ISC License",
+      "licenseId": "ISC",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isDeprecatedLicenseId": false,
+      "isCustomLicense": false
+    },
+    "externalReferences": [
+      {
+        "type": "vcs",
+        "url": "git+https://github.com/npm/node-semver.git",
+        "comment": "as detected from PackageJson property \"repository.url\""
+      },
+      {
+        "type": "website",
+        "url": "https://github.com/npm/node-semver#readme",
+        "comment": "as detected from PackageJson property \"homepage\""
+      },
+      {
+        "type": "issue-tracker",
+        "url": "https://github.com/npm/node-semver/issues",
+        "comment": "as detected from PackageJson property \"bugs.url\""
+      },
+      {
+        "type": "distribution",
+        "url": "https://registry.npmjs.org/semver/-/semver-6.3.1.tgz",
+        "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+      }
+    ],
+    "project": {
+      "authors": [],
+      "name": "babel-transitive-demo",
+      "version": "fixed-target-cve",
+      "classifier": "APPLICATION",
+      "collectionLogic": "NONE",
+      "purl": "pkg:npm/babel-transitive-demo@1.0.1",
+      "directDependencies": "[{\"name\":\"core\",\"purl\":\"pkg:npm/%40babel/core@7.23.2#packages/babel-core\",\"uuid\":\"93ee69e8-21eb-4d0c-90e9-4bb05ebf55b6\",\"version\":\"7.23.2\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/core@7.23.2\",\"objectType\":\"COMPONENT\"}]",
+      "uuid": "93a4d121-d583-454d-8fb7-a5e1056e7082",
+      "properties": [],
+      "tags": [],
+      "lastBomImport": 1790709403116,
+      "lastBomImportFormat": "CycloneDX 1.6",
+      "lastInheritedRiskScore": 1.0,
+      "lastVulnerabilityAnalysis": 1790709403507,
+      "active": true,
+      "isLatest": false
+    },
+    "lastInheritedRiskScore": 0.0,
+    "uuid": "6a04c3b5-b29d-4995-9b6a-c8065b5a1980",
+    "author": "GitHub Inc.",
+    "metrics": {
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 0,
+      "unassigned": 0,
+      "vulnerabilities": 0,
+      "suppressed": 0,
+      "findingsTotal": 0,
+      "findingsAudited": 0,
+      "findingsUnaudited": 0,
+      "inheritedRiskScore": 0.0,
+      "policyViolationsFail": 0,
+      "policyViolationsWarn": 0,
+      "policyViolationsInfo": 0,
+      "policyViolationsTotal": 0,
+      "policyViolationsAudited": 0,
+      "policyViolationsUnaudited": 0,
+      "policyViolationsSecurityTotal": 0,
+      "policyViolationsSecurityAudited": 0,
+      "policyViolationsSecurityUnaudited": 0,
+      "policyViolationsLicenseTotal": 0,
+      "policyViolationsLicenseAudited": 0,
+      "policyViolationsLicenseUnaudited": 0,
+      "policyViolationsOperationalTotal": 0,
+      "policyViolationsOperationalAudited": 0,
+      "policyViolationsOperationalUnaudited": 0,
+      "firstOccurrence": 1790709403722,
+      "lastOccurrence": 1790709404349
+    },
+    "repositoryMeta": {
+      "repositoryType": "NPM",
+      "name": "semver",
+      "latestVersion": "7.8.5",
+      "lastCheck": 1790709193338
+    },
+    "expandDependencyGraph": false,
+    "isInternal": false
+  },
+  {
+    "authors": [
+      {
+        "name": "Justin Ridgewell"
+      }
+    ],
+    "group": "@jridgewell",
+    "name": "sourcemap-codec",
+    "version": "1.6.0",
+    "classifier": "LIBRARY",
+    "purl": "pkg:npm/%40jridgewell/sourcemap-codec@1.6.0#packages/sourcemap-codec",
+    "purlCoordinates": "pkg:npm/%40jridgewell/sourcemap-codec@1.6.0",
+    "description": "Encode/decode sourcemap mappings",
+    "resolvedLicense": {
+      "uuid": "80fb3e17-511b-4d4a-bab2-87f8ef1aa7b9",
+      "name": "MIT License",
+      "licenseId": "MIT",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isDeprecatedLicenseId": false,
+      "isCustomLicense": false
+    },
+    "externalReferences": [
+      {
+        "type": "vcs",
+        "url": "git+https://github.com/jridgewell/sourcemaps.git#packages/sourcemap-codec",
+        "comment": "as detected from PackageJson property \"repository.url\" and \"repository.directory\""
+      },
+      {
+        "type": "website",
+        "url": "https://github.com/jridgewell/sourcemaps/tree/main/packages/sourcemap-codec",
+        "comment": "as detected from PackageJson property \"homepage\""
+      },
+      {
+        "type": "issue-tracker",
+        "url": "https://github.com/jridgewell/sourcemaps/issues",
+        "comment": "as detected from PackageJson property \"bugs.url\""
+      },
+      {
+        "type": "distribution",
+        "url": "https://registry.npmjs.org/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.6.0.tgz",
+        "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+      }
+    ],
+    "project": {
+      "authors": [],
+      "name": "babel-transitive-demo",
+      "version": "fixed-target-cve",
+      "classifier": "APPLICATION",
+      "collectionLogic": "NONE",
+      "purl": "pkg:npm/babel-transitive-demo@1.0.1",
+      "directDependencies": "[{\"name\":\"core\",\"purl\":\"pkg:npm/%40babel/core@7.23.2#packages/babel-core\",\"uuid\":\"93ee69e8-21eb-4d0c-90e9-4bb05ebf55b6\",\"version\":\"7.23.2\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/core@7.23.2\",\"objectType\":\"COMPONENT\"}]",
+      "uuid": "93a4d121-d583-454d-8fb7-a5e1056e7082",
+      "properties": [],
+      "tags": [],
+      "lastBomImport": 1790709403116,
+      "lastBomImportFormat": "CycloneDX 1.6",
+      "lastInheritedRiskScore": 1.0,
+      "lastVulnerabilityAnalysis": 1790709403507,
+      "active": true,
+      "isLatest": false
+    },
+    "lastInheritedRiskScore": 0.0,
+    "uuid": "230a3187-3f28-439d-8fbf-501a0c90c2b5",
+    "author": "Justin Ridgewell",
+    "metrics": {
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 0,
+      "unassigned": 0,
+      "vulnerabilities": 0,
+      "suppressed": 0,
+      "findingsTotal": 0,
+      "findingsAudited": 0,
+      "findingsUnaudited": 0,
+      "inheritedRiskScore": 0.0,
+      "policyViolationsFail": 0,
+      "policyViolationsWarn": 0,
+      "policyViolationsInfo": 0,
+      "policyViolationsTotal": 0,
+      "policyViolationsAudited": 0,
+      "policyViolationsUnaudited": 0,
+      "policyViolationsSecurityTotal": 0,
+      "policyViolationsSecurityAudited": 0,
+      "policyViolationsSecurityUnaudited": 0,
+      "policyViolationsLicenseTotal": 0,
+      "policyViolationsLicenseAudited": 0,
+      "policyViolationsLicenseUnaudited": 0,
+      "policyViolationsOperationalTotal": 0,
+      "policyViolationsOperationalAudited": 0,
+      "policyViolationsOperationalUnaudited": 0,
+      "firstOccurrence": 1790709403661,
+      "lastOccurrence": 1790709404338
+    },
+    "repositoryMeta": {
+      "repositoryType": "NPM",
+      "namespace": "@jridgewell",
+      "name": "sourcemap-codec",
+      "latestVersion": "1.6.0",
+      "lastCheck": 1790709192744
+    },
+    "expandDependencyGraph": false,
+    "isInternal": false
+  },
+  {
+    "authors": [
+      {
+        "name": "The Babel Team"
+      }
+    ],
+    "group": "@babel",
+    "name": "template",
+    "version": "7.29.7",
+    "classifier": "LIBRARY",
+    "purl": "pkg:npm/%40babel/template@7.29.7#packages/babel-template",
+    "purlCoordinates": "pkg:npm/%40babel/template@7.29.7",
+    "description": "Generate an AST from a string template.",
+    "resolvedLicense": {
+      "uuid": "80fb3e17-511b-4d4a-bab2-87f8ef1aa7b9",
+      "name": "MIT License",
+      "licenseId": "MIT",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isDeprecatedLicenseId": false,
+      "isCustomLicense": false
+    },
+    "directDependencies": "[{\"name\":\"code-frame\",\"purl\":\"pkg:npm/%40babel/code-frame@7.29.7#packages/babel-code-frame\",\"uuid\":\"6e255482-31c9-4a1e-863c-dccab023885c\",\"version\":\"7.29.7\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/code-frame@7.29.7\",\"objectType\":\"COMPONENT\"},{\"name\":\"types\",\"purl\":\"pkg:npm/%40babel/types@7.29.8#packages/babel-types\",\"uuid\":\"e2350ef7-ac72-4e88-8a23-276d67acce10\",\"version\":\"7.29.8\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/types@7.29.8\",\"objectType\":\"COMPONENT\"},{\"name\":\"parser\",\"purl\":\"pkg:npm/%40babel/parser@7.29.9#packages/babel-parser\",\"uuid\":\"66f41d83-a368-473a-8be1-11855953cdae\",\"version\":\"7.29.9\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/parser@7.29.9\",\"objectType\":\"COMPONENT\"}]",
+    "externalReferences": [
+      {
+        "type": "vcs",
+        "url": "git+https://github.com/babel/babel.git#packages/babel-template",
+        "comment": "as detected from PackageJson property \"repository.url\" and \"repository.directory\""
+      },
+      {
+        "type": "website",
+        "url": "https://babel.dev/docs/en/next/babel-template",
+        "comment": "as detected from PackageJson property \"homepage\""
+      },
+      {
+        "type": "issue-tracker",
+        "url": "https://github.com/babel/babel/issues?utf8=%E2%9C%93&q=is%3Aissue+label%3A%22pkg%3A%20template%22+is%3Aopen",
+        "comment": "as detected from PackageJson property \"bugs.url\""
+      },
+      {
+        "type": "distribution",
+        "url": "https://registry.npmjs.org/@babel/template/-/template-7.29.7.tgz",
+        "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+      }
+    ],
+    "project": {
+      "authors": [],
+      "name": "babel-transitive-demo",
+      "version": "fixed-target-cve",
+      "classifier": "APPLICATION",
+      "collectionLogic": "NONE",
+      "purl": "pkg:npm/babel-transitive-demo@1.0.1",
+      "directDependencies": "[{\"name\":\"core\",\"purl\":\"pkg:npm/%40babel/core@7.23.2#packages/babel-core\",\"uuid\":\"93ee69e8-21eb-4d0c-90e9-4bb05ebf55b6\",\"version\":\"7.23.2\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/core@7.23.2\",\"objectType\":\"COMPONENT\"}]",
+      "uuid": "93a4d121-d583-454d-8fb7-a5e1056e7082",
+      "properties": [],
+      "tags": [],
+      "lastBomImport": 1790709403116,
+      "lastBomImportFormat": "CycloneDX 1.6",
+      "lastInheritedRiskScore": 1.0,
+      "lastVulnerabilityAnalysis": 1790709403507,
+      "active": true,
+      "isLatest": false
+    },
+    "lastInheritedRiskScore": 0.0,
+    "uuid": "b3b7df54-7d88-43b8-b3b0-83f946d48c3a",
+    "author": "The Babel Team",
+    "metrics": {
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 0,
+      "unassigned": 0,
+      "vulnerabilities": 0,
+      "suppressed": 0,
+      "findingsTotal": 0,
+      "findingsAudited": 0,
+      "findingsUnaudited": 0,
+      "inheritedRiskScore": 0.0,
+      "policyViolationsFail": 0,
+      "policyViolationsWarn": 0,
+      "policyViolationsInfo": 0,
+      "policyViolationsTotal": 0,
+      "policyViolationsAudited": 0,
+      "policyViolationsUnaudited": 0,
+      "policyViolationsSecurityTotal": 0,
+      "policyViolationsSecurityAudited": 0,
+      "policyViolationsSecurityUnaudited": 0,
+      "policyViolationsLicenseTotal": 0,
+      "policyViolationsLicenseAudited": 0,
+      "policyViolationsLicenseUnaudited": 0,
+      "policyViolationsOperationalTotal": 0,
+      "policyViolationsOperationalAudited": 0,
+      "policyViolationsOperationalUnaudited": 0,
+      "firstOccurrence": 1790709403756,
+      "lastOccurrence": 1790709404354
+    },
+    "repositoryMeta": {
+      "repositoryType": "NPM",
+      "namespace": "@babel",
+      "name": "template",
+      "latestVersion": "8.0.0",
+      "lastCheck": 1790709192447
+    },
+    "expandDependencyGraph": false,
+    "isInternal": false
+  },
+  {
+    "authors": [
+      {
+        "name": "Justin Ridgewell"
+      }
+    ],
+    "group": "@jridgewell",
+    "name": "trace-mapping",
+    "version": "0.3.31",
+    "classifier": "LIBRARY",
+    "purl": "pkg:npm/%40jridgewell/trace-mapping@0.3.31#packages/trace-mapping",
+    "purlCoordinates": "pkg:npm/%40jridgewell/trace-mapping@0.3.31",
+    "description": "Trace the original position through a source map",
+    "resolvedLicense": {
+      "uuid": "80fb3e17-511b-4d4a-bab2-87f8ef1aa7b9",
+      "name": "MIT License",
+      "licenseId": "MIT",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isDeprecatedLicenseId": false,
+      "isCustomLicense": false
+    },
+    "directDependencies": "[{\"name\":\"resolve-uri\",\"purl\":\"pkg:npm/%40jridgewell/resolve-uri@3.1.2\",\"uuid\":\"24503762-76ba-45ea-9591-0c61c7f1cab1\",\"version\":\"3.1.2\",\"group\":\"@jridgewell\",\"purlCoordinates\":\"pkg:npm/%40jridgewell/resolve-uri@3.1.2\",\"objectType\":\"COMPONENT\"},{\"name\":\"sourcemap-codec\",\"purl\":\"pkg:npm/%40jridgewell/sourcemap-codec@1.6.0#packages/sourcemap-codec\",\"uuid\":\"230a3187-3f28-439d-8fbf-501a0c90c2b5\",\"version\":\"1.6.0\",\"group\":\"@jridgewell\",\"purlCoordinates\":\"pkg:npm/%40jridgewell/sourcemap-codec@1.6.0\",\"objectType\":\"COMPONENT\"}]",
+    "externalReferences": [
+      {
+        "type": "vcs",
+        "url": "git+https://github.com/jridgewell/sourcemaps.git#packages/trace-mapping",
+        "comment": "as detected from PackageJson property \"repository.url\" and \"repository.directory\""
+      },
+      {
+        "type": "website",
+        "url": "https://github.com/jridgewell/sourcemaps/tree/main/packages/trace-mapping",
+        "comment": "as detected from PackageJson property \"homepage\""
+      },
+      {
+        "type": "issue-tracker",
+        "url": "https://github.com/jridgewell/sourcemaps/issues",
+        "comment": "as detected from PackageJson property \"bugs.url\""
+      },
+      {
+        "type": "distribution",
+        "url": "https://registry.npmjs.org/@jridgewell/trace-mapping/-/trace-mapping-0.3.31.tgz",
+        "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+      }
+    ],
+    "project": {
+      "authors": [],
+      "name": "babel-transitive-demo",
+      "version": "fixed-target-cve",
+      "classifier": "APPLICATION",
+      "collectionLogic": "NONE",
+      "purl": "pkg:npm/babel-transitive-demo@1.0.1",
+      "directDependencies": "[{\"name\":\"core\",\"purl\":\"pkg:npm/%40babel/core@7.23.2#packages/babel-core\",\"uuid\":\"93ee69e8-21eb-4d0c-90e9-4bb05ebf55b6\",\"version\":\"7.23.2\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/core@7.23.2\",\"objectType\":\"COMPONENT\"}]",
+      "uuid": "93a4d121-d583-454d-8fb7-a5e1056e7082",
+      "properties": [],
+      "tags": [],
+      "lastBomImport": 1790709403116,
+      "lastBomImportFormat": "CycloneDX 1.6",
+      "lastInheritedRiskScore": 1.0,
+      "lastVulnerabilityAnalysis": 1790709403507,
+      "active": true,
+      "isLatest": false
+    },
+    "lastInheritedRiskScore": 0.0,
+    "uuid": "b71eabbf-da5c-4da5-a985-45f2294ffeef",
+    "author": "Justin Ridgewell",
+    "metrics": {
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 0,
+      "unassigned": 0,
+      "vulnerabilities": 0,
+      "suppressed": 0,
+      "findingsTotal": 0,
+      "findingsAudited": 0,
+      "findingsUnaudited": 0,
+      "inheritedRiskScore": 0.0,
+      "policyViolationsFail": 0,
+      "policyViolationsWarn": 0,
+      "policyViolationsInfo": 0,
+      "policyViolationsTotal": 0,
+      "policyViolationsAudited": 0,
+      "policyViolationsUnaudited": 0,
+      "policyViolationsSecurityTotal": 0,
+      "policyViolationsSecurityAudited": 0,
+      "policyViolationsSecurityUnaudited": 0,
+      "policyViolationsLicenseTotal": 0,
+      "policyViolationsLicenseAudited": 0,
+      "policyViolationsLicenseUnaudited": 0,
+      "policyViolationsOperationalTotal": 0,
+      "policyViolationsOperationalAudited": 0,
+      "policyViolationsOperationalUnaudited": 0,
+      "firstOccurrence": 1790709403714,
+      "lastOccurrence": 1790709404348
+    },
+    "repositoryMeta": {
+      "repositoryType": "NPM",
+      "namespace": "@jridgewell",
+      "name": "trace-mapping",
+      "latestVersion": "0.3.31",
+      "lastCheck": 1790709199320
+    },
+    "expandDependencyGraph": false,
+    "isInternal": false
+  },
+  {
+    "authors": [
+      {
+        "name": "The Babel Team"
+      }
+    ],
+    "group": "@babel",
+    "name": "traverse",
+    "version": "7.29.8",
+    "classifier": "LIBRARY",
+    "purl": "pkg:npm/%40babel/traverse@7.29.8#packages/babel-traverse",
+    "purlCoordinates": "pkg:npm/%40babel/traverse@7.29.8",
+    "description": "The Babel Traverse module maintains the overall tree state, and is responsible for replacing, removing, and adding nodes",
+    "resolvedLicense": {
+      "uuid": "80fb3e17-511b-4d4a-bab2-87f8ef1aa7b9",
+      "name": "MIT License",
+      "licenseId": "MIT",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isDeprecatedLicenseId": false,
+      "isCustomLicense": false
+    },
+    "directDependencies": "[{\"name\":\"code-frame\",\"purl\":\"pkg:npm/%40babel/code-frame@7.29.7#packages/babel-code-frame\",\"uuid\":\"6e255482-31c9-4a1e-863c-dccab023885c\",\"version\":\"7.29.7\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/code-frame@7.29.7\",\"objectType\":\"COMPONENT\"},{\"name\":\"types\",\"purl\":\"pkg:npm/%40babel/types@7.29.8#packages/babel-types\",\"uuid\":\"e2350ef7-ac72-4e88-8a23-276d67acce10\",\"version\":\"7.29.8\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/types@7.29.8\",\"objectType\":\"COMPONENT\"},{\"name\":\"generator\",\"purl\":\"pkg:npm/%40babel/generator@7.29.8#packages/babel-generator\",\"uuid\":\"bfa84230-65a8-44f1-aa04-580ebb4b5091\",\"version\":\"7.29.8\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/generator@7.29.8\",\"objectType\":\"COMPONENT\"},{\"name\":\"helper-globals\",\"purl\":\"pkg:npm/%40babel/helper-globals@7.29.7#packages/babel-helper-globals\",\"uuid\":\"0f1cffde-4422-4029-908e-075e81cb48ca\",\"version\":\"7.29.7\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/helper-globals@7.29.7\",\"objectType\":\"COMPONENT\"},{\"name\":\"parser\",\"purl\":\"pkg:npm/%40babel/parser@7.29.9#packages/babel-parser\",\"uuid\":\"66f41d83-a368-473a-8be1-11855953cdae\",\"version\":\"7.29.9\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/parser@7.29.9\",\"objectType\":\"COMPONENT\"},{\"name\":\"template\",\"purl\":\"pkg:npm/%40babel/template@7.29.7#packages/babel-template\",\"uuid\":\"b3b7df54-7d88-43b8-b3b0-83f946d48c3a\",\"version\":\"7.29.7\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/template@7.29.7\",\"objectType\":\"COMPONENT\"},{\"name\":\"debug\",\"purl\":\"pkg:npm/debug@4.4.3\",\"uuid\":\"afcf3b39-75f7-4bfb-a323-1cb1eca5733f\",\"version\":\"4.4.3\",\"purlCoordinates\":\"pkg:npm/debug@4.4.3\",\"objectType\":\"COMPONENT\"}]",
+    "externalReferences": [
+      {
+        "type": "vcs",
+        "url": "git+https://github.com/babel/babel.git#packages/babel-traverse",
+        "comment": "as detected from PackageJson property \"repository.url\" and \"repository.directory\""
+      },
+      {
+        "type": "website",
+        "url": "https://babel.dev/docs/en/next/babel-traverse",
+        "comment": "as detected from PackageJson property \"homepage\""
+      },
+      {
+        "type": "issue-tracker",
+        "url": "https://github.com/babel/babel/issues?utf8=%E2%9C%93&q=is%3Aissue+label%3A%22pkg%3A%20traverse%22+is%3Aopen",
+        "comment": "as detected from PackageJson property \"bugs.url\""
+      },
+      {
+        "type": "distribution",
+        "url": "https://registry.npmjs.org/@babel/traverse/-/traverse-7.29.8.tgz",
+        "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+      }
+    ],
+    "project": {
+      "authors": [],
+      "name": "babel-transitive-demo",
+      "version": "fixed-target-cve",
+      "classifier": "APPLICATION",
+      "collectionLogic": "NONE",
+      "purl": "pkg:npm/babel-transitive-demo@1.0.1",
+      "directDependencies": "[{\"name\":\"core\",\"purl\":\"pkg:npm/%40babel/core@7.23.2#packages/babel-core\",\"uuid\":\"93ee69e8-21eb-4d0c-90e9-4bb05ebf55b6\",\"version\":\"7.23.2\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/core@7.23.2\",\"objectType\":\"COMPONENT\"}]",
+      "uuid": "93a4d121-d583-454d-8fb7-a5e1056e7082",
+      "properties": [],
+      "tags": [],
+      "lastBomImport": 1790709403116,
+      "lastBomImportFormat": "CycloneDX 1.6",
+      "lastInheritedRiskScore": 1.0,
+      "lastVulnerabilityAnalysis": 1790709403507,
+      "active": true,
+      "isLatest": false
+    },
+    "lastInheritedRiskScore": 0.0,
+    "uuid": "b1233339-cb4e-492d-a765-32a66013069e",
+    "author": "The Babel Team",
+    "metrics": {
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 0,
+      "unassigned": 0,
+      "vulnerabilities": 0,
+      "suppressed": 0,
+      "findingsTotal": 0,
+      "findingsAudited": 0,
+      "findingsUnaudited": 0,
+      "inheritedRiskScore": 0.0,
+      "policyViolationsFail": 0,
+      "policyViolationsWarn": 0,
+      "policyViolationsInfo": 0,
+      "policyViolationsTotal": 0,
+      "policyViolationsAudited": 0,
+      "policyViolationsUnaudited": 0,
+      "policyViolationsSecurityTotal": 0,
+      "policyViolationsSecurityAudited": 0,
+      "policyViolationsSecurityUnaudited": 0,
+      "policyViolationsLicenseTotal": 0,
+      "policyViolationsLicenseAudited": 0,
+      "policyViolationsLicenseUnaudited": 0,
+      "policyViolationsOperationalTotal": 0,
+      "policyViolationsOperationalAudited": 0,
+      "policyViolationsOperationalUnaudited": 0,
+      "firstOccurrence": 1790709403744,
+      "lastOccurrence": 1790709404353
+    },
+    "repositoryMeta": {
+      "repositoryType": "NPM",
+      "namespace": "@babel",
+      "name": "traverse",
+      "latestVersion": "8.0.6",
+      "lastCheck": 1790709200540
+    },
+    "expandDependencyGraph": false,
+    "isInternal": false
+  },
+  {
+    "authors": [
+      {
+        "name": "The Babel Team"
+      }
+    ],
+    "group": "@babel",
+    "name": "types",
+    "version": "7.29.8",
+    "classifier": "LIBRARY",
+    "purl": "pkg:npm/%40babel/types@7.29.8#packages/babel-types",
+    "purlCoordinates": "pkg:npm/%40babel/types@7.29.8",
+    "description": "Babel Types is a Lodash-esque utility library for AST nodes",
+    "resolvedLicense": {
+      "uuid": "80fb3e17-511b-4d4a-bab2-87f8ef1aa7b9",
+      "name": "MIT License",
+      "licenseId": "MIT",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isDeprecatedLicenseId": false,
+      "isCustomLicense": false
+    },
+    "directDependencies": "[{\"name\":\"helper-string-parser\",\"purl\":\"pkg:npm/%40babel/helper-string-parser@7.29.7#packages/babel-helper-string-parser\",\"uuid\":\"c35ff952-2197-4b8c-bf50-5ba940c8671d\",\"version\":\"7.29.7\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/helper-string-parser@7.29.7\",\"objectType\":\"COMPONENT\"},{\"name\":\"helper-validator-identifier\",\"purl\":\"pkg:npm/%40babel/helper-validator-identifier@7.29.7#packages/babel-helper-validator-identifier\",\"uuid\":\"4090f887-c992-40c3-afbd-b5b1ab9c1a3e\",\"version\":\"7.29.7\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/helper-validator-identifier@7.29.7\",\"objectType\":\"COMPONENT\"}]",
+    "externalReferences": [
+      {
+        "type": "vcs",
+        "url": "git+https://github.com/babel/babel.git#packages/babel-types",
+        "comment": "as detected from PackageJson property \"repository.url\" and \"repository.directory\""
+      },
+      {
+        "type": "website",
+        "url": "https://babel.dev/docs/en/next/babel-types",
+        "comment": "as detected from PackageJson property \"homepage\""
+      },
+      {
+        "type": "issue-tracker",
+        "url": "https://github.com/babel/babel/issues?utf8=%E2%9C%93&q=is%3Aissue+label%3A%22pkg%3A%20types%22+is%3Aopen",
+        "comment": "as detected from PackageJson property \"bugs.url\""
+      },
+      {
+        "type": "distribution",
+        "url": "https://registry.npmjs.org/@babel/types/-/types-7.29.8.tgz",
+        "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+      }
+    ],
+    "project": {
+      "authors": [],
+      "name": "babel-transitive-demo",
+      "version": "fixed-target-cve",
+      "classifier": "APPLICATION",
+      "collectionLogic": "NONE",
+      "purl": "pkg:npm/babel-transitive-demo@1.0.1",
+      "directDependencies": "[{\"name\":\"core\",\"purl\":\"pkg:npm/%40babel/core@7.23.2#packages/babel-core\",\"uuid\":\"93ee69e8-21eb-4d0c-90e9-4bb05ebf55b6\",\"version\":\"7.23.2\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/core@7.23.2\",\"objectType\":\"COMPONENT\"}]",
+      "uuid": "93a4d121-d583-454d-8fb7-a5e1056e7082",
+      "properties": [],
+      "tags": [],
+      "lastBomImport": 1790709403116,
+      "lastBomImportFormat": "CycloneDX 1.6",
+      "lastInheritedRiskScore": 1.0,
+      "lastVulnerabilityAnalysis": 1790709403507,
+      "active": true,
+      "isLatest": false
+    },
+    "lastInheritedRiskScore": 0.0,
+    "uuid": "e2350ef7-ac72-4e88-8a23-276d67acce10",
+    "author": "The Babel Team",
+    "metrics": {
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 0,
+      "unassigned": 0,
+      "vulnerabilities": 0,
+      "suppressed": 0,
+      "findingsTotal": 0,
+      "findingsAudited": 0,
+      "findingsUnaudited": 0,
+      "inheritedRiskScore": 0.0,
+      "policyViolationsFail": 0,
+      "policyViolationsWarn": 0,
+      "policyViolationsInfo": 0,
+      "policyViolationsTotal": 0,
+      "policyViolationsAudited": 0,
+      "policyViolationsUnaudited": 0,
+      "policyViolationsSecurityTotal": 0,
+      "policyViolationsSecurityAudited": 0,
+      "policyViolationsSecurityUnaudited": 0,
+      "policyViolationsLicenseTotal": 0,
+      "policyViolationsLicenseAudited": 0,
+      "policyViolationsLicenseUnaudited": 0,
+      "policyViolationsOperationalTotal": 0,
+      "policyViolationsOperationalAudited": 0,
+      "policyViolationsOperationalUnaudited": 0,
+      "firstOccurrence": 1790709403740,
+      "lastOccurrence": 1790709404352
+    },
+    "repositoryMeta": {
+      "repositoryType": "NPM",
+      "namespace": "@babel",
+      "name": "types",
+      "latestVersion": "8.0.6",
+      "lastCheck": 1790709189079
+    },
+    "expandDependencyGraph": false,
+    "isInternal": false
+  },
+  {
+    "authors": [
+      {
+        "name": "Andrey Sitnik"
+      }
+    ],
+    "name": "update-browserslist-db",
+    "version": "1.3.3",
+    "classifier": "LIBRARY",
+    "purl": "pkg:npm/update-browserslist-db@1.3.3",
+    "purlCoordinates": "pkg:npm/update-browserslist-db@1.3.3",
+    "description": "CLI tool to update caniuse-lite to refresh target browsers from Browserslist config",
+    "resolvedLicense": {
+      "uuid": "80fb3e17-511b-4d4a-bab2-87f8ef1aa7b9",
+      "name": "MIT License",
+      "licenseId": "MIT",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isDeprecatedLicenseId": false,
+      "isCustomLicense": false
+    },
+    "directDependencies": "[{\"name\":\"escalade\",\"purl\":\"pkg:npm/escalade@3.2.0\",\"uuid\":\"4634cf37-03c7-4d0b-ba63-79688c59f288\",\"version\":\"3.2.0\",\"purlCoordinates\":\"pkg:npm/escalade@3.2.0\",\"objectType\":\"COMPONENT\"},{\"name\":\"browserslist\",\"purl\":\"pkg:npm/browserslist@4.29.3\",\"uuid\":\"06978293-6b8c-415a-9203-05e1013e8fdd\",\"version\":\"4.29.3\",\"purlCoordinates\":\"pkg:npm/browserslist@4.29.3\",\"objectType\":\"COMPONENT\"},{\"name\":\"picocolors\",\"purl\":\"pkg:npm/picocolors@1.1.1\",\"uuid\":\"61f8ae74-b92e-43c7-b1a6-545fc14b0e64\",\"version\":\"1.1.1\",\"purlCoordinates\":\"pkg:npm/picocolors@1.1.1\",\"objectType\":\"COMPONENT\"}]",
+    "externalReferences": [
+      {
+        "type": "vcs",
+        "url": "git+https://github.com/browserslist/update-db.git",
+        "comment": "as detected from PackageJson property \"repository.url\""
+      },
+      {
+        "type": "website",
+        "url": "https://github.com/browserslist/update-db#readme",
+        "comment": "as detected from PackageJson property \"homepage\""
+      },
+      {
+        "type": "issue-tracker",
+        "url": "https://github.com/browserslist/update-db/issues",
+        "comment": "as detected from PackageJson property \"bugs.url\""
+      },
+      {
+        "type": "distribution",
+        "url": "https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.3.3.tgz",
+        "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+      }
+    ],
+    "project": {
+      "authors": [],
+      "name": "babel-transitive-demo",
+      "version": "fixed-target-cve",
+      "classifier": "APPLICATION",
+      "collectionLogic": "NONE",
+      "purl": "pkg:npm/babel-transitive-demo@1.0.1",
+      "directDependencies": "[{\"name\":\"core\",\"purl\":\"pkg:npm/%40babel/core@7.23.2#packages/babel-core\",\"uuid\":\"93ee69e8-21eb-4d0c-90e9-4bb05ebf55b6\",\"version\":\"7.23.2\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/core@7.23.2\",\"objectType\":\"COMPONENT\"}]",
+      "uuid": "93a4d121-d583-454d-8fb7-a5e1056e7082",
+      "properties": [],
+      "tags": [],
+      "lastBomImport": 1790709403116,
+      "lastBomImportFormat": "CycloneDX 1.6",
+      "lastInheritedRiskScore": 1.0,
+      "lastVulnerabilityAnalysis": 1790709403507,
+      "active": true,
+      "isLatest": false
+    },
+    "lastInheritedRiskScore": 0.0,
+    "uuid": "8927e001-0873-4960-8720-703cd5cf12e1",
+    "author": "Andrey Sitnik",
+    "metrics": {
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 0,
+      "unassigned": 0,
+      "vulnerabilities": 0,
+      "suppressed": 0,
+      "findingsTotal": 0,
+      "findingsAudited": 0,
+      "findingsUnaudited": 0,
+      "inheritedRiskScore": 0.0,
+      "policyViolationsFail": 0,
+      "policyViolationsWarn": 0,
+      "policyViolationsInfo": 0,
+      "policyViolationsTotal": 0,
+      "policyViolationsAudited": 0,
+      "policyViolationsUnaudited": 0,
+      "policyViolationsSecurityTotal": 0,
+      "policyViolationsSecurityAudited": 0,
+      "policyViolationsSecurityUnaudited": 0,
+      "policyViolationsLicenseTotal": 0,
+      "policyViolationsLicenseAudited": 0,
+      "policyViolationsLicenseUnaudited": 0,
+      "policyViolationsOperationalTotal": 0,
+      "policyViolationsOperationalAudited": 0,
+      "policyViolationsOperationalUnaudited": 0,
+      "firstOccurrence": 1790709403632,
+      "lastOccurrence": 1790709404332
+    },
+    "repositoryMeta": {
+      "repositoryType": "NPM",
+      "name": "update-browserslist-db",
+      "latestVersion": "1.3.3",
+      "lastCheck": 1790709197951
+    },
+    "expandDependencyGraph": false,
+    "isInternal": false
+  },
+  {
+    "authors": [
+      {
+        "name": "Isaac Z. Schlueter"
+      }
+    ],
+    "name": "yallist",
+    "version": "3.1.1",
+    "classifier": "LIBRARY",
+    "purl": "pkg:npm/yallist@3.1.1",
+    "purlCoordinates": "pkg:npm/yallist@3.1.1",
+    "description": "Yet Another Linked List",
+    "resolvedLicense": {
+      "uuid": "45bb401a-25fa-4797-8f4f-c96d3ed92efe",
+      "name": "ISC License",
+      "licenseId": "ISC",
+      "isOsiApproved": true,
+      "isFsfLibre": true,
+      "isDeprecatedLicenseId": false,
+      "isCustomLicense": false
+    },
+    "externalReferences": [
+      {
+        "type": "vcs",
+        "url": "git+https://github.com/isaacs/yallist.git",
+        "comment": "as detected from PackageJson property \"repository.url\""
+      },
+      {
+        "type": "website",
+        "url": "https://github.com/isaacs/yallist#readme",
+        "comment": "as detected from PackageJson property \"homepage\""
+      },
+      {
+        "type": "issue-tracker",
+        "url": "https://github.com/isaacs/yallist/issues",
+        "comment": "as detected from PackageJson property \"bugs.url\""
+      },
+      {
+        "type": "distribution",
+        "url": "https://registry.npmjs.org/yallist/-/yallist-3.1.1.tgz",
+        "comment": "as detected from npm-ls property \"resolved\" and property \"integrity\""
+      }
+    ],
+    "project": {
+      "authors": [],
+      "name": "babel-transitive-demo",
+      "version": "fixed-target-cve",
+      "classifier": "APPLICATION",
+      "collectionLogic": "NONE",
+      "purl": "pkg:npm/babel-transitive-demo@1.0.1",
+      "directDependencies": "[{\"name\":\"core\",\"purl\":\"pkg:npm/%40babel/core@7.23.2#packages/babel-core\",\"uuid\":\"93ee69e8-21eb-4d0c-90e9-4bb05ebf55b6\",\"version\":\"7.23.2\",\"group\":\"@babel\",\"purlCoordinates\":\"pkg:npm/%40babel/core@7.23.2\",\"objectType\":\"COMPONENT\"}]",
+      "uuid": "93a4d121-d583-454d-8fb7-a5e1056e7082",
+      "properties": [],
+      "tags": [],
+      "lastBomImport": 1790709403116,
+      "lastBomImportFormat": "CycloneDX 1.6",
+      "lastInheritedRiskScore": 1.0,
+      "lastVulnerabilityAnalysis": 1790709403507,
+      "active": true,
+      "isLatest": false
+    },
+    "lastInheritedRiskScore": 0.0,
+    "uuid": "4d518ca0-9882-4a66-a4b2-77cf7813de2a",
+    "author": "Isaac Z. Schlueter",
+    "metrics": {
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 0,
+      "unassigned": 0,
+      "vulnerabilities": 0,
+      "suppressed": 0,
+      "findingsTotal": 0,
+      "findingsAudited": 0,
+      "findingsUnaudited": 0,
+      "inheritedRiskScore": 0.0,
+      "policyViolationsFail": 0,
+      "policyViolationsWarn": 0,
+      "policyViolationsInfo": 0,
+      "policyViolationsTotal": 0,
+      "policyViolationsAudited": 0,
+      "policyViolationsUnaudited": 0,
+      "policyViolationsSecurityTotal": 0,
+      "policyViolationsSecurityAudited": 0,
+      "policyViolationsSecurityUnaudited": 0,
+      "policyViolationsLicenseTotal": 0,
+      "policyViolationsLicenseAudited": 0,
+      "policyViolationsLicenseUnaudited": 0,
+      "policyViolationsOperationalTotal": 0,
+      "policyViolationsOperationalAudited": 0,
+      "policyViolationsOperationalUnaudited": 0,
+      "firstOccurrence": 1790709403627,
+      "lastOccurrence": 1790709404330
+    },
+    "repositoryMeta": {
+      "repositoryType": "NPM",
+      "name": "yallist",
+      "latestVersion": "5.0.0",
+      "lastCheck": 1790709199615
+    },
+    "expandDependencyGraph": false,
+    "isInternal": false
+  }
+]
